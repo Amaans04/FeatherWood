@@ -1,0 +1,96 @@
+1. Initial "Get Estimate" Button:
+Location: On the Interiors page or any relevant section of the website.
+
+Design: A prominent CTA button with the label “Get Estimate” in Imperial Gold (#FFD700) on a Rich Black (#0B0B0B) background.
+
+Text Style: Bold, using Playfair Display for a luxurious vibe.
+
+2. Step 1: Choose Your Category
+Layout: A card-based layout with clickable categories like:
+
+Modular Kitchens
+
+Living Room Design
+
+Bedroom Design
+
+Wardrobes
+
+etc.
+
+Design:
+
+Each category card will have a Champagne Gold (#D4AF37) hover effect when the user hovers over it.
+
+Cards will have a subtle Platinum Grey (#DCDCDC) border.
+
+Text: Titles in Jet Black (#1A1A1A) for visibility.
+
+Icons: Simple icons to visually represent each category (e.g., a kitchen icon, a sofa icon, etc.).
+
+3. Step 2: Configure Your Space
+Input Form:
+
+After selecting a category, the user is prompted to input details of their space. These details can include:
+
+Room Dimensions: Width, Length, Height
+
+Style Preferences: Modern, Traditional, Rustic, etc.
+
+Materials: Wood, Metal, Glass, etc.
+
+Features: Cabinets, Shelves, etc.
+
+Design: Text fields, sliders (for dimensions), dropdowns for material and style choices.
+
+Design Detail:
+
+Input fields will have a Champagne Gold border on hover.
+
+Labels for input fields will be in Jet Black text to ensure readability.
+
+Background of the form area in Ivory Mist (#FAF8F5) to make the input fields pop.
+
+4. Step 3: Price Breakdown and Customization
+Real-Time Price Calculation:
+Once the user fills in the details, the Price will be calculated in real-time, using sliders or input fields to change aspects of the design.
+
+Price Display:
+
+The price will be dynamically displayed as a large bold figure in Imperial Gold (#FFD700).
+
+Subtext: In Charcoal Grey (#444444) explaining breakdowns like materials, labor, etc.
+
+Customization Options:
+
+Users will be able to tweak features (e.g., "Change material to wood," "Add extra shelves").
+
+Each customization option will update the price immediately.
+
+CTA:
+Below the price breakdown, there will be a CTA button: "Get Final Quote" in Imperial Gold (#FFD700), which will take them to the final page for detailed booking or scheduling.
+
+5. Step 4: Summary and Final Quote
+Final Summary:
+
+This section will give the user a summary of their choices, including:
+
+Room Dimensions
+
+Style and Material
+
+Final Price
+
+Design Details:
+
+This will be displayed in a neat card layout, with sections clearly separated by subtle borders in Platinum Grey (#DCDCDC).
+
+Final Quote Button:
+The button will be large and placed at the bottom in Imperial Gold to stand out.
+
+Mobile Responsiveness:
+On mobile, the category cards and input fields will stack vertically for better usability.
+
+The price and final quote buttons will be prominent and easy to click/tap.
+
+Form inputs will adjust to fit the screen, maintaining the elegant feel even on smaller screens.

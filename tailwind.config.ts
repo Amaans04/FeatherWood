@@ -6,7 +6,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        lora: ["Lora", "serif"],
+        playfair: ["Playfair Display", "serif"],
+        inter: ["Inter", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",

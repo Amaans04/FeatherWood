@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,41 +6,41 @@
 
 @layer base {
   :root {
-    --background: 39 33% 93%;
-    --foreground: 240 10% 11%;
+    --background: 40 30% 98%;  /* Ivory Mist #FAF8F5 */
+    --foreground: 0 0% 10%;     /* Jet Black #1A1A1A */
     
     --card: 0 0% 100%;
-    --card-foreground: 240 10% 11%;
+    --card-foreground: 0 0% 10%;
     
     --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 11%;
+    --popover-foreground: 0 0% 10%;
     
-    --primary: 210 38% 25%;
+    --primary: 0 0% 4%;        /* Rich Black #0B0B0B */
     --primary-foreground: 0 0% 100%;
     
-    --secondary: 320 45% 21%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 51 100% 50%;  /* Imperial Gold #FFD700 */
+    --secondary-foreground: 0 0% 4%;
     
-    --muted: 0 0% 83%;
-    --muted-foreground: 210 10% 40%;
+    --muted: 0 0% 87%;        /* Platinum Grey #DCDCDC */
+    --muted-foreground: 0 0% 27%;  /* Charcoal Grey #444444 */
     
-    --accent: 83 28% 48%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 46 64% 53%;     /* Champagne Gold #D4AF37 */
+    --accent-foreground: 0 0% 4%;
     
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
     
-    --border: 0 0% 83%;
-    --input: 0 0% 83%;
-    --ring: 210 38% 25%;
+    --border: 0 0% 87%;       /* Platinum Grey #DCDCDC */
+    --input: 0 0% 87%;
+    --ring: 46 64% 53%;       /* Champagne Gold #D4AF37 */
     
     --radius: 0.5rem;
 
-    --chart-1: 210 38% 25%;
-    --chart-2: 320 45% 21%;
-    --chart-3: 83 28% 48%;
-    --chart-4: 39 33% 93%;
-    --chart-5: 240 10% 11%;
+    --chart-1: 0 0% 4%;       /* Rich Black */
+    --chart-2: 51 100% 50%;   /* Imperial Gold */
+    --chart-3: 46 64% 53%;    /* Champagne Gold */
+    --chart-4: 40 30% 98%;    /* Ivory Mist */
+    --chart-5: 0 0% 10%;      /* Jet Black */
   }
 
   * {
@@ -48,11 +48,11 @@
   }
 
   body {
-    @apply antialiased font-lora bg-background text-foreground;
+    @apply antialiased font-inter bg-background text-foreground;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-lora font-bold;
+    @apply font-playfair font-bold;
   }
 
   .text-shadow {
