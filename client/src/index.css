@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 39 33% 93%;
+    --foreground: 240 10% 11%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 11%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 11%;
+    
+    --primary: 210 38% 25%;
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 320 45% 21%;
+    --secondary-foreground: 0 0% 100%;
+    
+    --muted: 0 0% 83%;
+    --muted-foreground: 210 10% 40%;
+    
+    --accent: 83 28% 48%;
+    --accent-foreground: 0 0% 100%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 0 0% 83%;
+    --input: 0 0% 83%;
+    --ring: 210 38% 25%;
+    
+    --radius: 0.5rem;
+
+    --chart-1: 210 38% 25%;
+    --chart-2: 320 45% 21%;
+    --chart-3: 83 28% 48%;
+    --chart-4: 39 33% 93%;
+    --chart-5: 240 10% 11%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply antialiased font-lora bg-background text-foreground;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-lora font-bold;
+  }
+
+  .text-shadow {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  .hover-scale {
+    @apply transition-transform duration-300;
+  }
+  
+  .hover-scale:hover {
+    @apply transform scale-[1.03];
+  }
+
+  .card-shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .bg-overlay {
+    background-color: rgba(44, 62, 80, 0.7);
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4;
+  }
+}
