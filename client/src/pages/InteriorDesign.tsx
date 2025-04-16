@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { InteriorProject } from "@shared/schema";
 import ProjectCard from "@/components/interior/ProjectCard";
-import EstimateForm from "@/components/home/EstimateForm";
 import DesignProcess from "@/components/home/DesignProcess";
+import PriceEstimator from "@/components/PriceEstimator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const InteriorDesign: React.FC = () => {
@@ -91,10 +91,20 @@ const InteriorDesign: React.FC = () => {
       {/* Design Process Section */}
       <DesignProcess />
       
-      {/* Get Estimate Form */}
-      <div id="get-estimate">
-        <EstimateForm />
-      </div>
+      {/* Price Estimator Section */}
+      <section id="get-estimate" className="py-16 bg-muted/20">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Get an Instant Price Estimate</h2>
+            <p className="text-lg text-gray-700">
+              Use our interactive tool to calculate a personalized estimate for your interior design project.
+            </p>
+          </div>
+          <div className="flex justify-center">
+            <PriceEstimator />
+          </div>
+        </div>
+      </section>
     </div>
   );
 };

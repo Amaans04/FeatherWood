@@ -19,15 +19,11 @@ const Hero: React.FC = () => {
           <h1 className="text-4xl md:text-6xl font-bold mb-6 text-shadow">Where Furniture Meets <br/>Interior Design</h1>
           <p className="text-lg md:text-xl mb-8 opacity-90">Elegant furnishings and professional design services to transform your space into a sanctuary.</p>
           <div className="flex flex-wrap gap-4">
-            <Link href="/furniture">
-              <a className="bg-accent hover:bg-opacity-90 text-white px-8 py-3 rounded-md font-medium hover-scale inline-block">
-                Shop Furniture
-              </a>
+            <Link href="/furniture" className="bg-secondary hover:bg-opacity-90 text-secondary-foreground px-8 py-3 rounded-md font-medium hover-scale inline-block">
+              Shop Furniture
             </Link>
-            <Link href="/interiors">
-              <a className="bg-transparent border-2 border-white hover:bg-white hover:text-primary text-white px-8 py-3 rounded-md font-medium transition-all inline-block">
-                Design Services
-              </a>
+            <Link href="/interiors" className="bg-transparent border-2 border-white hover:bg-white hover:text-primary text-white px-8 py-3 rounded-md font-medium transition-all inline-block">
+              Design Services
             </Link>
           </div>
         </div>
