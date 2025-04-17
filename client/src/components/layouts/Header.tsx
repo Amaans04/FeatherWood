@@ -14,7 +14,7 @@ const Header: React.FC = () => {
   const backgroundColor = useTransform(
     scrollY,
     [0, 100],
-    ["rgba(11, 11, 11, 0.8)", "rgba(11, 11, 11, 0.95)"]
+    ["rgba(0, 0, 0, 0)", "rgba(0, 0, 0, 0.95)"]
   );
 
   const scale = useTransform(scrollY, [0, 100], [1, 0.95]);
@@ -28,7 +28,7 @@ const Header: React.FC = () => {
       className={`fixed z-50 w-full ${isMobile ? 'top-4 flex justify-center' : 'top-0'}`}
     >
       <motion.nav 
-        style={{ scale: isMobile ? mobileScale : scale }}
+        style={{ scale: isMobile ? mobileScale : scale, backgroundColor }}
         className={`
           ${isMobile ? 'w-[90%] max-w-[280px] px-4' : 'container mx-auto px-6'} 
           py-3 flex justify-between items-center backdrop-blur-lg rounded-full
