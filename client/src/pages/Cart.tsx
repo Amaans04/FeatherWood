@@ -8,7 +8,7 @@ import { Trash2, Plus, Minus, ArrowRight, ShoppingBag } from "lucide-react";
 import { Input } from "@/components/ui/input";
 
 const formatPrice = (price: number): string => {
-  return `$${(price / 100).toFixed(2)}`;
+  return `₹${((price * 83) / 100).toLocaleString('en-IN')}`;
 };
 
 const Cart: React.FC = () => {

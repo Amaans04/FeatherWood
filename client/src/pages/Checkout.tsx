@@ -15,7 +15,7 @@ import { ArrowLeft } from "lucide-react";
 import { Link } from "wouter";
 
 const formatPrice = (price: number): string => {
-  return `$${(price / 100).toFixed(2)}`;
+  return `₹${((price * 83) / 100).toLocaleString('en-IN')}`;
 };
 
 const checkoutFormSchema = z.object({

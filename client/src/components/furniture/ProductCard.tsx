@@ -11,7 +11,7 @@ interface ProductCardProps {
 }
 
 const formatPrice = (price: number): string => {
-  return `$${(price / 100).toFixed(2)}`;
+  return `₹${((price * 83) / 100).toLocaleString('en-IN')}`;
 };
 
 const renderStars = (rating: number = 0) => {

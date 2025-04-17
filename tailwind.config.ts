@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poetsen: ["Poetsen One", "cursive"],
+        quicksand: ["Quicksand", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       },
       borderRadius: {
