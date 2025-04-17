@@ -11,7 +11,7 @@ import CallToAction from "@/components/home/CallToAction";
 
 const Home: React.FC = () => {
   return (
-    <>
+    <div className="min-h-screen">
       <Hero />
       <ServicesIntro />
       <FeaturedFurniture />
@@ -21,7 +21,7 @@ const Home: React.FC = () => {
       <Testimonials />
       <BlogPreview />
       <CallToAction />
-    </>
+    </div>
   );
 };
 
