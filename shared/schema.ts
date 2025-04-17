@@ -43,6 +43,7 @@ export const products = pgTable("products", {
   price: integer("price").notNull(), // Price in cents
   image: text("image").notNull(),
   category: text("category").notNull(),
+  subcategory: text("subcategory"),
   tags: text("tags").array(),
   description: text("description").notNull(),
   // Keep compatibility with existing fields
@@ -64,6 +65,7 @@ export const insertProductSchema = createInsertSchema(products).pick({
   price: true,
   image: true,
   category: true,
+  subcategory: true,
   tags: true,
   description: true,
   slug: true,

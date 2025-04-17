@@ -5,10 +5,18 @@
     "style": "Modern Luxury",
     "budget": "50L",
     "location": "Mumbai",
-    "image": "penthouse.jpg",
-    "description": "A complete transformation of a 4BHK penthouse with breathtaking ocean views, featuring custom furniture and smart home integration.",
+    "image": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3",
+    "description": "A complete transformation of a 4BHK penthouse with breathtaking ocean views, featuring custom furniture and smart home integration. The design embraces an open concept layout that maximizes the stunning views while creating distinct functional zones for living, dining, and entertainment.\n\nThe color palette combines rich neutrals with strategic pops of gold and deep blue, reflecting the ocean and sky. Custom millwork throughout provides tailored storage solutions that maintain the clean aesthetic. Smart home technology is seamlessly integrated, controlling lighting, climate, window treatments, and entertainment systems through intuitive interfaces.\n\nThe master suite features a luxurious spa-like bathroom with book-matched marble, a freestanding soaking tub, and a spacious walk-in shower. Custom closets with specialized storage keep belongings organized and accessible.",
     "slug": "luxury-penthouse-makeover",
     "category": "Full Home",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?q=80&w=1984&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1617104678502-cde650d56b1a?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?q=80&w=1950&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1564078516393-cf04bd966897?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1536858974309-9852eike79d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    ],
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
     "isFeatured": true
   },
   {
@@ -17,10 +25,17 @@
     "style": "Contemporary",
     "budget": "5L",
     "location": "Mumbai",
-    "image": "interior.jpg",
-    "description": "A sleek and vibrant 2BHK transformation with pastel tones and smart storage.",
+    "image": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
+    "description": "A sleek and vibrant 2BHK transformation with pastel tones and smart storage. This design focused on creating an airy, open feel despite the compact footprint. The living area features a modular sofa that can be reconfigured for different needs, while the dining area uses a space-efficient extendable table.\n\nCustom storage solutions throughout the home ensure that every inch is utilized effectively. Hidden cabinets in the corridor and under-bed storage maximize space while maintaining a clean aesthetic. The color palette uses soft pastels with contrasting darker accents to create visual interest and depth.\n\nThe kitchen features smart modular units with pull-out pantry storage and high-quality countertops that are both durable and aesthetically pleasing. The bathroom uses large-format tiles and a glass shower enclosure to create a sense of spaciousness.",
     "slug": "contemporary-2bhk-home",
     "category": "Full Home",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1502005097973-6a7082348e28?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3"
+    ],
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
     "isFeatured": true
   },
   {
@@ -29,10 +44,16 @@
     "style": "Minimalist",
     "budget": "3L",
     "location": "Bangalore",
-    "image": "studio.jpg",
-    "description": "A space-efficient studio with multi-functional furniture and neutral color palette, perfect for urban living.",
+    "image": "https://images.unsplash.com/photo-1630699144867-37acec97df5a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3",
+    "description": "A space-efficient studio with multi-functional furniture and neutral color palette, perfect for urban living. This compact studio apartment was designed to maximize functionality without sacrificing style. The main living area features a custom sofa that converts into a comfortable bed at night, with hidden storage underneath for bedding.\n\nThe dining area uses a wall-mounted drop-leaf table that can be expanded for entertaining and collapsed when not in use. Custom shelving throughout provides both display and storage space while maintaining a clean, uncluttered aesthetic.\n\nThe kitchen area features a compact but fully-functional design with high-quality appliances and innovative storage solutions. The bathroom uses large-format tiles and a glass shower enclosure to create a sense of spaciousness in a relatively small footprint.",
     "slug": "minimalist-studio-apartment",
     "category": "Full Home",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1630699144867-37acec97df5a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1501876725168-00c445821c9e?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3"
+    ],
     "isFeatured": false
   },
   {
@@ -41,10 +62,17 @@
     "style": "Modern Classic",
     "budget": "8L",
     "location": "Delhi",
-    "image": "kitchen.jpg",
-    "description": "A gourmet kitchen with premium appliances, marble countertops, and custom cabinetry in a neutral palette with gold accents.",
+    "image": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3",
+    "description": "A gourmet kitchen with premium appliances, marble countertops, and custom cabinetry in a neutral palette with gold accents. This kitchen was designed for a family that loves to cook and entertain. The layout features a large central island with seating that serves as both a prep area and casual dining space.\n\nPremium appliances include a professional-grade gas range, built-in wall ovens, and a full-sized wine refrigerator. The cabinetry combines both closed storage for everyday items and display shelving for decorative pieces and frequently used cookware.\n\nThe countertops are made from high-quality Calacatta marble, providing both durability and timeless beauty. Custom lighting includes recessed task lighting, dramatic pendant lights over the island, and under-cabinet illumination for a layered approach that suits different moods and functions.",
     "slug": "elegant-modular-kitchen",
     "category": "Kitchen",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1556912167-f556f1f39fdf?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3"
+    ],
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
     "isFeatured": true
   },
   {
@@ -53,10 +81,15 @@
     "style": "Contemporary Luxury",
     "budget": "7L",
     "location": "Hyderabad",
-    "image": "master-bedroom.jpg",
-    "description": "A sophisticated master suite with custom headboard, walk-in closet, and en-suite bathroom with high-end fixtures.",
+    "image": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3",
+    "description": "A sophisticated master suite with custom headboard, walk-in closet, and en-suite bathroom with high-end fixtures. This master bedroom was designed as a luxurious retreat combining comfort, elegance, and functionality. The centerpiece is a custom-designed king bed with a channel-tufted headboard extending to the ceiling, creating a dramatic focal point.\n\nThe color palette combines soft neutrals with rich accents for a calming yet sophisticated atmosphere. Custom lighting includes cove lighting around the perimeter, bedside pendants that free up nightstand space, and recessed lighting for general illumination.\n\nThe walk-in closet features custom millwork with specialized storage for different types of clothing and accessories, including glass-fronted cabinets for display items and built-in drawers with jewelry organizers. The en-suite bathroom features book-matched marble, a freestanding soaking tub, and a spacious walk-in shower with multiple fixtures for a spa-like experience.",
     "slug": "luxurious-master-bedroom",
     "category": "Bedroom",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1617325710236-4a36d46427c5?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1600585153490-76fb20a32601?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3"
+    ],
     "isFeatured": true
   },
   {
@@ -65,10 +98,16 @@
     "style": "Modern Professional",
     "budget": "4L",
     "location": "Pune",
-    "image": "home-office.jpg",
-    "description": "A productive and elegant home office with custom built-in shelving, ergonomic furniture, and perfect lighting for video conferences.",
+    "image": "https://images.unsplash.com/photo-1585128903994-9788bf2614f5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
+    "description": "A productive and elegant home office with custom built-in shelving, ergonomic furniture, and perfect lighting for video conferences. This home office was designed for a high-level executive who needed both functionality for full-time work and an aesthetically pleasing space that complements the rest of the home.\n\nThe design centers around a custom desk with integrated cable management and charging stations. Built-in shelving and cabinetry provide ample storage while maintaining a clean, organized appearance. The ergonomic chair provides comfort for long work sessions without sacrificing style.\n\nLighting was carefully considered, with task lighting at the desk, ambient lighting for balance, and adjustable fixtures to ensure optimal conditions for video conferences. Acoustic panels were discreetly incorporated into the design to improve sound quality for calls and virtual meetings.\n\nThe color palette uses rich, deep tones to create a focused atmosphere, while personal touches and art pieces add character and inspiration to the space.",
     "slug": "executive-home-office",
     "category": "Office",
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1585128903994-9788bf2614f5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1593476550610-87baa860004a?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1486946255434-2466348c2166?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3"
+    ],
+    "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
     "isFeatured": false
   }
 ]

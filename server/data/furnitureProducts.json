@@ -3,96 +3,154 @@
     "id": "f001",
     "title": "Modern Lounge Chair",
     "price": 8999,
-    "image": "chair.jpg",
+    "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3",
     "category": "Living Room",
+    "subcategory": "Chairs",
     "tags": ["wood", "modern", "chair"],
-    "description": "Elegant solid wood lounge chair with velvet upholstery.",
+    "description": "Elegant solid wood lounge chair with velvet upholstery. The frame is crafted from solid white oak with a natural finish that highlights the beautiful grain patterns. The seat and back cushions are filled with high-density foam and wrapped in premium velvet upholstery for exceptional comfort and durability.",
     "slug": "modern-lounge-chair",
     "material": "wood",
     "dimensions": "30\" x 32\" x 35\"",
     "color": "beige",
     "inStock": true,
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3"
+    ]
   },
   {
     "id": "f002",
     "title": "Luxurious King Bed",
     "price": 12999,
-    "image": "bed.jpg",
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3",
     "category": "Bedroom",
+    "subcategory": "Beds",
     "tags": ["wood", "luxury", "bed"],
-    "description": "Handcrafted king-size bed with premium upholstery and gold accents.",
+    "description": "Handcrafted king-size bed with premium upholstery and gold accents. The headboard features elegant channel tufting with premium velvet upholstery. The frame is constructed from kiln-dried hardwood for superior stability, while the solid wood legs include subtle gold cap details that enhance the luxurious feel.",
     "slug": "luxurious-king-bed",
     "material": "wood",
     "dimensions": "76\" x 80\" x 45\"",
     "color": "dark walnut",
     "inStock": true,
     "isNew": false,
-    "isFeatured": true
+    "isFeatured": true,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1617325710236-4a36d46427c5?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1560448204-603b3fc33dab?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3"
+    ]
   },
   {
     "id": "f003",
     "title": "Contemporary Coffee Table",
     "price": 5499,
-    "image": "coffee-table.jpg",
+    "image": "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
     "category": "Living Room",
+    "subcategory": "Tables",
     "tags": ["glass", "metal", "modern", "table"],
-    "description": "Minimalist coffee table with tempered glass top and gold metal frame.",
+    "description": "Minimalist coffee table with tempered glass top and gold metal frame. The table features a 12mm thick tempered glass top with polished edges for safety and elegance. The geometric base is crafted from stainless steel with a brushed gold finish that resists fingerprints and scratches.",
     "slug": "contemporary-coffee-table",
     "material": "glass and metal",
     "dimensions": "48\" x 24\" x 18\"",
     "color": "gold/clear",
     "inStock": true,
     "isNew": true,
-    "isFeatured": true
+    "isFeatured": true,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1532372320572-cda25653a26d?q=80&w=1918&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1571300510229-cea8dd27f12a?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3"
+    ]
   },
   {
     "id": "f004",
     "title": "Designer Dining Set",
     "price": 18999,
-    "image": "dining-set.jpg",
+    "image": "https://images.unsplash.com/photo-1617104678502-cde650d56b1a?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3",
     "category": "Dining Room",
+    "subcategory": "Dining Sets",
     "tags": ["wood", "luxury", "dining", "set"],
-    "description": "Elegant 6-seater dining set with premium upholstered chairs and marble top table.",
+    "description": "Elegant 6-seater dining set with premium upholstered chairs and marble top table. The tabletop features genuine Italian Carrara marble with a sealed finish for durability and easy maintenance. The solid wood base provides stability and style, while the chairs are upholstered in premium performance fabric that resists stains and fading.",
     "slug": "designer-dining-set",
     "material": "wood and marble",
     "dimensions": "Table: 72\" x 42\" x 30\", Chairs: 19\" x 24\" x 38\"",
     "color": "cream/white",
     "inStock": true,
     "isNew": false,
-    "isFeatured": true
+    "isFeatured": true,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1617104678502-cde650d56b1a?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1615660823852-d5a30632cc3a?q=80&w=1940&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1577241500234-36da7fae3f5b?q=80&w=1987&auto=format&fit=crop&ixlib=rb-4.0.3"
+    ]
   },
   {
     "id": "f005",
     "title": "Velvet Accent Chair",
     "price": 6999,
-    "image": "accent-chair.jpg",
+    "image": "https://images.unsplash.com/photo-1581539250439-c96689b516dd?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3",
     "category": "Living Room",
+    "subcategory": "Chairs",
     "tags": ["velvet", "accent", "chair"],
-    "description": "Plush velvet accent chair with gold metal legs, perfect for adding a touch of luxury.",
+    "description": "Plush velvet accent chair with gold metal legs, perfect for adding a touch of luxury. The frame is constructed from engineered hardwood for strength and stability, while the seat cushion uses high-resiliency foam with feather blend wrap for exceptional comfort. The rich emerald green velvet upholstery is soft to the touch and creates a striking visual statement.",
     "slug": "velvet-accent-chair",
     "material": "velvet",
     "dimensions": "28\" x 30\" x 33\"",
     "color": "emerald green",
     "inStock": true,
     "isNew": true,
-    "isFeatured": false
+    "isFeatured": false,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1581539250439-c96689b516dd?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1558211560-bb8174b46ffa?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1558304970-abd292116c1b?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3"
+    ]
   },
   {
     "id": "f006",
     "title": "Designer Bookshelf",
     "price": 7499,
-    "image": "bookshelf.jpg",
+    "image": "https://images.unsplash.com/photo-1535822421199-d5f96eb0e950?q=80&w=1945&auto=format&fit=crop&ixlib=rb-4.0.3",
     "category": "Living Room",
+    "subcategory": "Storage",
     "tags": ["metal", "modern", "storage"],
-    "description": "Contemporary open bookshelf with geometric design in gold and black finish.",
+    "description": "Contemporary open bookshelf with geometric design in gold and black finish. The frame is constructed from durable iron tubing with a brushed gold finish, while the shelves feature black tempered glass that provides both strength and elegance. The asymmetrical design allows for creative display of books and decorative objects.",
     "slug": "designer-bookshelf",
     "material": "metal",
     "dimensions": "36\" x 16\" x 78\"",
     "color": "gold/black",
     "inStock": true,
     "isNew": false,
-    "isFeatured": false
+    "isFeatured": false,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1535822421199-d5f96eb0e950?q=80&w=1945&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1588772683215-dc1a28a9bf0b?q=80&w=1953&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1600705722634-9c99a851b48d?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3"
+    ]
+  },
+  {
+    "id": "f007",
+    "title": "Modern Recliner",
+    "price": 9499,
+    "image": "https://images.unsplash.com/photo-1593588332546-a6bf3c2f8459?q=80&w=1955&auto=format&fit=crop&ixlib=rb-4.0.3",
+    "category": "Living Room",
+    "subcategory": "Recliners",
+    "tags": ["leather", "modern", "recliner"],
+    "description": "Sleek modern recliner with full-grain leather upholstery and power controls. This contemporary recliner features a smooth power mechanism that allows you to find your perfect position with the touch of a button. The high-density foam cushioning provides exceptional support, while the full-grain leather upholstery adds luxury and durability.",
+    "slug": "modern-recliner",
+    "material": "leather",
+    "dimensions": "32\" x 37\" x 40\"",
+    "color": "charcoal",
+    "inStock": true,
+    "isNew": true,
+    "isFeatured": true,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1593588332546-a6bf3c2f8459?q=80&w=1955&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1596900779744-2bdc4a90509a?q=80&w=1938&auto=format&fit=crop&ixlib=rb-4.0.3",
+      "https://images.unsplash.com/photo-1581784368651-8916092072a3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3"
+    ]
   }
 ]
