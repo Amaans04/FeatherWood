@@ -1,8 +1,12 @@
-
 import React, { useState, useEffect } from "react";
 import { Link } from "wouter";
 import { Menu } from "lucide-react";
-import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
+import {
+  motion,
+  useScroll,
+  useTransform,
+  AnimatePresence,
+} from "framer-motion";
 import MobileMenu from "@/components/ui/MobileMenu";
 import { useIsMobile } from "@/hooks/use-mobile";
 
@@ -14,28 +18,31 @@ const Header: React.FC = () => {
   const backgroundColor = useTransform(
     scrollY,
     [0, 100],
-    ["rgba(0, 0, 0, 0)", "rgba(0, 0, 0, 0.95)"]
+    ["rgba(0, 0, 0, 0)", "rgba(0, 0, 0, 0.95)"],
   );
 
   const scale = useTransform(scrollY, [0, 100], [1, 0.95]);
   const mobileScale = useTransform(scrollY, [0, 100], [1, 0.9]);
 
   return (
-    <motion.header 
+    <motion.header
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ type: "spring", stiffness: 200, damping: 20 }}
-      className={`fixed z-50 w-full ${isMobile ? 'top-4 flex justify-center' : 'top-0'}`}
+      className={`fixed z-50 w-full ${isMobile ? "top-4 flex justify-center" : "top-3"}`}
     >
-      <motion.nav 
+      <motion.nav
         style={{ scale: isMobile ? mobileScale : scale, backgroundColor }}
         className={`
-          ${isMobile ? 'w-[90%] max-w-[280px] px-4' : 'container mx-auto px-6'} 
+          ${isMobile ? "w-[90%] max-w-[280px] px-4" : "container mx-auto px-6"} 
           py-3 flex justify-between items-center backdrop-blur-lg rounded-full
           border border-white/10 shadow-lg bg-black/20
         `}
       >
-        <Link href="/" className="text-2xl font-bold flex items-center text-white">
+        <Link
+          href="/"
+          className="text-2xl font-bold flex items-center text-white"
+        >
           <span className="text-accent">Feather</span>Wood
         </Link>
 
@@ -67,7 +74,7 @@ const Header: React.FC = () => {
         </div>
 
         {/* Mobile Menu Button */}
-        <motion.button 
+        <motion.button
           className="lg:hidden text-white hover:text-accent transition-all"
           onClick={() => setMobileMenuOpen(true)}
           whileTap={{ scale: 0.9 }}
@@ -78,7 +85,10 @@ const Header: React.FC = () => {
       </motion.nav>
 
       {/* Mobile Menu */}
-      <MobileMenu isOpen={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)} />
+      <MobileMenu
+        isOpen={mobileMenuOpen}
+        onClose={() => setMobileMenuOpen(false)}
+      />
     </motion.header>
   );
 };
