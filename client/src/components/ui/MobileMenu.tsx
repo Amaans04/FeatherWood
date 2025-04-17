@@ -10,6 +10,24 @@ interface MobileMenuProps {
 }
 
 const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
+  // Close menu when clicking outside
+  const menuRef = React.useRef<HTMLDivElement>(null);
+  
+  React.useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        onClose();
+      }
+    };
+
+    if (isOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isOpen, onClose]);
   const menuVariants = {
     closed: {
       opacity: 0,
@@ -44,12 +62,13 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
     <AnimatePresence>
       {isOpen && (
         <motion.div
+          ref={menuRef}
           initial="closed"
           animate="open"
           exit="closed"
           variants={menuVariants}
           className="lg:hidden fixed top-4 left-1/2 -translate-x-1/2 max-w-md 
-                    bg-primary/95 backdrop-blur-lg z-50 overflow-hidden
+                    backdrop-blur-xl z-50 overflow-hidden
                     border border-white/10 shadow-xl"
         >
           <div className="flex justify-end p-4">

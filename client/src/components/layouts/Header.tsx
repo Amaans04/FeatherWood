@@ -32,8 +32,8 @@ const Header: React.FC = () => {
         style={{ scale: isMobile ? mobileScale : scale }}
         className={`
           ${isMobile ? 'w-[90%] max-w-[280px] px-4' : 'container mx-auto px-6'} 
-          py-3 flex justify-between items-center backdrop-blur-md rounded-full
-          bg-black/20 border border-white/10 shadow-lg
+          py-3 flex justify-between items-center backdrop-blur-lg rounded-full
+          border border-white/10 shadow-lg
         `}
       >
         <Link href="/" className="text-2xl font-bold flex items-center text-white">
