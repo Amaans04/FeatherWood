@@ -9,6 +9,8 @@ import {
   wishlistItems, type WishlistItem, type InsertWishlistItem, 
   testimonials, type Testimonial, type InsertTestimonial
 } from "@shared/schema";
+import fs from 'fs';
+import path from 'path';
 
 export interface IStorage {
   // User methods
@@ -23,7 +25,7 @@ export interface IStorage {
 
   // Product methods
   getAllProducts(): Promise<Product[]>;
-  getProductById(id: number): Promise<Product | undefined>;
+  getProductById(id: string): Promise<Product | undefined>;
   getProductBySlug(slug: string): Promise<Product | undefined>;
   getProductsByCategory(categoryId: number): Promise<Product[]>;
   getFeaturedProducts(): Promise<Product[]>;
@@ -33,7 +35,7 @@ export interface IStorage {
 
   // Interior project methods
   getAllProjects(): Promise<InteriorProject[]>;
-  getProjectById(id: number): Promise<InteriorProject | undefined>;
+  getProjectById(id: string): Promise<InteriorProject | undefined>;
   getProjectBySlug(slug: string): Promise<InteriorProject | undefined>;
   getProjectsByCategory(category: string): Promise<InteriorProject[]>;
   getFeaturedProjects(): Promise<InteriorProject[]>;
@@ -71,8 +73,8 @@ export interface IStorage {
 export class MemStorage implements IStorage {
   private users: Map<number, User>;
   private categories: Map<number, ProductCategory>;
-  private products: Map<number, Product>;
-  private projects: Map<number, InteriorProject>;
+  private products: Map<string, Product>;
+  private projects: Map<string, InteriorProject>;
   private blogPosts: Map<number, BlogPost>;
   private consultationRequests: Map<number, ConsultationRequest>;
   private cartItems: Map<number, CartItem>;
@@ -92,8 +94,8 @@ export class MemStorage implements IStorage {
   constructor() {
     this.users = new Map();
     this.categories = new Map();
-    this.products = new Map();
-    this.projects = new Map();
+    this.products = new Map<string, Product>(); // Changed to string key for products
+    this.projects = new Map<string, InteriorProject>(); // Changed to string key for projects
     this.blogPosts = new Map();
     this.consultationRequests = new Map();
     this.cartItems = new Map();
@@ -116,86 +118,96 @@ export class MemStorage implements IStorage {
 
   // Initialize sample data
   private async initializeData() {
+    // Use the imported fs and path modules
+    
     // Add categories
     const categories = [
-      { name: 'Beds', slug: 'beds', description: 'Comfortable beds for a good night\'s sleep', imageUrl: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85' },
-      { name: 'Sofas', slug: 'sofas', description: 'Luxurious sofas for your living room', imageUrl: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc' },
-      { name: 'Tables', slug: 'tables', description: 'Elegant tables for dining and living', imageUrl: 'https://images.unsplash.com/photo-1592078615290-033ee584e267' },
-      { name: 'Storage', slug: 'storage', description: 'Functional storage solutions for your home', imageUrl: 'https://images.unsplash.com/photo-1503602642458-232111445657' },
-      { name: 'Decor', slug: 'decor', description: 'Beautiful decor items to enhance your space', imageUrl: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7' }
+      { name: 'Living Room', slug: 'living-room', description: 'Furniture for your living spaces', imageUrl: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc' },
+      { name: 'Bedroom', slug: 'bedroom', description: 'Comfortable beds and bedroom furniture', imageUrl: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85' },
+      { name: 'Dining Room', slug: 'dining-room', description: 'Elegant dining tables and chairs', imageUrl: 'https://images.unsplash.com/photo-1592078615290-033ee584e267' },
+      { name: 'Kitchen', slug: 'kitchen', description: 'Modern kitchen furniture and accessories', imageUrl: 'https://images.unsplash.com/photo-1556912998-c57cc6b63cd7' },
+      { name: 'Office', slug: 'office', description: 'Productive workspace furniture', imageUrl: 'https://images.unsplash.com/photo-1516397281156-3c1ddf2388c5' }
     ];
 
     for (const category of categories) {
       await this.createCategory(category as InsertProductCategory);
     }
 
-    // Add products
-    const furnitureItems = [
-      {
-        name: 'Emerald Velvet Sofa',
-        slug: 'emerald-velvet-sofa',
-        description: 'A luxurious green velvet sofa with elegant wooden legs.',
-        price: 129900, // $1,299.00
-        rating: 45, // 4.5 out of 5
-        categoryId: 2, // Sofas
-        material: 'Velvet, Wood',
-        dimensions: '85"W x 36"D x 33"H',
-        color: 'Emerald Green',
-        inStock: true,
-        isNew: true,
-        isFeatured: true,
-        imageUrls: ['https://images.unsplash.com/photo-1555041469-a586c61ea9bc']
-      },
-      {
-        name: 'Walnut Dining Table',
-        slug: 'walnut-dining-table',
-        description: 'A sturdy walnut dining table for 6 people.',
-        price: 89900, // $899.00
-        rating: 40, // 4.0 out of 5
-        categoryId: 3, // Tables
-        material: 'Walnut Wood',
-        dimensions: '72"L x 36"W x 30"H',
-        color: 'Brown',
-        inStock: true,
-        isNew: false,
-        isFeatured: true,
-        imageUrls: ['https://images.unsplash.com/photo-1592078615290-033ee584e267']
-      },
-      {
-        name: 'Leather Accent Chair',
-        slug: 'leather-accent-chair',
-        description: 'A comfortable leather accent chair for your living room.',
-        price: 64900, // $649.00
-        salePrice: 79900, // $799.00
-        rating: 50, // 5.0 out of 5
-        categoryId: 2, // Sofas
-        material: 'Leather, Metal',
-        dimensions: '30"W x 32"D x 34"H',
-        color: 'Brown',
-        inStock: true,
-        isNew: false,
-        isFeatured: true,
-        imageUrls: ['https://images.unsplash.com/photo-1505693416388-ac5ce068fe85']
-      },
-      {
-        name: 'Minimalist Coffee Table',
-        slug: 'minimalist-coffee-table',
-        description: 'A sleek minimalist coffee table for modern living rooms.',
-        price: 34900, // $349.00
-        rating: 42, // 4.2 out of 5
-        categoryId: 3, // Tables
-        material: 'Wood, Metal',
-        dimensions: '48"L x 24"W x 18"H',
-        color: 'Natural',
-        inStock: true,
-        isNew: false,
-        isFeatured: true,
-        imageUrls: ['https://images.unsplash.com/photo-1503602642458-232111445657']
+    // Load products from JSON file
+    try {
+      const productsFilePath = path.resolve(__dirname, 'data/furnitureProducts.json');
+      if (fs.existsSync(productsFilePath)) {
+        const furnitureProductsData = fs.readFileSync(productsFilePath, 'utf8');
+        const furnitureProducts = JSON.parse(furnitureProductsData);
+        
+        for (const product of furnitureProducts) {
+          this.products.set(product.id, product as Product);
+        }
+        
+        console.log(`Loaded ${furnitureProducts.length} furniture products from JSON`);
+      } else {
+        console.log('Furniture products JSON file not found, using default data');
+        
+        // Add default product if JSON file not found
+        const defaultProduct = {
+          id: "f000",
+          title: 'Emerald Velvet Sofa',
+          slug: 'emerald-velvet-sofa',
+          description: 'A luxurious green velvet sofa with elegant wooden legs.',
+          price: 129900, // $1,299.00
+          image: 'sofa.jpg',
+          category: 'Living Room',
+          tags: ['sofa', 'velvet', 'luxury'],
+          rating: 45, // 4.5 out of 5
+          material: 'Velvet, Wood',
+          dimensions: '85"W x 36"D x 33"H',
+          color: 'Emerald Green',
+          inStock: true,
+          isNew: true,
+          isFeatured: true,
+          imageUrls: ['https://images.unsplash.com/photo-1555041469-a586c61ea9bc']
+        };
+        
+        this.products.set(defaultProduct.id, defaultProduct as unknown as Product);
       }
-    ];
-
-    for (const product of furnitureItems) {
-      await this.createProduct(product as InsertProduct);
+    } catch (error) {
+      console.error('Error loading furniture products:', error);
+    }
+    
+    // Load interior projects from JSON file
+    try {
+      const projectsFilePath = path.resolve(__dirname, 'data/interiorProjects.json');
+      if (fs.existsSync(projectsFilePath)) {
+        const interiorProjectsData = fs.readFileSync(projectsFilePath, 'utf8');
+        const interiorProjects = JSON.parse(interiorProjectsData);
+        
+        for (const project of interiorProjects) {
+          this.projects.set(project.id, project as InteriorProject);
+        }
+        
+        console.log(`Loaded ${interiorProjects.length} interior projects from JSON`);
+      } else {
+        console.log('Interior projects JSON file not found, using default data');
+        
+        // Add default project if JSON file not found
+        const defaultProject = {
+          id: "p000",
+          title: 'Contemporary Urban Kitchen',
+          slug: 'contemporary-urban-kitchen',
+          description: 'A sleek, modern kitchen design with optimized storage and premium appliances for a professional chef.',
+          style: 'Modern',
+          budget: '12L',
+          location: 'Mumbai',
+          category: 'Modular Kitchen',
+          image: 'kitchen.jpg',
+          isFeatured: true,
+          imageUrls: ['https://images.unsplash.com/photo-1600210492486-724fe5c67fb0']
+        };
+        
+        this.projects.set(defaultProject.id, defaultProject as unknown as InteriorProject);
+      }
+    } catch (error) {
+      console.error('Error loading interior projects:', error);
     }
 
     // Add interior projects
@@ -346,7 +358,7 @@ export class MemStorage implements IStorage {
     return Array.from(this.products.values());
   }
 
-  async getProductById(id: number): Promise<Product | undefined> {
+  async getProductById(id: string): Promise<Product | undefined> {
     return this.products.get(id);
   }
 
@@ -357,8 +369,12 @@ export class MemStorage implements IStorage {
   }
 
   async getProductsByCategory(categoryId: number): Promise<Product[]> {
+    // Use string category name instead of numeric ID
+    const category = this.categories.get(categoryId);
+    if (!category) return [];
+    
     return Array.from(this.products.values()).filter(
-      (product) => product.categoryId === categoryId,
+      (product) => product.category === category.name,
     );
   }
 
@@ -372,7 +388,7 @@ export class MemStorage implements IStorage {
     const lowerQuery = query.toLowerCase();
     return Array.from(this.products.values()).filter(
       (product) => 
-        product.name.toLowerCase().includes(lowerQuery) || 
+        product.title.toLowerCase().includes(lowerQuery) || 
         product.description.toLowerCase().includes(lowerQuery)
     );
   }
@@ -384,7 +400,12 @@ export class MemStorage implements IStorage {
     material?: string 
   }): Promise<Product[]> {
     return Array.from(this.products.values()).filter(product => {
-      if (filters.categoryId && product.categoryId !== filters.categoryId) return false;
+      // Use category name from category id
+      if (filters.categoryId) {
+        const category = this.categories.get(filters.categoryId);
+        if (category && product.category !== category.name) return false;
+      }
+      
       if (filters.minPrice && product.price < filters.minPrice) return false;
       if (filters.maxPrice && product.price > filters.maxPrice) return false;
       if (filters.material && (!product.material || !product.material.toLowerCase().includes(filters.material.toLowerCase()))) return false;
@@ -393,7 +414,8 @@ export class MemStorage implements IStorage {
   }
 
   async createProduct(insertProduct: InsertProduct): Promise<Product> {
-    const id = this.currentProductId++;
+    // For new products, create an ID like "f" + next number
+    const id = `f${this.currentProductId++}`;
     const product: Product = { ...insertProduct, id };
     this.products.set(id, product);
     return product;
@@ -404,7 +426,7 @@ export class MemStorage implements IStorage {
     return Array.from(this.projects.values());
   }
 
-  async getProjectById(id: number): Promise<InteriorProject | undefined> {
+  async getProjectById(id: string): Promise<InteriorProject | undefined> {
     return this.projects.get(id);
   }
 
@@ -427,7 +449,8 @@ export class MemStorage implements IStorage {
   }
 
   async createProject(insertProject: InsertInteriorProject): Promise<InteriorProject> {
-    const id = this.currentProjectId++;
+    // For new projects, create an ID like "p" + next number
+    const id = `p${this.currentProjectId++}`;
     const project: InteriorProject = { ...insertProject, id };
     this.projects.set(id, project);
     return project;
