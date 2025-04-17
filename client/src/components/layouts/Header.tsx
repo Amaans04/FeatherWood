@@ -25,7 +25,6 @@ const Header: React.FC = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ type: "spring", stiffness: 200, damping: 20 }}
-      style={{ backgroundColor }}
       className={`fixed z-50 w-full ${isMobile ? 'top-4 flex justify-center' : 'top-0'}`}
     >
       <motion.nav 
@@ -33,7 +32,7 @@ const Header: React.FC = () => {
         className={`
           ${isMobile ? 'w-[90%] max-w-[280px] px-4' : 'container mx-auto px-6'} 
           py-3 flex justify-between items-center backdrop-blur-lg rounded-full
-          border border-white/10 shadow-lg
+          border border-white/10 shadow-lg bg-black/20
         `}
       >
         <Link href="/" className="text-2xl font-bold flex items-center text-white">
