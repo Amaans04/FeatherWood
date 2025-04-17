@@ -11,9 +11,11 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   const [location] = useLocation();
 
   return (
-    <div className="flex flex-col min-h-screen">
-      <Header />
-      <main className="flex-grow pt-24 lg:pt-20" data-barba="container">
+    <div className="flex flex-col min-h-screen bg-background relative">
+      <div className="fixed top-0 left-0 right-0 z-50">
+        <Header />
+      </div>
+      <main className="flex-grow pt-24 lg:pt-20 relative" data-barba="container">
         {children}
       </main>
       <Footer />
