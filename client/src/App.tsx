@@ -4,6 +4,7 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import Layout from "@/components/layouts/Layout";
 import Home from "@/pages/Home";
+import BlogDetail from "@/pages/BlogDetail";
 import FurnitureShop from "@/pages/FurnitureShop";
 import ProductDetail from "@/pages/ProductDetail";
 import InteriorDesign from "@/pages/InteriorDesign";
