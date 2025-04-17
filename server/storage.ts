@@ -11,6 +11,11 @@ import {
 } from "@shared/schema";
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
+
+// Get directory name for ESM
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export interface IStorage {
   // User methods
