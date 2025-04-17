@@ -143,7 +143,7 @@ const ProductDetail: React.FC = () => {
               <span className="inline-block bg-secondary text-white text-xs px-3 py-1 rounded-full mb-2 ml-2">Sale</span>
             )}
             
-            <h1 className="text-3xl font-bold mb-2">{product.name}</h1>
+            <h1 className="text-3xl font-bold mb-2">{product.title}</h1>
             
             <div className="flex items-center mb-4">
               {renderStars(product.rating)}
