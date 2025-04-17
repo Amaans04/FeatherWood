@@ -23,17 +23,20 @@ function Router() {
   useEffect(() => {
     barba.init({
       transitions: [{
-        name: 'opacity-transition',
+        name: 'slide-transition',
         leave(data) {
-          return new Promise(resolve => {
-            data.current.container.style.opacity = '0';
-            setTimeout(resolve, 300);
+          return gsap.to(data.current.container, {
+            yPercent: -100,
+            duration: 0.8,
+            ease: "power2.inOut"
           });
         },
         enter(data) {
-          return new Promise(resolve => {
-            data.next.container.style.opacity = '1';
-            setTimeout(resolve, 300);
+          gsap.set(data.next.container, { yPercent: 100 });
+          return gsap.to(data.next.container, {
+            yPercent: 0,
+            duration: 0.8,
+            ease: "power2.inOut"
           });
         }
       }]

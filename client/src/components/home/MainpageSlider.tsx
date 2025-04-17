@@ -1,7 +1,6 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "wouter";
 import { motion, AnimatePresence } from "framer-motion";
-import gsap from "gsap";
 
 interface SlideData {
   image: string;
@@ -37,7 +36,6 @@ const slides: SlideData[] = [
 
 const MainpageSlider: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const overlayRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -68,10 +66,6 @@ const MainpageSlider: React.FC = () => {
     <div
       className="relative h-screen w-full overflow-hidden -mt-[var(--header-height)]"
     >
-      <div
-        ref={overlayRef}
-        className="fixed inset-0 bg-black z-[60] pointer-events-none transform translate-y-full"
-      />
       <AnimatePresence mode="wait">
         <motion.div
           key={currentSlide}
