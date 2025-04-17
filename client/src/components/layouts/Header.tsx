@@ -15,6 +15,11 @@ const Header: React.FC = () => {
   );
 
   const scale = useTransform(scrollY, [0, 100], [1, 0.95]);
+  const textColor = useTransform(
+    scrollY,
+    [0, 100],
+    ["rgba(11, 11, 11, 0.9)", "rgba(255, 255, 255, 0.9)"]
+  );
 
   return (
     <motion.header 
@@ -23,7 +28,7 @@ const Header: React.FC = () => {
     >
       <motion.nav 
         style={{ scale }}
-        className="container mx-auto px-6 py-3 flex justify-between items-center backdrop-blur-sm"
+        className="container mx-auto px-6 py-3 flex justify-between items-center backdrop-blur-sm rounded-full bg-white/5"
       >
         <Link href="/" className="text-2xl font-bold flex items-center">
           <span className="text-accent">Feather</span>Wood
@@ -31,11 +36,13 @@ const Header: React.FC = () => {
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex items-center space-x-8">
-          <Link href="/" className="hover:text-accent transition-all font-medium">Home</Link>
-          <Link href="/furniture" className="hover:text-accent transition-all font-medium">Furniture</Link>
-          <Link href="/interiors" className="hover:text-accent transition-all font-medium">Interiors</Link>
-          <Link href="/blog" className="hover:text-accent transition-all font-medium">Blog</Link>
-          <Link href="/contact" className="hover:text-accent transition-all font-medium">Contact</Link>
+          <motion.div style={{ color: textColor }}>
+            <Link href="/" className="hover:text-accent transition-all font-medium">Home</Link>
+            <Link href="/furniture" className="hover:text-accent transition-all font-medium ml-8">Furniture</Link>
+            <Link href="/interiors" className="hover:text-accent transition-all font-medium ml-8">Interiors</Link>
+            <Link href="/blog" className="hover:text-accent transition-all font-medium ml-8">Blog</Link>
+            <Link href="/contact" className="hover:text-accent transition-all font-medium ml-8">Contact</Link>
+          </motion.div>
         </div>
 
         {/* Mobile Menu Button */}

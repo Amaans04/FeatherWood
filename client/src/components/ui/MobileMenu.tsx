@@ -33,7 +33,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
           exit="closed"
           variants={menuVariants}
           transition={{ type: "spring", stiffness: 300, damping: 30 }}
-          className="lg:hidden fixed top-4 left-1/2 -translate-x-1/2 w-[95%] max-w-md bg-primary/95 backdrop-blur-lg z-50 overflow-hidden"
+          className="lg:hidden fixed top-4 left-1/2 -translate-x-1/2 w-[95%] max-w-md bg-primary/95 backdrop-blur-lg z-50 overflow-hidden rounded-3xl text-white"
         >
           <div className="flex justify-end p-4">
             <button onClick={onClose} className="text-white hover:text-accent">
