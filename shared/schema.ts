@@ -38,14 +38,17 @@ export const insertProductCategorySchema = createInsertSchema(productCategories)
 
 // Products schema
 export const products = pgTable("products", {
-  id: serial("id").primaryKey(),
-  name: text("name").notNull(),
-  slug: text("slug").notNull().unique(),
-  description: text("description").notNull(),
+  id: text("id").primaryKey(), // Using string IDs like "f001"
+  title: text("title").notNull(),
   price: integer("price").notNull(), // Price in cents
-  salePrice: integer("sale_price"),  // Optional sale price in cents
-  rating: integer("rating"), // Rating out of 5
-  categoryId: integer("category_id").notNull(),
+  image: text("image").notNull(),
+  category: text("category").notNull(),
+  tags: text("tags").array(),
+  description: text("description").notNull(),
+  // Keep compatibility with existing fields
+  slug: text("slug").notNull().unique(),
+  salePrice: integer("sale_price"),
+  rating: integer("rating"),
   material: text("material"),
   dimensions: text("dimensions"),
   color: text("color"),
@@ -56,13 +59,16 @@ export const products = pgTable("products", {
 });
 
 export const insertProductSchema = createInsertSchema(products).pick({
-  name: true,
-  slug: true,
-  description: true,
+  id: true,
+  title: true,
   price: true,
+  image: true,
+  category: true,
+  tags: true,
+  description: true,
+  slug: true,
   salePrice: true,
   rating: true,
-  categoryId: true,
   material: true,
   dimensions: true,
   color: true,
@@ -74,19 +80,29 @@ export const insertProductSchema = createInsertSchema(products).pick({
 
 // Interior projects schema
 export const interiorProjects = pgTable("interior_projects", {
-  id: serial("id").primaryKey(),
+  id: text("id").primaryKey(), // Using string IDs like "p002"
   title: text("title").notNull(),
-  slug: text("slug").notNull().unique(),
+  style: text("style").notNull(),  
+  budget: text("budget").notNull(),
+  location: text("location").notNull(),
+  image: text("image").notNull(),
   description: text("description").notNull(),
-  category: text("category").notNull(), // e.g., "Modular Kitchen", "Living Room", etc.
+  // Keep compatibility with existing fields
+  slug: text("slug").notNull().unique(),
+  category: text("category"), // For compatibility 
   imageUrls: text("image_urls").array(),
   isFeatured: boolean("is_featured").default(false),
 });
 
 export const insertInteriorProjectSchema = createInsertSchema(interiorProjects).pick({
+  id: true,
   title: true,
-  slug: true,
+  style: true,
+  budget: true,
+  location: true,
+  image: true,
   description: true,
+  slug: true,
   category: true,
   imageUrls: true,
   isFeatured: true,

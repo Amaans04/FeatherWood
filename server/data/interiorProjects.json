@@ -1,0 +1,74 @@
+[
+  {
+    "id": "p001",
+    "title": "Luxury Penthouse Makeover",
+    "style": "Modern Luxury",
+    "budget": "50L",
+    "location": "Mumbai",
+    "image": "penthouse.jpg",
+    "description": "A complete transformation of a 4BHK penthouse with breathtaking ocean views, featuring custom furniture and smart home integration.",
+    "slug": "luxury-penthouse-makeover",
+    "category": "Full Home",
+    "isFeatured": true
+  },
+  {
+    "id": "p002",
+    "title": "Contemporary 2BHK Home",
+    "style": "Contemporary",
+    "budget": "5L",
+    "location": "Mumbai",
+    "image": "interior.jpg",
+    "description": "A sleek and vibrant 2BHK transformation with pastel tones and smart storage.",
+    "slug": "contemporary-2bhk-home",
+    "category": "Full Home",
+    "isFeatured": true
+  },
+  {
+    "id": "p003",
+    "title": "Minimalist Studio Apartment",
+    "style": "Minimalist",
+    "budget": "3L",
+    "location": "Bangalore",
+    "image": "studio.jpg",
+    "description": "A space-efficient studio with multi-functional furniture and neutral color palette, perfect for urban living.",
+    "slug": "minimalist-studio-apartment",
+    "category": "Full Home",
+    "isFeatured": false
+  },
+  {
+    "id": "p004",
+    "title": "Elegant Modular Kitchen",
+    "style": "Modern Classic",
+    "budget": "8L",
+    "location": "Delhi",
+    "image": "kitchen.jpg",
+    "description": "A gourmet kitchen with premium appliances, marble countertops, and custom cabinetry in a neutral palette with gold accents.",
+    "slug": "elegant-modular-kitchen",
+    "category": "Kitchen",
+    "isFeatured": true
+  },
+  {
+    "id": "p005",
+    "title": "Luxurious Master Bedroom",
+    "style": "Contemporary Luxury",
+    "budget": "7L",
+    "location": "Hyderabad",
+    "image": "master-bedroom.jpg",
+    "description": "A sophisticated master suite with custom headboard, walk-in closet, and en-suite bathroom with high-end fixtures.",
+    "slug": "luxurious-master-bedroom",
+    "category": "Bedroom",
+    "isFeatured": true
+  },
+  {
+    "id": "p006",
+    "title": "Executive Home Office",
+    "style": "Modern Professional",
+    "budget": "4L",
+    "location": "Pune",
+    "image": "home-office.jpg",
+    "description": "A productive and elegant home office with custom built-in shelving, ergonomic furniture, and perfect lighting for video conferences.",
+    "slug": "executive-home-office",
+    "category": "Office",
+    "isFeatured": false
+  }
+]
