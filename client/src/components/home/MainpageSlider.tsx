@@ -47,7 +47,7 @@ const MainpageSlider: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className="relative h-[100vh] w-full overflow-hidden -mt-[var(--header-height)]">
       <AnimatePresence mode="wait">
         <motion.div
           key={currentSlide}

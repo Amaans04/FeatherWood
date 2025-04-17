@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --header-height: 4rem;
+}
+
 @layer base {
   /* Page Transition Styles */
   .page-transition {
