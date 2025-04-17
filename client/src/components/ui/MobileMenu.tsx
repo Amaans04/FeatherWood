@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Link } from "wouter";
 import { X } from "lucide-react";
@@ -11,17 +12,32 @@ interface MobileMenuProps {
 const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
   const menuVariants = {
     closed: {
-      y: -20,
       opacity: 0,
-      scale: 0.9,
+      scale: 0.8,
+      y: -20,
+      width: "280px",
+      height: "50px",
       borderRadius: "9999px",
     },
     open: {
-      y: 0,
       opacity: 1,
       scale: 1,
+      y: 0,
+      width: "95%",
+      height: "auto",
       borderRadius: "24px",
-    }
+      transition: {
+        type: "spring",
+        stiffness: 300,
+        damping: 30,
+        staggerChildren: 0.1,
+      },
+    },
+  };
+
+  const itemVariants = {
+    closed: { opacity: 0, x: -20 },
+    open: { opacity: 1, x: 0 },
   };
 
   return (
@@ -32,20 +48,21 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
           animate="open"
           exit="closed"
           variants={menuVariants}
-          transition={{ type: "spring", stiffness: 300, damping: 30 }}
-          className="lg:hidden fixed top-4 left-1/2 -translate-x-1/2 w-[95%] max-w-md bg-primary/95 backdrop-blur-lg z-50 overflow-hidden rounded-3xl text-white"
+          className="lg:hidden fixed top-4 left-1/2 -translate-x-1/2 max-w-md 
+                    bg-primary/95 backdrop-blur-lg z-50 overflow-hidden
+                    border border-white/10 shadow-xl"
         >
           <div className="flex justify-end p-4">
-            <button onClick={onClose} className="text-white hover:text-accent">
+            <motion.button
+              onClick={onClose}
+              className="text-white hover:text-accent"
+              whileTap={{ scale: 0.9 }}
+            >
               <X className="w-6 h-6" />
-            </button>
+            </motion.button>
           </div>
-          <motion.div 
-            className="container mx-auto px-4 py-3"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1, staggerChildren: 0.1 }}
-          >
+          
+          <motion.div className="px-6 py-4">
             {[
               { href: "/", label: "Home" },
               { href: "/furniture", label: "Furniture" },
@@ -55,13 +72,14 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
             ].map((link) => (
               <motion.div
                 key={link.href}
+                variants={itemVariants}
                 whileHover={{ x: 10 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <Link
                   href={link.href}
                   onClick={onClose}
-                  className="block py-3 hover:text-accent transition-all text-lg"
+                  className="block py-3 text-white hover:text-accent transition-all text-lg"
                 >
                   {link.label}
                 </Link>
