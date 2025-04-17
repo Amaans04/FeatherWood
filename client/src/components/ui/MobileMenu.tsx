@@ -1,106 +1,76 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "wouter";
-import { X, ChevronDown, ChevronUp } from "lucide-react";
+import { X } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface MobileMenuProps {
   isOpen: boolean;
   onClose: () => void;
 }
 
-interface DropdownItem {
-  title: string;
-  isOpen: boolean;
-  items: { name: string; href: string }[];
-}
-
 const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
-  const [dropdowns, setDropdowns] = useState<DropdownItem[]>([
-    {
-      title: "Furniture",
-      isOpen: false,
-      items: [
-        { name: "Beds", href: "/furniture?category=beds" },
-        { name: "Sofas", href: "/furniture?category=sofas" },
-        { name: "Tables", href: "/furniture?category=tables" },
-        { name: "Storage", href: "/furniture?category=storage" },
-        { name: "Decor", href: "/furniture?category=decor" },
-      ],
+  const menuVariants = {
+    closed: {
+      y: -20,
+      opacity: 0,
+      scale: 0.9,
+      borderRadius: "9999px",
     },
-    {
-      title: "Interiors",
-      isOpen: false,
-      items: [
-        { name: "Modular Kitchen", href: "/interiors?category=Modular Kitchen" },
-        { name: "Living Room", href: "/interiors?category=Living Room" },
-        { name: "Bedroom", href: "/interiors?category=Bedroom" },
-        { name: "Wardrobes", href: "/interiors?category=Wardrobes" },
-        { name: "Case Studies", href: "/interiors?category=Case Studies" },
-      ],
-    },
-  ]);
-
-  const toggleDropdown = (index: number) => {
-    const newDropdowns = [...dropdowns];
-    newDropdowns[index].isOpen = !newDropdowns[index].isOpen;
-    setDropdowns(newDropdowns);
+    open: {
+      y: 0,
+      opacity: 1,
+      scale: 1,
+      borderRadius: "24px",
+    }
   };
 
-  if (!isOpen) return null;
-
   return (
-    <div className="lg:hidden fixed inset-0 bg-primary z-50 overflow-auto">
-      <div className="flex justify-end p-4">
-        <button onClick={onClose} className="text-white hover:text-accent">
-          <X className="w-6 h-6" />
-        </button>
-      </div>
-      <div className="container mx-auto px-4 py-3">
-        <Link href="/" onClick={onClose} className="block py-2 hover:text-accent transition-all">
-          Home
-        </Link>
-        
-        {dropdowns.map((dropdown, index) => (
-          <div key={dropdown.title} className="py-2">
-            <div 
-              className="flex justify-between items-center hover:text-accent transition-all cursor-pointer"
-              onClick={() => toggleDropdown(index)}
-            >
-              <span>{dropdown.title}</span>
-              {dropdown.isOpen ? (
-                <ChevronUp className="w-4 h-4" />
-              ) : (
-                <ChevronDown className="w-4 h-4" />
-              )}
-            </div>
-            
-            {dropdown.isOpen && (
-              <div className="pl-4 mt-2">
-                {dropdown.items.map((item) => (
-                  <Link 
-                    key={item.name} 
-                    href={item.href} 
-                    onClick={onClose}
-                    className="block py-2 hover:text-accent transition-all"
-                  >
-                    {item.name}
-                  </Link>
-                ))}
-              </div>
-            )}
+    <AnimatePresence>
+      {isOpen && (
+        <motion.div
+          initial="closed"
+          animate="open"
+          exit="closed"
+          variants={menuVariants}
+          transition={{ type: "spring", stiffness: 300, damping: 30 }}
+          className="lg:hidden fixed top-4 left-1/2 -translate-x-1/2 w-[95%] max-w-md bg-primary/95 backdrop-blur-lg z-50 overflow-hidden"
+        >
+          <div className="flex justify-end p-4">
+            <button onClick={onClose} className="text-white hover:text-accent">
+              <X className="w-6 h-6" />
+            </button>
           </div>
-        ))}
-        
-        <Link href="/interiors" onClick={onClose} className="block py-2 hover:text-accent transition-all">
-          Portfolio
-        </Link>
-        <Link href="/blog" onClick={onClose} className="block py-2 hover:text-accent transition-all">
-          Blog
-        </Link>
-        <Link href="/contact" onClick={onClose} className="block py-2 hover:text-accent transition-all">
-          Contact
-        </Link>
-      </div>
-    </div>
+          <motion.div 
+            className="container mx-auto px-4 py-3"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1, staggerChildren: 0.1 }}
+          >
+            {[
+              { href: "/", label: "Home" },
+              { href: "/furniture", label: "Furniture" },
+              { href: "/interiors", label: "Interiors" },
+              { href: "/blog", label: "Blog" },
+              { href: "/contact", label: "Contact" },
+            ].map((link) => (
+              <motion.div
+                key={link.href}
+                whileHover={{ x: 10 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                <Link
+                  href={link.href}
+                  onClick={onClose}
+                  className="block py-3 hover:text-accent transition-all text-lg"
+                >
+                  {link.label}
+                </Link>
+              </motion.div>
+            ))}
+          </motion.div>
+        </motion.div>
+      )}
+    </AnimatePresence>
   );
 };
 

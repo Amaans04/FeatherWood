@@ -16,6 +16,27 @@ import Contact from "@/pages/Contact";
 import About from "@/pages/About";
 import BookingConfirmation from "@/pages/BookingConfirmation";
 import NotFound from "@/pages/not-found";
+import { useEffect } from "react";
+import barba from "@barba/core";
+
+// Initialize Barba
+barba.init({
+  transitions: [{
+    name: 'opacity-transition',
+    leave(data) {
+      return new Promise(resolve => {
+        data.current.container.style.opacity = '0';
+        setTimeout(resolve, 300);
+      });
+    },
+    enter(data) {
+      return new Promise(resolve => {
+        data.next.container.style.opacity = '1';
+        setTimeout(resolve, 300);
+      });
+    }
+  }]
+});
 
 function Router() {
   return (
@@ -28,7 +49,7 @@ function Router() {
       <Route path="/cart" component={Cart} />
       <Route path="/checkout" component={Checkout} />
       <Route path="/blog" component={Blog} />
-        <Route path="/blog/:slug" component={BlogDetail} />
+      <Route path="/blog/:slug" component={BlogDetail} />
       <Route path="/contact" component={Contact} />
       <Route path="/about" component={About} />
       <Route path="/booking-confirmation" component={BookingConfirmation} />

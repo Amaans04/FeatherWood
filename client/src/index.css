@@ -5,6 +5,16 @@
 @tailwind utilities;
 
 @layer base {
+  /* Page Transition Styles */
+  .page-transition {
+    transition: opacity 0.3s ease;
+  }
+
+  [data-barba="container"] {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
   :root {
     --background: 40 30% 98%;  /* Ivory Mist #FAF8F5 */
     --foreground: 0 0% 10%;     /* Jet Black #1A1A1A */
