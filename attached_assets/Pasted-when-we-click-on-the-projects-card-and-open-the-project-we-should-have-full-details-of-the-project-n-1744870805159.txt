@@ -1,0 +1,38 @@
+when we click on the projects card and open the project we should have full details of the project now this should also be imported from json also do that same for the firnitures, whn we go on furniture we shoud get option for all the sub categories like sofa, recliners etc.. and when we click on them that specific category of furnitures should be shown and next when we click on those cards we should be taken to the detailed specification of that specific furniture item and should have an option "Want a customized  one?" redirecting to WhatsApp and also, change the navbar to make it like : Structure & Layout
+The navbar is not full-width — it is centered horizontally on the page with space on both sides, giving it a floating appearance.
+
+It has a fixed position at the top, meaning it stays in place even when the user scrolls.
+
+It is slightly detached from the very top (with top margin or padding), enhancing the floating effect.
+
+🟢 Shape & Edges
+The entire navbar has smooth, rounded corners on all sides — like a pill shape or a rounded rectangle.
+
+This gives it a soft, modern, iOS-inspired look — similar to the iPhone notch housing.
+
+✨ Elevation & Effects
+It has a subtle shadow beneath it, making it appear lifted above the page.
+
+Often includes a blurred background effect when content scrolls behind it (glassmorphism style).
+
+🔁 Dynamic Behavior on Scroll
+Initially, the navbar may have a transparent or semi-transparent background.
+
+As you scroll down, it transitions smoothly into a solid background — improving readability against content.
+
+This scroll behavior is smooth and adds to the premium feel.
+
+📱 Responsiveness
+💻 On Desktop:
+The navbar remains centered and wide, with navigation links spaced out horizontally.
+
+The size remains proportionate to the screen — not stretched, but never too small.
+
+📱 On Mobile/Tablet:
+The navbar becomes slimmer and tighter in width but still remains centered.
+
+Links typically collapse into a hamburger menu for cleaner navigation.
+
+Padding and font sizes adjust to remain touch-friendly and readable.
+
+The floating + rounded style is preserved on all screen sizes.,,,, and also why arrent some of the images loading and in inerior designing project when detailed menu opens I want you to ad an option for video in the main image section in jsonn file I will add the videos later onn

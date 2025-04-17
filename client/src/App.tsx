@@ -7,6 +7,7 @@ import Home from "@/pages/Home";
 import FurnitureShop from "@/pages/FurnitureShop";
 import ProductDetail from "@/pages/ProductDetail";
 import InteriorDesign from "@/pages/InteriorDesign";
+import ProjectDetail from "@/pages/ProjectDetail";
 import Cart from "@/pages/Cart";
 import Checkout from "@/pages/Checkout";
 import Blog from "@/pages/Blog";
@@ -22,6 +23,7 @@ function Router() {
       <Route path="/furniture" component={FurnitureShop} />
       <Route path="/furniture/:slug" component={ProductDetail} />
       <Route path="/interiors" component={InteriorDesign} />
+      <Route path="/interiors/:slug" component={ProjectDetail} />
       <Route path="/cart" component={Cart} />
       <Route path="/checkout" component={Checkout} />
       <Route path="/blog" component={Blog} />

@@ -91,6 +91,7 @@ export const interiorProjects = pgTable("interior_projects", {
   slug: text("slug").notNull().unique(),
   category: text("category"), // For compatibility 
   imageUrls: text("image_urls").array(),
+  videoUrl: text("video_url"),
   isFeatured: boolean("is_featured").default(false),
 });
 
@@ -105,6 +106,7 @@ export const insertInteriorProjectSchema = createInsertSchema(interiorProjects).
   slug: true,
   category: true,
   imageUrls: true,
+  videoUrl: true,
   isFeatured: true,
 });
 
