@@ -1,0 +1,42 @@
+
+[
+  {
+    "id": "b001",
+    "title": "10 Ways to Bring Nature Into Your Living Space",
+    "slug": "10-ways-to-bring-nature-into-your-living-space",
+    "content": "Discover how to incorporate biophilic design elements to create a calming, nature-inspired home environment. From indoor plants to natural materials and textures, we explore various ways to bring the outdoors in.\n\n## 1. Choose Natural Materials\nOpt for furniture and decor made from wood, stone, and other natural materials. These elements add warmth and character while creating a connection to nature.\n\n## 2. Add Indoor Plants\nStrategically place indoor plants throughout your space. Consider hanging plants, floor plants, and small succulents for variety.\n\n## 3. Maximize Natural Light\nRemove heavy window treatments and optimize your space to allow more natural light. Consider mirrors to reflect light into darker corners.\n\n## 4. Use Natural Textures\nIncorporate natural textures through rugs, throw pillows, and wall coverings. Mix materials like jute, wool, and cotton for depth.\n\n## 5. Choose Earth Tones\nCreate a calming palette with earth tones inspired by nature. Think warm browns, soft greens, and gentle blues.",
+    "excerpt": "Discover how to incorporate biophilic design elements to create a calming, nature-inspired home environment.",
+    "category": "Interior Design",
+    "imageUrl": "https://images.unsplash.com/photo-1565183997392-2f6f122e5912",
+    "publishDate": "2023-05-12",
+    "readTime": "5 min read",
+    "author": "Sarah Johnson",
+    "tags": ["biophilic design", "natural materials", "indoor plants"]
+  },
+  {
+    "id": "b002",
+    "title": "Color Psychology in Home Design",
+    "slug": "color-psychology-in-home-design",
+    "content": "Learn how different colors affect mood and perception, and how to use them effectively in your home design. Colors play a crucial role in setting the atmosphere and emotional response in any space.\n\n## Understanding Color Psychology\nEach color evokes specific emotional and psychological responses. Here's a guide to common colors and their effects:\n\n## Warm Colors\n- Red: Energy and excitement\n- Orange: Creativity and enthusiasm\n- Yellow: Happiness and optimism\n\n## Cool Colors\n- Blue: Calm and serenity\n- Green: Balance and harmony\n- Purple: Luxury and creativity\n\n## Neutral Colors\n- White: Cleanliness and simplicity\n- Gray: Sophistication and balance\n- Brown: Stability and comfort",
+    "excerpt": "Learn how different colors affect mood and perception, and how to use them effectively in your home.",
+    "category": "Color Theory",
+    "imageUrl": "https://images.unsplash.com/photo-1556912998-c57cc6b63cd7",
+    "publishDate": "2023-04-28",
+    "readTime": "4 min read",
+    "author": "Michael Chen",
+    "tags": ["color theory", "interior design", "psychology"]
+  },
+  {
+    "id": "b003",
+    "title": "Maximizing Space in Small Kitchens",
+    "slug": "maximizing-space-in-small-kitchens",
+    "content": "Smart solutions for creating functional, beautiful kitchens even in limited square footage. A small kitchen doesn't mean you have to compromise on style or functionality.\n\n## Vertical Storage Solutions\nMake use of wall space with:\n- Magnetic knife strips\n- Hanging pot racks\n- Wall-mounted spice racks\n\n## Smart Organization\n- Use drawer dividers\n- Install pull-out pantry shelves\n- Implement corner cabinet solutions\n\n## Design Tips\n- Choose light colors to create openness\n- Use mirrors to reflect light\n- Install under-cabinet lighting\n\n## Multi-functional Furniture\n- Fold-down tables\n- Rolling islands\n- Convertible workspaces",
+    "excerpt": "Smart solutions for creating functional, beautiful kitchens even in limited square footage.",
+    "category": "Kitchen Design",
+    "imageUrl": "https://images.unsplash.com/photo-1556911220-bff31c812dba",
+    "publishDate": "2023-04-15",
+    "readTime": "6 min read",
+    "author": "Emily Roberts",
+    "tags": ["kitchen design", "small spaces", "organization"]
+  }
+]

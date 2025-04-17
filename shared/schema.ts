@@ -114,7 +114,7 @@ export const insertInteriorProjectSchema = createInsertSchema(interiorProjects).
 
 // Blog posts schema
 export const blogPosts = pgTable("blog_posts", {
-  id: serial("id").primaryKey(),
+  id: text("id").primaryKey(),
   title: text("title").notNull(),
   slug: text("slug").notNull().unique(),
   content: text("content").notNull(),
@@ -122,6 +122,9 @@ export const blogPosts = pgTable("blog_posts", {
   category: text("category").notNull(),
   imageUrl: text("image_url"),
   publishDate: timestamp("publish_date").notNull(),
+  readTime: text("read_time"),
+  author: text("author"),
+  tags: text("tags").array(),
 });
 
 export const insertBlogPostSchema = createInsertSchema(blogPosts).pick({
