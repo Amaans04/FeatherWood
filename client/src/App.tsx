@@ -19,26 +19,26 @@ import NotFound from "@/pages/not-found";
 import { useEffect } from "react";
 import barba from "@barba/core";
 
-// Initialize Barba
-barba.init({
-  transitions: [{
-    name: 'opacity-transition',
-    leave(data) {
-      return new Promise(resolve => {
-        data.current.container.style.opacity = '0';
-        setTimeout(resolve, 300);
-      });
-    },
-    enter(data) {
-      return new Promise(resolve => {
-        data.next.container.style.opacity = '1';
-        setTimeout(resolve, 300);
-      });
-    }
-  }]
-});
-
 function Router() {
+  useEffect(() => {
+    barba.init({
+      transitions: [{
+        name: 'opacity-transition',
+        leave(data) {
+          return new Promise(resolve => {
+            data.current.container.style.opacity = '0';
+            setTimeout(resolve, 300);
+          });
+        },
+        enter(data) {
+          return new Promise(resolve => {
+            data.next.container.style.opacity = '1';
+            setTimeout(resolve, 300);
+          });
+        }
+      }]
+    });
+  }, []);
   return (
     <Switch>
       <Route path="/" component={Home} />
