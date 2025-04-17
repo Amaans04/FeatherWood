@@ -2,7 +2,7 @@
   "name": "rest-express",
   "homepage": "https://amaans04.github.io/FeatherWood/",
   "version": "1.0.0",
-  "type": "module",
+  "type": "module", 
   "license": "MIT",
   "scripts": {
     "dev": "vite",
