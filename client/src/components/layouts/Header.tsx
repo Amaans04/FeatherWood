@@ -18,7 +18,7 @@ const Header: React.FC = () => {
   const backgroundColor = useTransform(
     scrollY,
     [0, 100],
-    ["rgba(0, 0, 0, 0)", "rgba(0, 0, 0, 0.95)"],
+    ["rgba(0, 0, 0, 0.95)", "rgba(0, 0, 0, 0.95)"],
   );
 
   const scale = useTransform(scrollY, [0, 100], [1, 0.95]);
@@ -36,7 +36,7 @@ const Header: React.FC = () => {
         className={`
           ${isMobile ? "w-[90%] max-w-[280px] px-4" : "container mx-auto px-6"} 
           py-3 flex justify-between items-center backdrop-blur-lg rounded-full
-          border border-white/10 shadow-lg bg-black/20
+          border border-white/10 shadow-lg bg-black
         `}
       >
         <Link

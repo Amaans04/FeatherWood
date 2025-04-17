@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useParams, Link, useLocation } from "wouter";
 import { useQuery } from "@tanstack/react-query";
-import { Product } from "@shared/schema";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -10,6 +9,27 @@ import { Star, StarHalf, Minus, Plus, Heart, ShoppingCart, ArrowLeft, Check, Tru
 import { useCart } from "@/hooks/useCart";
 import { useWishlist } from "@/hooks/useWishlist";
 import { useToast } from "@/hooks/use-toast";
+
+interface Product {
+  id: string;
+  title: string;
+  price: number;
+  image: string;
+  imageUrls: string[] | null;
+  description: string;
+  material: string | null;
+  dimensions: string | null;
+  color: string | null;
+  inStock: boolean;
+  isNew: boolean;
+  isFeatured: boolean;
+  rating: number | null;
+  salePrice: number | null;
+  category: string;
+  subcategory: string | null;
+  tags: string[] | null;
+  slug: string;
+}
 
 const formatPrice = (price: number): string => {
   return `₹${((price * 83) / 100).toLocaleString('en-IN')}`;
@@ -42,6 +62,7 @@ const ProductDetail: React.FC = () => {
   const { addToCart } = useCart();
   const { toggleWishlist, isInWishlist } = useWishlist();
   const [quantity, setQuantity] = useState(1);
+  const [selectedImage, setSelectedImage] = useState(0);
 
   const { data: product, isLoading, error } = useQuery<Product>({
     queryKey: [`/api/products/${params.slug}`],
@@ -63,7 +84,7 @@ const ProductDetail: React.FC = () => {
       
       toast({
         title: "Added to cart",
-        description: `${product.name} has been added to your cart.`,
+        description: `${product.title} has been added to your cart.`,
       });
     }
   };
@@ -74,7 +95,7 @@ const ProductDetail: React.FC = () => {
       
       toast({
         title: isInWishlist(product.id) ? "Removed from wishlist" : "Added to wishlist",
-        description: `${product.name} has been ${isInWishlist(product.id) ? "removed from" : "added to"} your wishlist.`,
+        description: `${product.title} has been ${isInWishlist(product.id) ? "removed from" : "added to"} your wishlist.`,
       });
     }
   };
@@ -114,21 +135,35 @@ const ProductDetail: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Product Images */}
           <div>
-            <div className="bg-white rounded-lg overflow-hidden">
+            <div className="bg-white rounded-lg overflow-hidden relative group">
               <img 
-                src={product.imageUrls?.[0] || "https://via.placeholder.com/600"} 
-                alt={product.name} 
-                className="w-full h-[500px] object-cover"
+                src={product.imageUrls?.[selectedImage] || product.image} 
+                alt={product.title} 
+                className="w-full h-[500px] object-cover transition-transform duration-300 group-hover:scale-105"
               />
+              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
             </div>
             
-            {/* Additional images would go here */}
+            {/* Thumbnail Gallery */}
             {product.imageUrls && product.imageUrls.length > 1 && (
-              <div className="grid grid-cols-4 gap-2 mt-2">
-                {product.imageUrls.slice(0, 4).map((img, index) => (
-                  <div key={index} className="bg-white rounded-lg overflow-hidden cursor-pointer">
-                    <img src={img} alt={`${product.name} - view ${index + 1}`} className="w-full h-24 object-cover" />
-                  </div>
+              <div className="grid grid-cols-4 gap-2 mt-4">
+                {product.imageUrls.map((img, index) => (
+                  <button
+                    key={index}
+                    onClick={() => setSelectedImage(index)}
+                    className={`relative rounded-lg overflow-hidden cursor-pointer transition-all duration-300 ${
+                      selectedImage === index ? 'ring-2 ring-accent' : 'hover:ring-2 hover:ring-accent/50'
+                    }`}
+                  >
+                    <img 
+                      src={img} 
+                      alt={`${product.title} - view ${index + 1}`} 
+                      className="w-full h-24 object-cover"
+                    />
+                    <div className={`absolute inset-0 transition-colors duration-300 ${
+                      selectedImage === index ? 'bg-accent/20' : 'bg-black/0 hover:bg-black/10'
+                    }`} />
+                  </button>
                 ))}
               </div>
             )}

@@ -3,7 +3,7 @@
     "id": "f001",
     "title": "Modern Lounge Chair",
     "price": 8999,
-    "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3",
+    "image": "/images/furniture/modern-lounge-chair-1.jpg",
     "category": "Living Room",
     "subcategory": "Chairs",
     "tags": ["wood", "modern", "chair"],
@@ -16,9 +16,9 @@
     "isNew": true,
     "isFeatured": true,
     "imageUrls": [
-      "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3",
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1958&auto=format&fit=crop&ixlib=rb-4.0.3",
-      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.0.3"
+      "/images/furniture/modern-lounge-chair-1.jpg",
+      "/images/furniture/modern-lounge-chair-2.jpg",
+      "/images/furniture/modern-lounge-chair-3.jpg"
     ]
   },
   {
@@ -135,7 +135,7 @@
     "id": "f007",
     "title": "Modern Recliner",
     "price": 9499,
-    "image": "https://images.unsplash.com/photo-1593588332546-a6bf3c2f8459?q=80&w=1955&auto=format&fit=crop&ixlib=rb-4.0.3",
+    "image": "/images/furniture/recliner (1).jpeg",
     "category": "Living Room",
     "subcategory": "Recliners",
     "tags": ["leather", "modern", "recliner"],
@@ -148,9 +148,8 @@
     "isNew": true,
     "isFeatured": true,
     "imageUrls": [
-      "https://images.unsplash.com/photo-1593588332546-a6bf3c2f8459?q=80&w=1955&auto=format&fit=crop&ixlib=rb-4.0.3",
-      "https://images.unsplash.com/photo-1596900779744-2bdc4a90509a?q=80&w=1938&auto=format&fit=crop&ixlib=rb-4.0.3",
-      "https://images.unsplash.com/photo-1581784368651-8916092072a3?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3"
+      "/images/furniture/recliner (1).jpeg",
+      "/images/furniture/recliner (2).jpeg"
     ]
   }
 ]
