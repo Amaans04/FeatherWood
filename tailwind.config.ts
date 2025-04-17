@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        playfair: ["Playfair Display", "serif"],
+        poetsen: ["Poetsen One", "cursive"],
         inter: ["Inter", "sans-serif"],
       },
       borderRadius: {
