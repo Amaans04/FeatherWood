@@ -1,0 +1,328 @@
+{
+  "categories": [
+    {
+      "id": "living-room",
+      "title": "Living Room",
+      "description": "Curated living room designs that blend style, comfort, and functionality",
+      "imageUrl": "/design-ideas/living-room-cover.jpg",
+      "items": [
+        {
+          "id": "contemporary-living",
+          "title": "Contemporary Living Room",
+          "subtitle": "Modern elegance with clean lines",
+          "description": "A sophisticated living room featuring neutral palette, sleek furniture, and statement lighting pieces",
+          "heroImage": "/design-ideas/living-room/contemporary-1.jpg",
+          "galleryImages": [
+            {
+              "url": "/design-ideas/living-room/contemporary-2.jpg",
+              "caption": "Minimalist seating arrangement with accent pillows"
+            },
+            {
+              "url": "/design-ideas/living-room/contemporary-3.jpg",
+              "caption": "Statement coffee table with modern art display"
+            },
+            {
+              "url": "/design-ideas/living-room/contemporary-4.jpg",
+              "caption": "Custom entertainment unit with hidden storage"
+            }
+          ],
+          "features": [
+            {
+              "title": "Natural Light Maximization",
+              "description": "Floor-to-ceiling windows with sheer curtains to control light"
+            },
+            {
+              "title": "Custom Storage Solutions",
+              "description": "Hidden storage integrated into furniture pieces for clutter-free spaces"
+            },
+            {
+              "title": "Statement Lighting",
+              "description": "Designer pendant lights and floor lamps for layered illumination"
+            }
+          ],
+          "testimonials": [
+            {
+              "text": "The contemporary design transformed our living room into an elegant space that still feels comfortable for daily family use.",
+              "author": "Preeti Sharma",
+              "location": "Mumbai"
+            }
+          ],
+          "relatedCategories": ["Minimalist", "Urban Contemporary", "Luxury"]
+        },
+        {
+          "id": "traditional-living",
+          "title": "Traditional Indian Living Room",
+          "subtitle": "Heritage-inspired comfort and luxury",
+          "description": "A regal living room that celebrates Indian craftsmanship with ornate details, rich textiles, and classic furniture",
+          "heroImage": "/design-ideas/living-room/traditional-1.jpg",
+          "galleryImages": [
+            {
+              "url": "/design-ideas/living-room/traditional-2.jpg",
+              "caption": "Hand-carved wooden sofa set with silk upholstery"
+            },
+            {
+              "url": "/design-ideas/living-room/traditional-3.jpg",
+              "caption": "Brass accent pieces and traditional wall art"
+            },
+            {
+              "url": "/design-ideas/living-room/traditional-4.jpg",
+              "caption": "Intricate jali partition with embedded lighting"
+            }
+          ],
+          "features": [
+            {
+              "title": "Artisanal Woodwork",
+              "description": "Hand-carved furniture and wall panels featuring traditional motifs"
+            },
+            {
+              "title": "Textile Layering",
+              "description": "Silk cushions, handwoven rugs, and embroidered throws creating texture"
+            },
+            {
+              "title": "Brass & Metal Accents",
+              "description": "Traditional urlis, lamps, and decorative pieces adding subtle shine"
+            }
+          ],
+          "testimonials": [
+            {
+              "text": "Our living room now perfectly balances our love for traditional design with practical modern comforts.",
+              "author": "Rajiv & Meera Patel",
+              "location": "Delhi"
+            }
+          ],
+          "relatedCategories": ["Heritage", "Royal Indian", "Traditional"]
+        }
+      ]
+    },
+    {
+      "id": "kitchen",
+      "title": "Kitchen",
+      "description": "Beautifully designed kitchens that combine functionality with stunning aesthetics",
+      "imageUrl": "/design-ideas/kitchen-cover.jpg",
+      "items": [
+        {
+          "id": "modular-kitchen",
+          "title": "Modern Modular Kitchen",
+          "subtitle": "Sleek efficiency in cooking spaces",
+          "description": "A contemporary kitchen with modular cabinets, integrated appliances, and smart storage solutions",
+          "heroImage": "/design-ideas/kitchen/modular-1.jpg",
+          "galleryImages": [
+            {
+              "url": "/design-ideas/kitchen/modular-2.jpg",
+              "caption": "Pull-out pantry systems with adjustable shelving"
+            },
+            {
+              "url": "/design-ideas/kitchen/modular-3.jpg",
+              "caption": "Handleless cabinets with push-open mechanisms"
+            },
+            {
+              "url": "/design-ideas/kitchen/modular-4.jpg",
+              "caption": "Kitchen island with integrated breakfast counter"
+            }
+          ],
+          "features": [
+            {
+              "title": "Smart Storage",
+              "description": "Specialized compartments for utensils, spices, and kitchen appliances"
+            },
+            {
+              "title": "Quartz Countertops",
+              "description": "Durable, non-porous surfaces that resist stains and are easy to clean"
+            },
+            {
+              "title": "Soft-Close Hardware",
+              "description": "Premium drawer runners and hinges for silent, smooth operation"
+            }
+          ],
+          "testimonials": [
+            {
+              "text": "The modular design made our small kitchen incredibly efficient - everything has its place and is easy to access.",
+              "author": "Ananya Desai",
+              "location": "Pune"
+            }
+          ],
+          "relatedCategories": ["Contemporary", "Space-Saving", "Chef's Kitchen"]
+        },
+        {
+          "id": "semi-open-kitchen",
+          "title": "Semi-Open Kitchen Design",
+          "subtitle": "Connected spaces with defined boundaries",
+          "description": "A semi-open kitchen that maintains connection with living areas while controlling cooking visibility and odors",
+          "heroImage": "/design-ideas/kitchen/semi-open-1.jpg",
+          "galleryImages": [
+            {
+              "url": "/design-ideas/kitchen/semi-open-2.jpg",
+              "caption": "Breakfast counter doubling as partition with living area"
+            },
+            {
+              "url": "/design-ideas/kitchen/semi-open-3.jpg",
+              "caption": "Glass dividers allowing light while containing cooking aromas"
+            },
+            {
+              "url": "/design-ideas/kitchen/semi-open-4.jpg",
+              "caption": "Sliding door system for flexible privacy options"
+            }
+          ],
+          "features": [
+            {
+              "title": "Partial Walls",
+              "description": "Strategic half-height walls or glass partitions separating cooking zones"
+            },
+            {
+              "title": "Multi-functional Island",
+              "description": "Central island serving as workspace, storage, and casual dining area"
+            },
+            {
+              "title": "Powerful Ventilation",
+              "description": "Premium extraction systems to eliminate cooking odors"
+            }
+          ],
+          "testimonials": [
+            {
+              "text": "The semi-open design is perfect for entertaining - I can interact with guests while cooking without exposing the mess.",
+              "author": "Karthik & Lakshmi",
+              "location": "Bangalore"
+            }
+          ],
+          "relatedCategories": ["Family-Friendly", "Entertaining", "Mixed-Use Spaces"]
+        }
+      ]
+    },
+    {
+      "id": "bedroom",
+      "title": "Bedroom",
+      "description": "Serene bedroom designs for rest, relaxation and rejuvenation",
+      "imageUrl": "/design-ideas/bedroom-cover.jpg",
+      "items": [
+        {
+          "id": "master-suite",
+          "title": "Luxury Master Suite",
+          "subtitle": "Elevated comfort with premium finishes",
+          "description": "An opulent master bedroom featuring a king-sized bed, walk-in wardrobe, and attached spa-like bathroom",
+          "heroImage": "/design-ideas/bedroom/master-1.jpg",
+          "galleryImages": [
+            {
+              "url": "/design-ideas/bedroom/master-2.jpg",
+              "caption": "Custom upholstered headboard with integrated lighting"
+            },
+            {
+              "url": "/design-ideas/bedroom/master-3.jpg",
+              "caption": "Walk-in closet with specialized storage sections"
+            },
+            {
+              "url": "/design-ideas/bedroom/master-4.jpg",
+              "caption": "Ensuite bathroom with freestanding tub and rain shower"
+            }
+          ],
+          "features": [
+            {
+              "title": "Premium Bedding Zone",
+              "description": "King-sized bed with hotel-quality mattress and custom linens"
+            },
+            {
+              "title": "Custom Wardrobe System",
+              "description": "Walk-in closet with specialized storage for clothing, accessories, and shoes"
+            },
+            {
+              "title": "Seating Area",
+              "description": "Dedicated relaxation space with reading chair and ottoman"
+            }
+          ],
+          "testimonials": [
+            {
+              "text": "Our master bedroom now feels like a luxury hotel suite - the perfect retreat after a long day.",
+              "author": "Vikram & Nisha Reddy",
+              "location": "Hyderabad"
+            }
+          ],
+          "relatedCategories": ["Luxury", "Spa-like", "Hotel-Inspired"]
+        },
+        {
+          "id": "compact-bedroom",
+          "title": "Space-Optimized Bedroom",
+          "subtitle": "Maximizing comfort in limited square footage",
+          "description": "An ingeniously designed compact bedroom that incorporates storage, study, and sleeping areas without feeling cramped",
+          "heroImage": "/design-ideas/bedroom/compact-1.jpg",
+          "galleryImages": [
+            {
+              "url": "/design-ideas/bedroom/compact-2.jpg",
+              "caption": "Platform bed with built-in drawers and hydraulic storage"
+            },
+            {
+              "url": "/design-ideas/bedroom/compact-3.jpg",
+              "caption": "Wall-mounted desk that folds away when not in use"
+            },
+            {
+              "url": "/design-ideas/bedroom/compact-4.jpg",
+              "caption": "Floor-to-ceiling wardrobe with mirrored doors to amplify space"
+            }
+          ],
+          "features": [
+            {
+              "title": "Multifunctional Furniture",
+              "description": "Bed with integrated storage, foldable desk, and transformable pieces"
+            },
+            {
+              "title": "Vertical Storage",
+              "description": "Wall-mounted shelving and floor-to-ceiling wardrobes maximizing vertical space"
+            },
+            {
+              "title": "Strategic Mirrors",
+              "description": "Mirror placement to create visual spaciousness and amplify light"
+            }
+          ],
+          "testimonials": [
+            {
+              "text": "I never thought my tiny bedroom could feel so spacious and functional. Every inch is utilized without feeling cluttered.",
+              "author": "Aditya Shah",
+              "location": "Mumbai"
+            }
+          ],
+          "relatedCategories": ["Small Spaces", "Urban Living", "Minimalist"]
+        }
+      ]
+    },
+    {
+      "id": "bathroom",
+      "title": "Bathroom",
+      "description": "Functional and stylish bathroom designs for everyday luxury",
+      "imageUrl": "/design-ideas/bathroom-cover.jpg",
+      "items": []
+    },
+    {
+      "id": "dining-room",
+      "title": "Dining Room",
+      "description": "Elegant dining spaces perfect for family meals and entertaining guests",
+      "imageUrl": "/design-ideas/dining-room-cover.jpg",
+      "items": []
+    },
+    {
+      "id": "home-office",
+      "title": "Home Office",
+      "description": "Productive workspace designs that inspire creativity and focus",
+      "imageUrl": "/design-ideas/home-office-cover.jpg",
+      "items": []
+    },
+    {
+      "id": "kids-room",
+      "title": "Kids Room",
+      "description": "Playful and practical children's rooms that grow with your child",
+      "imageUrl": "/design-ideas/kids-room-cover.jpg",
+      "items": []
+    },
+    {
+      "id": "wardrobe",
+      "title": "Wardrobe",
+      "description": "Custom storage solutions to keep your clothes and accessories organized",
+      "imageUrl": "/design-ideas/wardrobe-cover.jpg",
+      "items": []
+    },
+    {
+      "id": "balcony",
+      "title": "Balcony",
+      "description": "Transform your outdoor space into a serene retreat or entertainment area",
+      "imageUrl": "/design-ideas/balcony-cover.jpg",
+      "items": []
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "city": "Mumbai",
+      "addresses": [
+        {
+          "id": "mumbai-bandra",
+          "name": "FeatherWood Bandra",
+          "address": "204, Linking Road, Bandra West",
+          "pincode": "400050",
+          "phone": "+91 9876543210",
+          "email": "bandra@featherwood.com",
+          "hours": "10:00 AM - 8:00 PM",
+          "days": "Monday - Sunday",
+          "coordinates": {
+            "lat": 19.0596,
+            "lng": 72.8295
+          },
+          "features": ["Design Studio", "Consultation Rooms", "Material Library"]
+        },
+        {
+          "id": "mumbai-andheri",
+          "name": "FeatherWood Andheri",
+          "address": "705, Infiniti Mall, Link Road, Andheri West",
+          "pincode": "400053",
+          "phone": "+91 9876543211",
+          "email": "andheri@featherwood.com",
+          "hours": "11:00 AM - 9:00 PM",
+          "days": "Monday - Sunday",
+          "coordinates": {
+            "lat": 19.1364,
+            "lng": 72.8296
+          },
+          "features": ["Design Studio", "Material Library"]
+        },
+        {
+          "id": "mumbai-powai",
+          "name": "FeatherWood Powai",
+          "address": "B-204, Hiranandani Business Park, Powai",
+          "pincode": "400076",
+          "phone": "+91 9876543212",
+          "email": "powai@featherwood.com",
+          "hours": "10:00 AM - 8:00 PM",
+          "days": "Monday - Saturday",
+          "coordinates": {
+            "lat": 19.1176,
+            "lng": 72.9060
+          },
+          "features": ["Design Studio", "Consultation Rooms", "Material Library", "Virtual Reality Experience"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "city": "Delhi",
+      "addresses": [
+        {
+          "id": "delhi-saket",
+          "name": "FeatherWood Saket",
+          "address": "542, Select Citywalk Mall, Saket",
+          "pincode": "110017",
+          "phone": "+91 9876543213",
+          "email": "saket@featherwood.com",
+          "hours": "10:00 AM - 8:00 PM",
+          "days": "Monday - Sunday",
+          "coordinates": {
+            "lat": 28.5292,
+            "lng": 77.2203
+          },
+          "features": ["Design Studio", "Consultation Rooms", "Material Library", "Model Apartments"]
+        },
+        {
+          "id": "delhi-cp",
+          "name": "FeatherWood Connaught Place",
+          "address": "N-42, Inner Circle, Connaught Place",
+          "pincode": "110001",
+          "phone": "+91 9876543214",
+          "email": "cp@featherwood.com",
+          "hours": "10:30 AM - 7:30 PM",
+          "days": "Monday - Saturday",
+          "coordinates": {
+            "lat": 28.6315,
+            "lng": 77.2167
+          },
+          "features": ["Design Studio", "Material Library"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "city": "Bangalore",
+      "addresses": [
+        {
+          "id": "bangalore-indiranagar",
+          "name": "FeatherWood Indiranagar",
+          "address": "306, 100 Feet Road, Indiranagar",
+          "pincode": "560038",
+          "phone": "+91 9876543215",
+          "email": "indiranagar@featherwood.com",
+          "hours": "10:00 AM - 8:00 PM",
+          "days": "Monday - Sunday",
+          "coordinates": {
+            "lat": 12.9784,
+            "lng": 77.6408
+          },
+          "features": ["Design Studio", "Consultation Rooms", "Material Library", "Virtual Reality Experience"]
+        },
+        {
+          "id": "bangalore-whitefield",
+          "name": "FeatherWood Whitefield",
+          "address": "B-201, Phoenix Marketcity, Whitefield",
+          "pincode": "560048",
+          "phone": "+91 9876543216",
+          "email": "whitefield@featherwood.com",
+          "hours": "11:00 AM - 9:00 PM",
+          "days": "Monday - Sunday",
+          "coordinates": {
+            "lat": 12.9971,
+            "lng": 77.7274
+          },
+          "features": ["Design Studio", "Material Library"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "city": "Hyderabad",
+      "addresses": [
+        {
+          "id": "hyderabad-jubilee",
+          "name": "FeatherWood Jubilee Hills",
+          "address": "745, Road No. 36, Jubilee Hills",
+          "pincode": "500033",
+          "phone": "+91 9876543217",
+          "email": "jubilee@featherwood.com",
+          "hours": "10:00 AM - 8:00 PM",
+          "days": "Monday - Sunday",
+          "coordinates": {
+            "lat": 17.4319,
+            "lng": 78.4095
+          },
+          "features": ["Design Studio", "Consultation Rooms", "Material Library", "Model Apartments"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "city": "Pune",
+      "addresses": [
+        {
+          "id": "pune-koregaon",
+          "name": "FeatherWood Koregaon Park",
+          "address": "502, North Main Road, Koregaon Park",
+          "pincode": "411001",
+          "phone": "+91 9876543218",
+          "email": "koregaon@featherwood.com",
+          "hours": "10:00 AM - 8:00 PM",
+          "days": "Monday - Sunday",
+          "coordinates": {
+            "lat": 18.5362,
+            "lng": 73.8939
+          },
+          "features": ["Design Studio", "Consultation Rooms", "Material Library"]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "city": "Chennai",
+      "addresses": [
+        {
+          "id": "chennai-nungambakkam",
+          "name": "FeatherWood Nungambakkam",
+          "address": "301, Khader Nawaz Khan Road, Nungambakkam",
+          "pincode": "600006",
+          "phone": "+91 9876543219",
+          "email": "nungambakkam@featherwood.com",
+          "hours": "10:00 AM - 8:00 PM",
+          "days": "Monday - Saturday",
+          "coordinates": {
+            "lat": 13.0569,
+            "lng": 80.2425
+          },
+          "features": ["Design Studio", "Consultation Rooms", "Material Library"]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "city": "Kolkata",
+      "addresses": [
+        {
+          "id": "kolkata-saltlake",
+          "name": "FeatherWood Salt Lake",
+          "address": "405, Sector 5, Salt Lake City",
+          "pincode": "700091",
+          "phone": "+91 9876543220",
+          "email": "saltlake@featherwood.com",
+          "hours": "10:00 AM - 7:00 PM",
+          "days": "Monday - Saturday",
+          "coordinates": {
+            "lat": 22.5696,
+            "lng": 88.4301
+          },
+          "features": ["Design Studio", "Consultation Rooms", "Material Library"]
+        }
+      ]
+    }
+  ]
+}

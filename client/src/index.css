@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Cormorant+Garamond:wght@300;400;500;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 20 14.3% 4.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 14.3% 4.1%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 14.3% 4.1%;
+  --primary: 45 100% 50%; /* Gold FFD700 */
+  --primary-foreground: 0 0% 0%; /* Black text on gold */
+  --secondary: 0 0% 13.3%; /* Dark Grey #222222 */
+  --secondary-foreground: 0 0% 98%; /* Off-white text on dark grey */
+  --muted: 0 0% 76.9%; /* Light Grey #C4C4C4 */
+  --muted-foreground: 0 0% 96.1%; /* Very light grey text */
+  --accent: 0 0% 13.3%; /* Dark Grey #222222 */
+  --accent-foreground: 0 0% 96.1%; /* Off-white on accent */
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --border: 0 0% 20%; /* Darker border for contrast */
+  --input: 20 5.9% 90%;
+  --ring: 45 100% 50%; /* Gold ring */
+  --radius: 0.25rem; /* Smaller radius for sharper edges */
+}
+
+.dark {
+  --background: 0 0% 4%; /* Black #0A0A0A */
+  --foreground: 0 0% 96.1%; /* Off-white #F5F5F5 */
+  --card: 0 0% 13.3%; /* Dark Grey #222222 */
+  --card-foreground: 0 0% 96.1%; /* Off-white */
+  --popover: 0 0% 13.3%; /* Dark Grey */
+  --popover-foreground: 0 0% 96.1%; /* Off-white */
+  --primary: 45 100% 50%; /* Gold FFD700 */
+  --primary-foreground: 0 0% 0%; /* Black text on gold */
+  --secondary: 0 0% 13.3%; /* Dark Grey #222222 */
+  --secondary-foreground: 0 0% 96.1%; /* Off-white */
+  --muted: 0 0% 76.9%; /* Light Grey #C4C4C4 */
+  --muted-foreground: 0 0% 76.9%; /* Light Grey text */
+  --accent: 0 0% 13.3%; /* Dark Grey */
+  --accent-foreground: 0 0% 96.1%; /* Off-white */
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 0 0% 20%; /* Darker border for better contrast */
+  --input: 240 3.7% 15.9%;
+  --ring: 45 100% 50%; /* Gold ring */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+
+  body {
+    @apply bg-[#0A0A0A] text-[#F5F5F5] font-sans antialiased;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    max-width: 100vw; /* Ensure no content expands beyond viewport width */
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .navbar-item-hover:hover {
+    color: #FFD700;
+    border-bottom: 2px solid #FFD700;
+  }
+
+  .card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+  }
+
+  .image-overlay {
+    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.2), rgba(10, 10, 10, 0.8));
+  }
+
+  .text-shadow {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  }
+
+  .gold-gradient {
+    background: linear-gradient(135deg, #FFD700 0%, #D4AF37 100%);
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}

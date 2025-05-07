@@ -1,0 +1,524 @@
+{
+  "categories": [
+    {
+      "id": "beds",
+      "name": "Beds",
+      "description": "Exquisite beds for a comfortable night's sleep",
+      "image": "/furniture/categories/beds.jpg",
+      "products": [
+        {
+          "id": "luxury-king-bed",
+          "name": "Luxury King Size Bed",
+          "price": 149000,
+          "discountedPrice": 139000,
+          "description": "Indulge in royal comfort with our premium king size bed featuring hand-carved details and sumptuous upholstery.",
+          "details": "Crafted from premium hardwood with a rich walnut finish, this luxurious king-size bed combines traditional craftsmanship with modern comfort. The headboard features intricate hand-carved details inspired by classic Indian motifs, while the premium upholstery in plush velvet adds a touch of opulence. Each bed is handcrafted by skilled artisans using traditional joinery techniques for exceptional durability.",
+          "mainImage": "/furniture/beds/luxury-king-bed.jpg",
+          "dimensions": {
+            "length": 212,
+            "width": 198,
+            "height": 120,
+            "unit": "cm"
+          },
+          "materials": [
+            "Premium hardwood frame",
+            "Velvet upholstery",
+            "Hand-carved details",
+            "Solid wood slats"
+          ],
+          "colors": [
+            "Midnight Blue",
+            "Royal Gold",
+            "Deep Burgundy",
+            "Pearl Grey"
+          ],
+          "gallery": [
+            "/furniture/beds/luxury-king-bed-1.jpg",
+            "/furniture/beds/luxury-king-bed-2.jpg",
+            "/furniture/beds/luxury-king-bed-3.jpg"
+          ],
+          "features": [
+            "Hand-carved headboard",
+            "Premium velvet upholstery",
+            "Solid wood frame construction",
+            "Traditional joinery techniques",
+            "Hidden storage compartments"
+          ],
+          "rating": 4.8,
+          "reviews": 32,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": ["Premium", "Handcrafted", "Traditional", "Storage"]
+        },
+        {
+          "id": "modern-queen-bed",
+          "name": "Modern Queen Platform Bed",
+          "price": 89000,
+          "discountedPrice": 82000,
+          "description": "Minimalist elegance with clean lines and premium materials for the contemporary bedroom.",
+          "details": "This modern queen platform bed combines sleek design with practical functionality. Featuring clean lines and a low profile, the bed creates a sense of space while the premium quality materials ensure durability. The upholstered headboard offers comfortable support for reading or watching TV in bed, while the platform design eliminates the need for a box spring.",
+          "mainImage": "/furniture/beds/modern-queen-bed.jpg",
+          "dimensions": {
+            "length": 210,
+            "width": 165,
+            "height": 100,
+            "unit": "cm"
+          },
+          "materials": [
+            "Engineered wood frame",
+            "Premium leatherette upholstery",
+            "Metal supports",
+            "Solid wood legs"
+          ],
+          "colors": [
+            "Charcoal Grey",
+            "Ivory White",
+            "Taupe"
+          ],
+          "gallery": [
+            "/furniture/beds/modern-queen-bed-1.jpg",
+            "/furniture/beds/modern-queen-bed-2.jpg",
+            "/furniture/beds/modern-queen-bed-3.jpg"
+          ],
+          "features": [
+            "Platform design (no box spring needed)",
+            "Padded headboard",
+            "Sturdy construction",
+            "Easy assembly",
+            "Non-slip support system"
+          ],
+          "rating": 4.6,
+          "reviews": 45,
+          "isNew": false,
+          "isBestseller": true,
+          "tags": ["Modern", "Space-saving", "Contemporary", "Minimalist"]
+        },
+        {
+          "id": "storage-bed",
+          "name": "Hydraulic Storage Bed",
+          "price": 110000,
+          "discountedPrice": 98000,
+          "description": "Maximize your bedroom space with our hydraulic storage bed featuring easy lift mechanism.",
+          "details": "This innovative hydraulic storage bed offers a practical solution for urban homes with limited space. The easy-lift mechanism provides effortless access to ample storage space beneath the sleeping surface. Crafted with attention to both form and function, this bed combines sleek aesthetics with robust construction that will stand the test of time.",
+          "mainImage": "/furniture/beds/storage-bed.jpg",
+          "dimensions": {
+            "length": 210,
+            "width": 165,
+            "height": 90,
+            "unit": "cm"
+          },
+          "materials": [
+            "Engineered wood frame",
+            "Premium fabrics",
+            "Hydraulic pistons",
+            "Metal reinforcements"
+          ],
+          "colors": [
+            "Beige",
+            "Grey",
+            "Navy Blue",
+            "Dusty Rose"
+          ],
+          "gallery": [
+            "/furniture/beds/storage-bed-1.jpg",
+            "/furniture/beds/storage-bed-2.jpg",
+            "/furniture/beds/storage-bed-3.jpg"
+          ],
+          "features": [
+            "Hydraulic lift mechanism",
+            "Ample storage space",
+            "Gas lift hydraulics",
+            "Premium fabric upholstery",
+            "Durable construction"
+          ],
+          "rating": 4.7,
+          "reviews": 52,
+          "isNew": false,
+          "isBestseller": true,
+          "tags": ["Storage", "Space-saving", "Practical", "Urban living"]
+        }
+      ]
+    },
+    {
+      "id": "wardrobes",
+      "name": "Wardrobes",
+      "description": "Elegant storage solutions for your clothes and accessories",
+      "image": "/furniture/categories/wardrobes.jpg",
+      "products": [
+        {
+          "id": "sliding-wardrobe",
+          "name": "Premium Sliding Door Wardrobe",
+          "price": 180000,
+          "discountedPrice": 165000,
+          "description": "Space-efficient wardrobe with smooth sliding doors and customizable interior organization.",
+          "details": "This premium sliding door wardrobe combines elegant aesthetics with practical functionality. The smooth-gliding doors operate on high-quality tracks for silent, effortless operation while maximizing usable floor space. The interior features a thoughtfully designed organization system with adjustable shelves, hanging rails, and specialized compartments that can be customized to your specific storage needs.",
+          "mainImage": "/furniture/wardrobes/sliding-wardrobe.jpg",
+          "dimensions": {
+            "length": 250,
+            "width": 65,
+            "height": 220,
+            "unit": "cm"
+          },
+          "materials": [
+            "Engineered wood with premium veneer",
+            "Toughened glass panels",
+            "High-quality aluminum tracks",
+            "Premium hardware fittings"
+          ],
+          "colors": [
+            "Dark Walnut",
+            "White Oak",
+            "Maple"
+          ],
+          "gallery": [
+            "/furniture/wardrobes/sliding-wardrobe-1.jpg",
+            "/furniture/wardrobes/sliding-wardrobe-2.jpg",
+            "/furniture/wardrobes/sliding-wardrobe-3.jpg"
+          ],
+          "features": [
+            "Smooth sliding mechanism",
+            "Customizable interior",
+            "Soft-close doors",
+            "Premium mirror options",
+            "Adjustable shelving"
+          ],
+          "rating": 4.9,
+          "reviews": 38,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": ["Space-saving", "Customizable", "Modern", "Premium"]
+        },
+        {
+          "id": "walk-in-wardrobe",
+          "name": "Luxury Walk-in Wardrobe System",
+          "price": 350000,
+          "discountedPrice": 320000,
+          "description": "Turn your dressing area into a boutique experience with our custom walk-in wardrobe system.",
+          "details": "Transform your bedroom into a luxury boutique with our custom walk-in wardrobe system. Each system is designed to maximize storage while creating an elegant dressing experience. The modular design allows for complete customization, with specialized storage for clothing, shoes, accessories, and more. Premium lighting illuminates the space while quality materials ensure longevity and sophisticated aesthetics.",
+          "mainImage": "/furniture/wardrobes/walk-in-wardrobe.jpg",
+          "dimensions": {
+            "length": "Custom",
+            "width": "Custom",
+            "height": "Custom",
+            "unit": "cm"
+          },
+          "materials": [
+            "Premium hardwood and veneer",
+            "Toughened glass shelving",
+            "LED lighting systems",
+            "Premium metal hardware"
+          ],
+          "colors": [
+            "Customizable"
+          ],
+          "gallery": [
+            "/furniture/wardrobes/walk-in-wardrobe-1.jpg",
+            "/furniture/wardrobes/walk-in-wardrobe-2.jpg",
+            "/furniture/wardrobes/walk-in-wardrobe-3.jpg"
+          ],
+          "features": [
+            "Fully customizable layout",
+            "Integrated lighting",
+            "Specialized compartments",
+            "Island options",
+            "Premium hardware"
+          ],
+          "rating": 5.0,
+          "reviews": 22,
+          "isNew": true,
+          "isBestseller": false,
+          "tags": ["Luxury", "Custom", "Walk-in", "Premium"]
+        }
+      ]
+    },
+    {
+      "id": "tables",
+      "name": "Tables",
+      "description": "Functional and stylish tables for every room",
+      "image": "/furniture/categories/tables.jpg",
+      "products": [
+        {
+          "id": "marble-coffee-table",
+          "name": "Marble Top Coffee Table",
+          "price": 65000,
+          "discountedPrice": 58000,
+          "description": "Elegant coffee table featuring premium Italian marble top and solid wood base.",
+          "details": "This statement coffee table combines luxurious Italian marble with expertly crafted woodwork for a piece that becomes the centerpiece of any living room. The marble top features unique natural veining patterns that make each table one-of-a-kind, while the solid wood base provides both stability and elegance with its sculptural design. The generous surface area offers ample space for display and entertaining.",
+          "mainImage": "/furniture/tables/marble-coffee-table.jpg",
+          "dimensions": {
+            "length": 120,
+            "width": 70,
+            "height": 45,
+            "unit": "cm"
+          },
+          "materials": [
+            "Italian marble top",
+            "Solid teak wood base",
+            "Brass accents",
+            "Protective coating"
+          ],
+          "colors": [
+            "White Marble/Teak",
+            "Black Marble/Walnut",
+            "Green Marble/Ebony"
+          ],
+          "gallery": [
+            "/furniture/tables/marble-coffee-table-1.jpg",
+            "/furniture/tables/marble-coffee-table-2.jpg",
+            "/furniture/tables/marble-coffee-table-3.jpg"
+          ],
+          "features": [
+            "Natural marble with unique veining",
+            "Solid wood construction",
+            "Protective coating on marble",
+            "Handcrafted details",
+            "Anti-slip floor protectors"
+          ],
+          "rating": 4.7,
+          "reviews": 28,
+          "isNew": false,
+          "isBestseller": true,
+          "tags": ["Luxury", "Natural Materials", "Statement Piece", "Living Room"]
+        },
+        {
+          "id": "extendable-dining-table",
+          "name": "Extendable Dining Table",
+          "price": 120000,
+          "discountedPrice": 105000,
+          "description": "Versatile dining table that extends to accommodate additional guests when needed.",
+          "details": "This intelligently designed dining table adapts to your entertaining needs with a smooth extension mechanism that allows you to host intimate family dinners or larger gatherings with equal ease. The table can be expanded in minutes without requiring additional storage space for table leaves. Crafted from premium materials with attention to detail, this table combines practicality with elegant aesthetics to enhance your dining space.",
+          "mainImage": "/furniture/tables/extendable-dining-table.jpg",
+          "dimensions": {
+            "length": "180-240",
+            "width": 100,
+            "height": 75,
+            "unit": "cm"
+          },
+          "materials": [
+            "Solid hardwood construction",
+            "Premium wood veneer",
+            "High-quality extension mechanism",
+            "Protective finish"
+          ],
+          "colors": [
+            "Natural Oak",
+            "Walnut",
+            "Matte Black"
+          ],
+          "gallery": [
+            "/furniture/tables/extendable-dining-table-1.jpg",
+            "/furniture/tables/extendable-dining-table-2.jpg",
+            "/furniture/tables/extendable-dining-table-3.jpg"
+          ],
+          "features": [
+            "Extends from 6 to 8 seating capacity",
+            "Smooth extension mechanism",
+            "Self-storing extension leaves",
+            "Sturdy construction",
+            "Protective finish"
+          ],
+          "rating": 4.8,
+          "reviews": 36,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": ["Dining", "Extendable", "Versatile", "Family"]
+        }
+      ]
+    },
+    {
+      "id": "chairs",
+      "name": "Chairs",
+      "description": "Comfortable and stylish seating for all purposes",
+      "image": "/furniture/categories/chairs.jpg",
+      "products": [
+        {
+          "id": "accent-chair",
+          "name": "Luxury Accent Chair",
+          "price": 48000,
+          "discountedPrice": 42000,
+          "description": "Make a statement with this elegantly designed accent chair featuring premium fabrics and exceptional craftsmanship.",
+          "details": "This striking accent chair combines artistic design with exceptional comfort to create a statement piece for your living space. The sculptural silhouette features graceful curves and premium upholstery with meticulous detailing. Each chair is individually crafted by skilled artisans using traditional techniques and premium materials to ensure quality and longevity. The chair provides both visual impact and practical comfort, making it perfect for creating a focal point in any room.",
+          "mainImage": "/furniture/chairs/accent-chair.jpg",
+          "dimensions": {
+            "length": 75,
+            "width": 85,
+            "height": 90,
+            "seat height": 45,
+            "unit": "cm"
+          },
+          "materials": [
+            "Solid hardwood frame",
+            "Premium upholstery fabrics",
+            "High-density foam cushioning",
+            "Hand-finished wooden legs"
+          ],
+          "colors": [
+            "Emerald Green Velvet",
+            "Dusty Rose Linen",
+            "Navy Blue Velvet",
+            "Charcoal Grey Bouclé"
+          ],
+          "gallery": [
+            "/furniture/chairs/accent-chair-1.jpg",
+            "/furniture/chairs/accent-chair-2.jpg",
+            "/furniture/chairs/accent-chair-3.jpg"
+          ],
+          "features": [
+            "Statement silhouette",
+            "Premium upholstery",
+            "Handcrafted construction",
+            "Comfortable seating",
+            "Versatile placement options"
+          ],
+          "rating": 4.7,
+          "reviews": 42,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": ["Statement", "Living Room", "Accent", "Comfort"]
+        },
+        {
+          "id": "dining-chair-set",
+          "name": "Modern Dining Chair Set",
+          "price": 85000,
+          "discountedPrice": 72000,
+          "description": "Set of 6 contemporary dining chairs featuring comfortable ergonomic design and durable construction.",
+          "details": "Elevate your dining experience with this set of six modern dining chairs that combine style with practical comfort. The ergonomic design provides proper support for extended dinner conversations, while the quality construction ensures these chairs will stand the test of time. The sleek silhouette features clean lines and thoughtful details that complement contemporary dining settings, while premium materials ensure durability for everyday use.",
+          "mainImage": "/furniture/chairs/dining-chair-set.jpg",
+          "dimensions": {
+            "length": 50,
+            "width": 55,
+            "height": 85,
+            "seat height": 48,
+            "unit": "cm"
+          },
+          "materials": [
+            "Solid wood frame",
+            "Premium upholstery",
+            "High-density foam padding",
+            "Reinforced joinery"
+          ],
+          "colors": [
+            "Warm Grey",
+            "Light Beige",
+            "Black"
+          ],
+          "gallery": [
+            "/furniture/chairs/dining-chair-set-1.jpg",
+            "/furniture/chairs/dining-chair-set-2.jpg",
+            "/furniture/chairs/dining-chair-set-3.jpg"
+          ],
+          "features": [
+            "Set of 6 matching chairs",
+            "Ergonomic back support",
+            "Stain-resistant upholstery",
+            "Comfortable padding",
+            "Sturdy construction"
+          ],
+          "rating": 4.6,
+          "reviews": 28,
+          "isNew": false,
+          "isBestseller": true,
+          "tags": ["Dining", "Set", "Modern", "Comfort"]
+        }
+      ]
+    },
+    {
+      "id": "sofas",
+      "name": "Sofas",
+      "description": "Luxurious sofas and sectionals for ultimate comfort",
+      "image": "/furniture/categories/sofas.jpg",
+      "products": [
+        {
+          "id": "l-shaped-sectional",
+          "name": "Premium L-Shaped Sectional",
+          "price": 225000,
+          "discountedPrice": 195000,
+          "description": "Spacious modular sectional with premium comfort features and versatile configuration options.",
+          "details": "This premium L-shaped sectional combines expansive seating with exceptional comfort and style flexibility. The modular design allows for multiple configurations to suit your space and lifestyle needs. Premium cushioning provides the perfect balance of support and sink-in comfort, while the quality upholstery offers both durability and luxurious feel. Perfect for family gatherings or entertaining, this sectional becomes the heart of your living space.",
+          "mainImage": "/furniture/sofas/l-shaped-sectional.jpg",
+          "dimensions": {
+            "length": 320,
+            "width": 200,
+            "height": 85,
+            "seat height": 45,
+            "unit": "cm"
+          },
+          "materials": [
+            "Hardwood frame",
+            "Premium upholstery options",
+            "High-resilience foam cores",
+            "Feather-blend cushion tops"
+          ],
+          "colors": [
+            "Light Grey",
+            "Navy Blue",
+            "Cream",
+            "Charcoal"
+          ],
+          "gallery": [
+            "/furniture/sofas/l-shaped-sectional-1.jpg",
+            "/furniture/sofas/l-shaped-sectional-2.jpg",
+            "/furniture/sofas/l-shaped-sectional-3.jpg"
+          ],
+          "features": [
+            "Modular design",
+            "Premium comfort cushioning",
+            "Reconfigurable layout",
+            "Durable construction",
+            "Stain-resistant upholstery options"
+          ],
+          "rating": 4.9,
+          "reviews": 45,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": ["Sectional", "Modular", "Family", "Living Room"]
+        },
+        {
+          "id": "three-seater-sofa",
+          "name": "Classic Three-Seater Sofa",
+          "price": 135000,
+          "discountedPrice": 120000,
+          "description": "Timeless three-seater sofa featuring classic design with modern comfort technology.",
+          "details": "This elegant three-seater sofa marries classic design elements with modern comfort technology for a piece that feels both timeless and contemporary. The generous proportions provide ample seating for three adults with plenty of space to relax. Traditional details like rolled arms and tailored upholstery are complemented by modern comfort features including premium cushioning technologies and durable construction methods. This versatile piece works beautifully in both traditional and transitional interiors.",
+          "mainImage": "/furniture/sofas/three-seater-sofa.jpg",
+          "dimensions": {
+            "length": 210,
+            "width": 95,
+            "height": 90,
+            "seat height": 45,
+            "unit": "cm"
+          },
+          "materials": [
+            "Kiln-dried hardwood frame",
+            "Premium fabric upholstery",
+            "Multi-density cushioning",
+            "Sinuous spring support"
+          ],
+          "colors": [
+            "Warm Beige",
+            "Sage Green",
+            "Soft Blue",
+            "Light Grey"
+          ],
+          "gallery": [
+            "/furniture/sofas/three-seater-sofa-1.jpg",
+            "/furniture/sofas/three-seater-sofa-2.jpg",
+            "/furniture/sofas/three-seater-sofa-3.jpg"
+          ],
+          "features": [
+            "Classic design",
+            "Premium comfort technology",
+            "Durable construction",
+            "Tailored upholstery",
+            "Versatile styling"
+          ],
+          "rating": 4.8,
+          "reviews": 36,
+          "isNew": false,
+          "isBestseller": true,
+          "tags": ["Classic", "Three-seater", "Versatile", "Timeless"]
+        }
+      ]
+    }
+  ]
+}
