@@ -99,6 +99,7 @@ export default function Navbar() {
   const { totalItems } = useCart();
   const { user, logout } = useAuth();
   const [isAdmin, setIsAdmin] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
   useEffect(() => {
     const checkAdminStatus = async () => {
@@ -269,68 +270,77 @@ export default function Navbar() {
               {mainNavLinks.map((link, index) => {
                 if (link.hasDropdown) {
                   return (
-                    <DropdownMenu key={index}>
-                      <DropdownMenuTrigger asChild className="focus:outline-none">
-                        <button className="navbar-item-hover py-2 text-[#F5F5F5] text-sm flex items-center focus:outline-none">
-                          {link.text}
-                          <ChevronDown className="ml-1 h-4 w-4" />
-                        </button>
-                      </DropdownMenuTrigger>
-                      <DropdownMenuContent align="center" className="bg-[#222222] border-gray-800">
-                        {link.dropdownItems?.map((item, idx) => (
-                          <DropdownMenuItem key={idx} className="text-[#C4C4C4] hover:text-[#FFD700]">
-                            <LinkWithScroll href={item.href}>{item.text}</LinkWithScroll>
-                          </DropdownMenuItem>
-                        ))}
-                      </DropdownMenuContent>
-                    </DropdownMenu>
-                  );
-                } else if (link.hasPopover) {
-                  return (
-                    <Popover key={index}>
-                      <PopoverTrigger asChild>
-                        <button className="navbar-item-hover py-2 text-[#F5F5F5] text-sm flex items-center focus:outline-none">
-                          {link.text}
-                          <ChevronDown className="ml-1 h-4 w-4" />
-                        </button>
-                      </PopoverTrigger>
-                      <PopoverContent 
-                        className="bg-[#222222] border-gray-800 w-[550px] p-6" 
-                        align="center"
-                      >
-                        <div>
-                          <div className="mb-4 pb-2 border-b border-gray-800">
-                            <h3 className="text-[#FFD700] font-semibold">Design Ideas</h3>
-                          </div>
-                          <div className="grid grid-cols-3 gap-2">
-                            {designCategories.map((category, idx) => (
-                              <LinkWithScroll key={idx} href={category.href}>
-                                <div className="text-[#C4C4C4] hover:text-[#FFD700] text-sm py-1.5 cursor-pointer">
-                                  {category.text}
-                                </div>
-                              </LinkWithScroll>
-                            ))}
-                          </div>
-                          <div className="mt-4 pt-2 border-t border-gray-800 text-center">
-                            <LinkWithScroll href="/design-ideas">
-                              <div className="text-[#FFD700] hover:underline text-sm font-medium cursor-pointer">
-                                View All Design Ideas
+                    <div 
+                      key={index}
+                      className="relative"
+                      onMouseEnter={() => setOpenDropdown(link.text)}
+                      onMouseLeave={() => setOpenDropdown(null)}
+                    >
+                      <button className="navbar-item-hover py-2 text-[#F5F5F5] text-sm flex items-center focus:outline-none">
+                        {link.text}
+                        <ChevronDown className="ml-1 h-4 w-4" />
+                      </button>
+                      {openDropdown === link.text && (
+                        <div className="absolute top-full left-0 mt-1 w-48 bg-[#222222] border border-gray-800 rounded-md shadow-lg">
+                          {link.dropdownItems?.map((item, idx) => (
+                            <LinkWithScroll key={idx} href={item.href}>
+                              <div className="px-4 py-2 text-[#C4C4C4] hover:text-[#FFD700] hover:bg-[#2A2A2A] cursor-pointer">
+                                {item.text}
                               </div>
                             </LinkWithScroll>
-                          </div>
+                          ))}
                         </div>
-                      </PopoverContent>
-                    </Popover>
-                  );
-                } else {
-                  return (
-                    <LinkWithScroll key={index} href={link.href}>
-                      <div className="navbar-item-hover py-2 text-[#F5F5F5] text-sm cursor-pointer">
-                        {link.text}
-                      </div>
-                    </LinkWithScroll>
+                      )}
+                    </div>
                   );
                 }
+                if (link.hasPopover) {
+                  return (
+                    <div 
+                      key={index}
+                      className="relative"
+                      onMouseEnter={() => setOpenDropdown(link.text)}
+                      onMouseLeave={() => setOpenDropdown(null)}
+                    >
+                      <button className="navbar-item-hover py-2 text-[#F5F5F5] text-sm flex items-center focus:outline-none">
+                        {link.text}
+                        <ChevronDown className="ml-1 h-4 w-4" />
+                      </button>
+                      {openDropdown === link.text && (
+                        <div className="absolute top-full left-0 mt-1 w-[550px] bg-[#222222] border border-gray-800 rounded-md shadow-lg p-6">
+                          <div>
+                            <div className="mb-4 pb-2 border-b border-gray-800">
+                              <h3 className="text-[#FFD700] font-semibold">Design Ideas</h3>
+                            </div>
+                            <div className="grid grid-cols-3 gap-2">
+                              {designCategories.map((category, idx) => (
+                                <LinkWithScroll key={idx} href={category.href}>
+                                  <div className="text-[#C4C4C4] hover:text-[#FFD700] text-sm py-1.5 cursor-pointer">
+                                    {category.text}
+                                  </div>
+                                </LinkWithScroll>
+                              ))}
+                            </div>
+                            <div className="mt-4 pt-2 border-t border-gray-800 text-center">
+                              <LinkWithScroll href="/design-ideas">
+                                <div className="text-[#FFD700] hover:underline text-sm font-medium cursor-pointer">
+                                  View All Design Ideas
+                                </div>
+                              </LinkWithScroll>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  );
+                }
+                return (
+                  <LinkWithScroll key={index} href={link.href}>
+                    <div className="navbar-item-hover py-2 text-[#F5F5F5] text-sm cursor-pointer">
+                      {link.text}
+                    </div>
+                  </LinkWithScroll>
+                );
               })}
             </div>
 

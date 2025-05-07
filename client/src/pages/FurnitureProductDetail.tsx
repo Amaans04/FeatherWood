@@ -39,8 +39,60 @@ import QuantityControl from '@/components/QuantityControl';
 import { useCart } from '@/contexts/CartContext';
 import { motion } from 'framer-motion';
 
-// Import furniture data
+// Add type definitions
+interface Dimensions {
+  length: number;
+  width: number;
+  height: number;
+  seat_height?: number;
+  unit: string;
+}
+
+interface ProductVariant {
+  size: string;
+  price: number;
+  discountedPrice: number;
+  dimensions: Dimensions;
+  mainImage: string;
+  gallery: string[];
+}
+
+interface Product {
+  id: string;
+  name: string;
+  price: number;
+  discountedPrice: number;
+  description: string;
+  details: string;
+  mainImage: string;
+  dimensions: Dimensions;
+  materials: string[];
+  colors: string[];
+  gallery?: string[];
+  features: string[];
+  rating: number;
+  reviews: number;
+  isNew: boolean;
+  isBestseller: boolean;
+  tags: string[];
+  variants?: ProductVariant[];
+}
+
+interface Category {
+  id: string;
+  name: string;
+  description: string;
+  image: string;
+  products: Product[];
+}
+
+interface FurnitureData {
+  categories: Category[];
+}
+
+// Import furniture data with type assertion
 import furnitureData from '@/data/furniture.json';
+const typedFurnitureData = furnitureData as FurnitureData;
 
 export default function FurnitureProductDetail() {
   // Extract category and product IDs from the URL
@@ -49,12 +101,13 @@ export default function FurnitureProductDetail() {
   const productId = params?.productId;
   
   // Find the category and product
-  const category = furnitureData.categories.find(cat => cat.id === categoryId);
+  const category = typedFurnitureData.categories.find(cat => cat.id === categoryId);
   const product = category?.products.find(prod => prod.id === productId);
   
   // State for selected options
   const [selectedColor, setSelectedColor] = useState(product?.colors?.[0] || '');
-  const [mainImage, setMainImage] = useState(product?.mainImage || '');
+  const [selectedVariant, setSelectedVariant] = useState<ProductVariant | null>(product?.variants?.[0] || null);
+  const [mainImage, setMainImage] = useState(product?.variants?.[0]?.mainImage || product?.mainImage || '');
   const [quantity, setQuantity] = useState(1);
   
   // Cart context
@@ -72,9 +125,12 @@ export default function FurnitureProductDetail() {
   // Calculate discount percentage
   const calculateDiscount = () => {
     if (!product) return 0;
-    if (product.price === product.discountedPrice) return 0;
+    const currentPrice = selectedVariant?.price || product.price;
+    const currentDiscountedPrice = selectedVariant?.discountedPrice || product.discountedPrice;
     
-    const discount = ((product.price - product.discountedPrice) / product.price) * 100;
+    if (currentPrice === currentDiscountedPrice) return 0;
+    
+    const discount = ((currentPrice - currentDiscountedPrice) / currentPrice) * 100;
     return Math.round(discount);
   };
   
@@ -86,11 +142,17 @@ export default function FurnitureProductDetail() {
     for (let i = 0; i < quantity; i++) {
       addToCart({
         id: product.id,
-        name: product.name,
-        price: product.discountedPrice,
-        image: product.mainImage
+        name: `${product.name} - ${selectedVariant?.size || ''}`,
+        price: selectedVariant?.discountedPrice || product.discountedPrice,
+        image: selectedVariant?.mainImage || product.mainImage
       });
     }
+  };
+  
+  // Handle variant selection
+  const handleVariantSelect = (variant: ProductVariant) => {
+    setSelectedVariant(variant);
+    setMainImage(variant.mainImage);
   };
   
   // Handle WhatsApp inquiry
@@ -100,10 +162,11 @@ export default function FurnitureProductDetail() {
     // Create a message with product details
     const message = `Hello FeatherWood, I'm interested in the following product:\n\n` +
       `*${product.name}*\n` +
-      `Price: ${formatPrice(product.discountedPrice)}\n` +
+      `Price: ${formatPrice(selectedVariant?.discountedPrice || product.discountedPrice)}\n` +
       `Category: ${category?.name}\n` +
-      `Color: ${selectedColor}\n\n` +
-      `Product ID: ${product.id}\n` +
+      `Color: ${selectedColor}\n` +
+      `Size: ${selectedVariant?.size || ''}` +
+      `\nProduct ID: ${product.id}\n` +
       `URL: ${window.location.href}`;
     
     // Encode the message for URL
@@ -222,17 +285,17 @@ export default function FurnitureProductDetail() {
                 {/* Image Gallery */}
                 <div className="grid grid-cols-4 gap-2">
                   <div 
-                    className={`bg-[#222222] rounded-sm overflow-hidden cursor-pointer transition-all ${mainImage === product.mainImage ? 'ring-2 ring-[#FFD700]' : ''}`}
-                    onClick={() => handleImageClick(product.mainImage)}
+                    className={`bg-[#222222] rounded-sm overflow-hidden cursor-pointer transition-all ${mainImage === (selectedVariant?.mainImage || product.mainImage) ? 'ring-2 ring-[#FFD700]' : ''}`}
+                    onClick={() => handleImageClick(selectedVariant?.mainImage || product.mainImage)}
                   >
                     <img 
-                      src={product.mainImage} 
+                      src={selectedVariant?.mainImage || product.mainImage} 
                       alt={`${product.name} - Main`}
                       className="w-full h-20 object-cover"
                     />
                   </div>
                   
-                  {product.gallery && product.gallery.map((image, index) => (
+                  {selectedVariant?.gallery?.map((image: string, index: number) => (
                     <div 
                       key={index}
                       className={`bg-[#222222] rounded-sm overflow-hidden cursor-pointer transition-all ${mainImage === image ? 'ring-2 ring-[#FFD700]' : ''}`}
@@ -278,14 +341,52 @@ export default function FurnitureProductDetail() {
                 
                 {/* Product price */}
                 <div className="flex items-baseline mb-4">
-                  <span className="text-[#FFD700] font-bold text-2xl md:text-3xl">{formatPrice(product.discountedPrice)}</span>
-                  {product.price > product.discountedPrice && (
-                    <span className="ml-3 text-[#888] line-through text-lg">{formatPrice(product.price)}</span>
+                  <span className="text-[#FFD700] font-bold text-2xl md:text-3xl">
+                    {formatPrice(selectedVariant?.discountedPrice || product.discountedPrice)}
+                  </span>
+                  {(selectedVariant?.price || product.price) > (selectedVariant?.discountedPrice || product.discountedPrice) && (
+                    <span className="ml-3 text-[#888] line-through text-lg">
+                      {formatPrice(selectedVariant?.price || product.price)}
+                    </span>
                   )}
                 </div>
                 
                 {/* Product description */}
                 <p className="text-[#C4C4C4] mb-6">{product.description}</p>
+                
+                {/* Size variants */}
+                {product?.variants && product.variants.length > 0 && (
+                  <div className="mb-6">
+                    <h3 className="text-white font-semibold mb-2">Size</h3>
+                    <RadioGroup 
+                      defaultValue={product.variants[0].size} 
+                      onValueChange={(value) => {
+                        const variant = product.variants?.find(v => v.size === value);
+                        if (variant) {
+                          handleVariantSelect(variant);
+                        }
+                      }} 
+                      value={selectedVariant?.size}
+                      className="flex flex-wrap gap-2"
+                    >
+                      {product.variants.map((variant: ProductVariant, index: number) => (
+                        <div key={index} className="flex items-center space-x-2">
+                          <RadioGroupItem 
+                            value={variant.size} 
+                            id={`size-${index}`} 
+                            className="peer sr-only" 
+                          />
+                          <Label 
+                            htmlFor={`size-${index}`}
+                            className="flex items-center space-x-2 rounded-md border border-[#333] p-2 cursor-pointer peer-data-[state=checked]:border-[#FFD700] hover:bg-[#222222]"
+                          >
+                            <span>{variant.size}</span>
+                          </Label>
+                        </div>
+                      ))}
+                    </RadioGroup>
+                  </div>
+                )}
                 
                 {/* Color selection */}
                 {product.colors && product.colors.length > 0 && (
@@ -443,13 +544,13 @@ export default function FurnitureProductDetail() {
                       <div>
                         <h4 className="text-[#FFD700] font-medium mb-2">Dimensions</h4>
                         <ul className="space-y-2">
-                          {product.dimensions && Object.entries(product.dimensions).map(([key, value]) => {
+                          {selectedVariant?.dimensions && Object.entries(selectedVariant.dimensions).map(([key, value]) => {
                             if (key === 'unit') return null;
                             return (
                               <li key={key} className="flex justify-between border-b border-[#333] pb-1">
                                 <span className="text-[#C4C4C4] capitalize">{key}</span>
                                 <span className="text-white">
-                                  {value} {product.dimensions.unit}
+                                  {value} {selectedVariant.dimensions.unit}
                                 </span>
                               </li>
                             );

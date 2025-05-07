@@ -48,7 +48,12 @@
           "reviews": 32,
           "isNew": true,
           "isBestseller": true,
-          "tags": ["Premium", "Handcrafted", "Traditional", "Storage"]
+          "tags": [
+            "Premium",
+            "Handcrafted",
+            "Traditional",
+            "Storage"
+          ]
         },
         {
           "id": "modern-queen-bed",
@@ -91,7 +96,12 @@
           "reviews": 45,
           "isNew": false,
           "isBestseller": true,
-          "tags": ["Modern", "Space-saving", "Contemporary", "Minimalist"]
+          "tags": [
+            "Modern",
+            "Space-saving",
+            "Contemporary",
+            "Minimalist"
+          ]
         },
         {
           "id": "storage-bed",
@@ -135,7 +145,12 @@
           "reviews": 52,
           "isNew": false,
           "isBestseller": true,
-          "tags": ["Storage", "Space-saving", "Practical", "Urban living"]
+          "tags": [
+            "Storage",
+            "Space-saving",
+            "Practical",
+            "Urban living"
+          ]
         }
       ]
     },
@@ -186,7 +201,12 @@
           "reviews": 38,
           "isNew": true,
           "isBestseller": true,
-          "tags": ["Space-saving", "Customizable", "Modern", "Premium"]
+          "tags": [
+            "Space-saving",
+            "Customizable",
+            "Modern",
+            "Premium"
+          ]
         },
         {
           "id": "walk-in-wardrobe",
@@ -227,7 +247,12 @@
           "reviews": 22,
           "isNew": true,
           "isBestseller": false,
-          "tags": ["Luxury", "Custom", "Walk-in", "Premium"]
+          "tags": [
+            "Luxury",
+            "Custom",
+            "Walk-in",
+            "Premium"
+          ]
         }
       ]
     },
@@ -278,7 +303,12 @@
           "reviews": 28,
           "isNew": false,
           "isBestseller": true,
-          "tags": ["Luxury", "Natural Materials", "Statement Piece", "Living Room"]
+          "tags": [
+            "Luxury",
+            "Natural Materials",
+            "Statement Piece",
+            "Living Room"
+          ]
         },
         {
           "id": "extendable-dining-table",
@@ -321,7 +351,12 @@
           "reviews": 36,
           "isNew": true,
           "isBestseller": true,
-          "tags": ["Dining", "Extendable", "Versatile", "Family"]
+          "tags": [
+            "Dining",
+            "Extendable",
+            "Versatile",
+            "Family"
+          ]
         }
       ]
     },
@@ -374,7 +409,12 @@
           "reviews": 42,
           "isNew": true,
           "isBestseller": true,
-          "tags": ["Statement", "Living Room", "Accent", "Comfort"]
+          "tags": [
+            "Statement",
+            "Living Room",
+            "Accent",
+            "Comfort"
+          ]
         },
         {
           "id": "dining-chair-set",
@@ -418,7 +458,12 @@
           "reviews": 28,
           "isNew": false,
           "isBestseller": true,
-          "tags": ["Dining", "Set", "Modern", "Comfort"]
+          "tags": [
+            "Dining",
+            "Set",
+            "Modern",
+            "Comfort"
+          ]
         }
       ]
     },
@@ -428,6 +473,204 @@
       "description": "Luxurious sofas and sectionals for ultimate comfort",
       "image": "/furniture/categories/sofas.jpg",
       "products": [
+        
+        {
+          "id": "Classic Grey Sofa",
+          "name": "Classic Grey Sofa",
+          "price": 75000,
+          "discountedPrice": 29000,
+          "mainImage": "/furniture/sofas/ClassicGreySofa/ClassicSofa-1.jpg",
+          "description": "Timeless sofa featuring classic design with modern comfort technology.",
+          "details": "This elegant sofa marries classic design elements with modern comfort technology for a piece that feels both timeless and contemporary. Traditional details like rolled arms and tailored upholstery are complemented by modern comfort features including premium cushioning technologies and durable construction methods. This versatile piece works beautifully in both traditional and transitional interiors.",
+          "variants": [
+            {
+              "size": "1-Seater",
+              "price": 35000,
+              "discountedPrice": 29000,
+              "dimensions": {
+                "length": 160,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/ClassicGreySofa/ClassicSofa-3.jpg",
+              "gallery": [
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-1.jpg",
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-4.jpg",
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-5.jpg"
+              ]
+            },
+            {
+              "size": "2-Seater",
+              "price": 60000,
+              "discountedPrice": 54000,
+              "dimensions": {
+                "length": 160,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/ClassicGreySofa/ClassicSofa-4.jpg",
+              "gallery": [
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-1.jpg",
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-3.jpg",
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-5.jpg"
+              ]
+            },
+            {
+              "size": "3-Seater",
+              "price": 85000,
+              "discountedPrice": 78000,
+              "dimensions": {
+                "length": 210,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/ClassicGreySofa/ClassicSofa-1.jpg",
+              "gallery": [
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-3.jpg",
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-4.jpg",
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-5.jpg"
+              ]
+            },
+            {
+              "size": "L Shape",
+              "price": 125000,
+              "discountedPrice": 118000,
+              "dimensions": {
+                "length": 210,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/ClassicGreySofa/ClassicSofa-5.jpg",
+              "gallery": [
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-1.jpg",
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-3.jpg",
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-4.jpg"
+              ]
+            }
+          ],
+          "materials": [
+            "Kiln-dried hardwood frame",
+            "Premium fabric upholstery",
+            "Multi-density cushioning",
+            "Sinuous spring support"
+          ],
+          "colors": [
+            "Light Grey"
+          ],
+          "features": [
+            "Classic design",
+            "Premium comfort technology",
+            "Durable construction",
+            "Tailored upholstery",
+            "Versatile styling"
+          ],
+          "rating": 4.9,
+          "reviews": 55,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": [
+            "Classic",
+            "royal",
+            "Modern",
+            "Comfort",
+            "Versatile",
+            "Timeless"
+          ]
+        },
+        {
+          "id": "Classic Blue Sofa",
+          "name": "Classic Blue Sofa",
+          "price": 75000,
+          "discountedPrice": 29000,
+          "description": "Timeless sofa featuring classic design with modern comfort technology.",
+          "details": "This elegant sofa marries classic design elements with modern comfort technology for a piece that feels both timeless and contemporary. Traditional details like rolled arms and tailored upholstery are complemented by modern comfort features including premium cushioning technologies and durable construction methods. This versatile piece works beautifully in both traditional and transitional interiors.",
+          "mainImage": "/furniture/sofas/ClassicBlueSofa/ClassicBlue-1.jpg",
+          "variants": [
+            {
+              "size": "1-Seater",
+              "price": 25000,
+              "discountedPrice": 18000,
+              "dimensions": {
+                "length": 210,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/ClassicBlueSofa/ClassicBlue-2.jpg",
+              "gallery": [
+                "/furniture/sofas/ClassicBlueSofa/ClassicBlue-3.jpg"
+              ]
+            },
+            {
+              "size": "2-Seater",
+              "price": 45000,
+              "discountedPrice": 32000,
+              "dimensions": {
+                "length": 210,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/ClassicBlueSofa/ClassicBlue-2.jpg",
+              "gallery": [
+                "/furniture/sofas/ClassicBlueSofa/ClassicBlue-1.jpg",
+                "/furniture/sofas/ClassicBlueSofa/ClassicBlue-3.jpg"
+              ]
+            },
+            {
+              "size": "3-Seater",
+              "price": 50000,
+              "discountedPrice": 48000,
+              "dimensions": {
+                "length": 210,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/ClassicBlueSofa/ClassicBlue-3.jpg",
+              "gallery": [
+                "/furniture/sofas/ClassicBlueSofa/ClassicBlue-1.jpg",
+                "/furniture/sofas/ClassicBlueSofa/ClassicBlue-2.jpg"
+              ]
+            }
+          ],
+          "materials": [
+            "Kiln-dried hardwood frame",
+            "Premium fabric upholstery",
+            "Multi-density cushioning",
+            "Sinuous spring support"
+          ],
+          "colors": [
+            "Royal Blue"
+          ],
+          "features": [
+            "Classic design",
+            "Premium comfort technology",
+            "Durable construction",
+            "Tailored upholstery",
+            "Versatile styling"
+          ],
+          "rating": 4.8,
+          "reviews": 36,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": [
+            "Classic",
+            "Versatile",
+            "Timeless"
+          ]
+        },
         {
           "id": "l-shaped-sectional",
           "name": "Premium L-Shaped Sectional",
@@ -471,52 +714,12 @@
           "reviews": 45,
           "isNew": true,
           "isBestseller": true,
-          "tags": ["Sectional", "Modular", "Family", "Living Room"]
-        },
-        {
-          "id": "three-seater-sofa",
-          "name": "Classic Three-Seater Sofa",
-          "price": 135000,
-          "discountedPrice": 120000,
-          "description": "Timeless three-seater sofa featuring classic design with modern comfort technology.",
-          "details": "This elegant three-seater sofa marries classic design elements with modern comfort technology for a piece that feels both timeless and contemporary. The generous proportions provide ample seating for three adults with plenty of space to relax. Traditional details like rolled arms and tailored upholstery are complemented by modern comfort features including premium cushioning technologies and durable construction methods. This versatile piece works beautifully in both traditional and transitional interiors.",
-          "mainImage": "/furniture/sofas/three-seater-sofa.jpg",
-          "dimensions": {
-            "length": 210,
-            "width": 95,
-            "height": 90,
-            "seat height": 45,
-            "unit": "cm"
-          },
-          "materials": [
-            "Kiln-dried hardwood frame",
-            "Premium fabric upholstery",
-            "Multi-density cushioning",
-            "Sinuous spring support"
-          ],
-          "colors": [
-            "Warm Beige",
-            "Sage Green",
-            "Soft Blue",
-            "Light Grey"
-          ],
-          "gallery": [
-            "/furniture/sofas/three-seater-sofa-1.jpg",
-            "/furniture/sofas/three-seater-sofa-2.jpg",
-            "/furniture/sofas/three-seater-sofa-3.jpg"
-          ],
-          "features": [
-            "Classic design",
-            "Premium comfort technology",
-            "Durable construction",
-            "Tailored upholstery",
-            "Versatile styling"
-          ],
-          "rating": 4.8,
-          "reviews": 36,
-          "isNew": false,
-          "isBestseller": true,
-          "tags": ["Classic", "Three-seater", "Versatile", "Timeless"]
+          "tags": [
+            "Sectional",
+            "Modular",
+            "Family",
+            "Living Room"
+          ]
         }
       ]
     }

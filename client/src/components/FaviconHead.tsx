@@ -6,7 +6,7 @@ interface FaviconHeadProps {
 }
 
 export default function FaviconHead({ 
-  title = "FeatherWood - Luxury Interior Design",
+  title = "FeatherWood | Affordable Luxury Interiors",
   description = "Luxury interior design solutions for discerning clients who appreciate exceptional craftsmanship and timeless elegance."
 }: FaviconHeadProps) {
   return (
