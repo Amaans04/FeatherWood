@@ -123,6 +123,14 @@ export default function Footer() {
                 <MapPin className="text-[#FFD700] mt-1 mr-3" size={18} />
                 <div className="text-[#C4C4C4]">
                   <p className="font-medium mb-1">Showroom 1:</p>
+                  <p>Siddapura, Varthur Main Road</p>
+                  <p>Bengaluru - 560066</p>
+                </div>
+              </li>
+              <li className="flex items-start">
+                <MapPin className="text-[#FFD700] mt-1 mr-3" size={18} />
+                <div className="text-[#C4C4C4]">
+                  <p className="font-medium mb-1">Showroom 2:</p>
                   <p>Kadugodi, Whitefield</p>
                   <p>Bengaluru - 560067</p>
                 </div>
@@ -130,9 +138,9 @@ export default function Footer() {
               <li className="flex items-start">
                 <MapPin className="text-[#FFD700] mt-1 mr-3" size={18} />
                 <div className="text-[#C4C4C4]">
-                  <p className="font-medium mb-1">Showroom 2:</p>
-                  <p>Siddapura, Varthur Main Road</p>
-                  <p>Bengaluru - 560066</p>
+                  <p className="font-medium mb-1">Studio:</p>
+                  <p>Borewell Road, Whitefield</p>
+                  <p>Bangalore - 560066</p>
                 </div>
               </li>
               <li className="flex items-start">

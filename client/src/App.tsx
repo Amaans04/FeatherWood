@@ -1,6 +1,7 @@
 import { Route, Switch } from "wouter";
 import { Toaster } from "@/components/ui/toaster";
 import EntryAnimation from "@/components/EntryAnimation";
+import ScrollToTop from "@/components/ScrollToTop";
 import Home from "@/pages/Home";
 import Furniture from "@/pages/Furniture";
 import Cart from "@/pages/Cart";
@@ -41,6 +42,7 @@ function App() {
         <CartProvider>
           <Toaster />
           <EntryAnimation />
+          <ScrollToTop />
           <Switch>
             <Route path="/" component={Home} />
             <Route path="/furniture" component={Furniture} />
