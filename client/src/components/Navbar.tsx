@@ -67,11 +67,12 @@ const mainNavLinks: NavLink[] = [
     href: "/furniture",
     hasDropdown: true,
     dropdownItems: [
+      { text: "Sofas", href: "/furniture/sofas" },
+      { text: "Dining Tables", href: "/furniture/dining-tables" },
       { text: "Beds", href: "/furniture/beds" },
       { text: "Wardrobes", href: "/furniture/wardrobes" },
       { text: "Tables", href: "/furniture/tables" },
       { text: "Chairs", href: "/furniture/chairs" },
-      { text: "Sofas", href: "/furniture/sofas" },
       { text: "All Furniture", href: "/furniture" }
     ]
   },

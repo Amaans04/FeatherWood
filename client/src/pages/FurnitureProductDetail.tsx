@@ -295,7 +295,7 @@ export default function FurnitureProductDetail() {
                     />
                   </div>
                   
-                  {selectedVariant?.gallery?.map((image: string, index: number) => (
+                  {(selectedVariant?.gallery || product.gallery)?.map((image: string, index: number) => (
                     <div 
                       key={index}
                       className={`bg-[#222222] rounded-sm overflow-hidden cursor-pointer transition-all ${mainImage === image ? 'ring-2 ring-[#FFD700]' : ''}`}
