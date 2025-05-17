@@ -398,6 +398,61 @@
             "Versatile",
             "Timeless"
           ]
+        },
+        {
+          "id": "Bentley_Sectional_Sofa",
+          "name": "Bentley Sectional Sofa",
+          "price": 236000,
+          "discountedPrice": 165200,
+          "description": "Elegant corner sectional sofa with wood accents for a warm, space-optimizing seating solution.",
+          "details": "The Bentley Sectional Sofa is a stunning addition to any living space. Crafted with precision and attention to detail, this sectional sofa offers both style and functionality.Featuring a corner design, the Bentley Sectional optimizes your space by providing ample seating while fitting snugly into any corner of the room. The wood accents add a touch of natural elegance, showcasing the beauty of the wood grain and bringing a warm and inviting atmosphere to your home.",
+          "mainImage": "/furniture/sofas/BentleySofa/Bentley-6.webp",
+          "variants": [
+            {
+              "size": "L-Shaped",
+              "price": 48000,
+              "discountedPrice": 38400,
+              "dimensions": {
+                "length": 9.5,
+                "width": 6.5,
+                "unit": "Ft"
+              },
+              "mainImage": "/furniture/sofas/BentleySofa/Bentley-4.webp",
+              "gallery": [
+                "/furniture/sofas/BentleySofa/Bentley-3.webp",
+                "/furniture/sofas/BentleySofa/Bentley-5.webp",
+                "/furniture/sofas/BentleySofa/Bentley-6.webp",
+                "/furniture/sofas/BentleySofa/Bentley-4.webp",
+                "/furniture/sofas/BentleySofa/Bentley-1.webp",
+                "/furniture/sofas/BentleySofa/Bentley-2.webp"
+              ]
+            }
+          ],
+          "materials": [
+            "Base-Teakwood",
+            "Polish-Golden Teak",
+            "Fabric-Brookley"
+          ],
+          "colors": [
+            "Ivory Cream",
+            "Champagne Gold"
+          ],
+          "features": [
+            "Classic design",
+            "Premium comfort technology",
+            "Durable construction",
+            "Tailored upholstery",
+            "Versatile styling"
+          ],
+          "rating": 4.8,
+          "reviews": 36,
+          "isNew": true,
+          "isBestseller": false,
+          "tags": [
+            "Classic",
+            "Versatile",
+            "Timeless"
+          ]
         }
       ]
     },
@@ -477,6 +532,49 @@
            "/furniture/dining-tables/Elantra/Elantra-1.webp",
             "/furniture/dining-tables/Elantra/Elantra-2.webp",
             "/furniture/dining-tables/Elantra/Elantra-3.webp"
+          ],
+          "features": [
+            "Seats 6 people",
+            "Natural marble with unique veining",
+            "Sturdy metal construction",
+            "Easy to clean surface",
+            "Modern minimalist design"
+          ],
+          "rating": 4.9,
+          "reviews": 42,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": [
+            "Modern",
+            "Luxury",
+            "Marble",
+            "Dining Room"
+          ]
+        },
+        {
+          "id": "Model-Saturn_6_Seater_Dining",
+          "name": "Model-Saturn 6 Seater Dining Set",
+          "price": 195000,
+          "discountedPrice": 156000,
+          "description": "Contemporary dining table featuring premium marble top and sleek metal base.",
+          "details": "This stunning dining table combines the timeless elegance of marble with modern design elements. The premium marble top features unique natural veining patterns that make each table one-of-a-kind, while the sleek metal base provides both stability and contemporary style. Perfect for both intimate family dinners and larger gatherings.",
+          "mainImage": "/furniture/dining-tables/Saturn/Saturn-3.webp",
+          "dimensions": {
+            "length": 6,
+            "width": 3,
+            "height": 3,
+            "unit": "Ft"
+          },
+          "materials": [
+            "Base-Klin dried Wood",
+            "Top-Italian Marble"
+          ],
+          "colors": [
+            "Imperial Ivory"
+          ],
+          "gallery": [
+           "/furniture/dining-tables/Saturn/Saturn-2.webp",
+           "/furniture/dining-tables/Saturn/Saturn-3.webp"
           ],
           "features": [
             "Seats 6 people",
