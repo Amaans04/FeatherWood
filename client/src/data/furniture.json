@@ -552,13 +552,13 @@
           ]
         },
         {
-          "id": "Model-Saturn_6_Seater_Dining",
-          "name": "Model-Saturn 6 Seater Dining Set",
+          "id": "Saturn_6_Seater_Dining",
+          "name": "Saturn 6 Seater Dining Set",
           "price": 195000,
           "discountedPrice": 156000,
           "description": "Contemporary dining table featuring premium marble top and sleek metal base.",
           "details": "This stunning dining table combines the timeless elegance of marble with modern design elements. The premium marble top features unique natural veining patterns that make each table one-of-a-kind, while the sleek metal base provides both stability and contemporary style. Perfect for both intimate family dinners and larger gatherings.",
-          "mainImage": "/furniture/dining-tables/Saturn/Saturn-3.webp",
+          "mainImage": "/furniture/dining-tables/Saturn/Saturn-1.webp",
           "dimensions": {
             "length": 6,
             "width": 3,
@@ -575,6 +575,94 @@
           "gallery": [
            "/furniture/dining-tables/Saturn/Saturn-2.webp",
            "/furniture/dining-tables/Saturn/Saturn-3.webp"
+          ],
+          "features": [
+            "Seats 6 people",
+            "Natural marble with unique veining",
+            "Sturdy metal construction",
+            "Easy to clean surface",
+            "Modern minimalist design"
+          ],
+          "rating": 4.9,
+          "reviews": 42,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": [
+            "Modern",
+            "Luxury",
+            "Marble",
+            "Dining Room"
+          ]
+        },
+        {
+          "id": "Magnum_6_Seater_Dining_Set",
+          "name": "Magnum 6 Seater Dining Set",
+          "price": 196000,
+          "discountedPrice": 156800,
+          "description": "Contemporary dining table featuring premium marble top and sleek metal base.",
+          "details": "This stunning dining table combines the timeless elegance of marble with modern design elements. The premium marble top features unique natural veining patterns that make each table one-of-a-kind, while the sleek metal base provides both stability and contemporary style. Perfect for both intimate family dinners and larger gatherings.",
+          "mainImage": "/furniture/dining-tables/Magnum/Magnum-5.webp",
+          "dimensions": {
+            "length": 6,
+            "width": 3,
+            "height": 3,
+            "unit": "Ft"
+          },
+          "materials": [
+            "Table base  solid teakwood",
+            "Top  Italian marble"
+          ],
+          "colors": [
+            "Imperial Ivory"
+          ],
+          "gallery": [
+           "/furniture/dining-tables/Magnum/Magnum-2.webp",
+           "/furniture/dining-tables/Magnum/Magnum-3.webp",
+           "/furniture/dining-tables/Magnum/Magnum-4.webp",
+           "/furniture/dining-tables/Magnum/Magnum-1.webp"
+          ],
+          "features": [
+            "Seats 6 people",
+            "Natural marble with unique veining",
+            "Sturdy metal construction",
+            "Easy to clean surface",
+            "Modern minimalist design"
+          ],
+          "rating": 4.9,
+          "reviews": 42,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": [
+            "Modern",
+            "Luxury",
+            "Marble",
+            "Dining Room"
+          ]
+        },
+        {
+          "id": "Nova_4_Seater_Dining_Set",
+          "name": "Nova 4 Seater Dining Set",
+          "price": 165000,
+          "discountedPrice": 123750,
+          "description": "Contemporary dining table featuring premium marble top and sleek metal base.",
+          "details": "This stunning dining table combines the timeless elegance of marble with modern design elements. The premium marble top features unique natural veining patterns that make each table one-of-a-kind, while the sleek metal base provides both stability and contemporary style. Perfect for both intimate family dinners and larger gatherings.",
+          "mainImage": "/furniture/dining-tables/Nova/Nova-1.webp",
+          "dimensions": {
+            "length": 5.5,
+            "width": 3,
+            "height": 3,
+            "unit": "Ft"
+          },
+          "materials": [
+            "Table base  solid teakwood",
+            "Top  Italian marble"
+          ],
+          "colors": [
+            "Imperial Ivory"
+          ],
+          "gallery": [
+           "/furniture/dining-tables/Nova/Nova-2.webp",
+           "/furniture/dining-tables/Nova/Nova-3.webp"
           ],
           "features": [
             "Seats 6 people",
