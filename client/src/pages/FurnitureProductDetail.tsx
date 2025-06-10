@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import BackToTop from '@/components/BackToTop';
+import ImageMagnifier from '@/components/ImageMagnifier';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
@@ -275,10 +276,12 @@ export default function FurnitureProductDetail() {
               <div>
                 {/* Main Image */}
                 <div className="bg-[#222222] rounded-sm overflow-hidden mb-4">
-                  <img 
+                  <ImageMagnifier 
                     src={mainImage || product.mainImage} 
                     alt={product.name}
                     className="w-full h-[300px] md:h-[500px] object-cover"
+                    zoomLevel={4}
+                    magnifierSize={200}
                   />
                 </div>
                 

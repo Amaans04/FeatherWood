@@ -686,18 +686,17 @@
     },
     {
       "id": "beds",
-      "name": "Beds",
-      "description": "Exquisite beds for a comfortable night's sleep",
-      "image": "/furniture/categories/beds.webp",
+      "name": "Bed",
+      "description": "",
+      "image": "/furniture/beds/Ponds/Ponds-1.webp",
       "products": [
         {
-          "id": "luxury-king-bed",
-          "name": "Luxury King Size Bed",
-          "price": 149000,
-          "discountedPrice": 139000,
-          "description": "Indulge in royal comfort with our premium king size bed featuring hand-carved details and sumptuous upholstery.",
-          "details": "Crafted from premium hardwood with a rich walnut finish, this luxurious king-size bed combines traditional craftsmanship with modern comfort. The headboard features intricate hand-carved details inspired by classic Indian motifs, while the premium upholstery in plush velvet adds a touch of opulence. Each bed is handcrafted by skilled artisans using traditional joinery techniques for exceptional durability.",
-          "mainImage": "/furniture/beds/luxury-king-bed.webp",
+          "id": "Ponds-King-Size-Bed",
+          "name": "Ponds King Size Bed Without Storage",
+          "price": 35000,
+          "discountedPrice": 28000,
+          "description": "The PONDS King Size Bed features a tall, upholstered headboard and sleek modern design, perfect for contemporary bedrooms. Crafted without storage, it offers a clean, minimalist look with premium comfort.",
+          "mainImage": "/furniture/beds/Ponds/Ponds-2.webp",
           "dimensions": {
             "length": 212,
             "width": 198,
@@ -717,9 +716,11 @@
             "Pearl Grey"
           ],
           "gallery": [
-            "/furniture/beds/luxury-king-bed-1.webp",
-            "/furniture/beds/luxury-king-bed-2.webp",
-            "/furniture/beds/luxury-king-bed-3.webp"
+            "/furniture/beds/Ponds/Ponds-1.webp",
+            "/furniture/beds/Ponds/Ponds-3.webp",
+            "/furniture/beds/Ponds/Ponds-4.webp",
+            "/furniture/beds/Ponds/Ponds-5.webp",
+            "/furniture/beds/Ponds/Ponds-6.webp"
           ],
           "features": [
             "Hand-carved headboard",
