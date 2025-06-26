@@ -358,8 +358,8 @@
           "variants": [
             {
               "size": "L-Shaped",
-              "price": 48000,
-              "discountedPrice": 38400,
+              "price": 89000,
+              "discountedPrice": 66750,
               "dimensions": {
                 "length": 9,
                 "width": 6,
@@ -410,8 +410,8 @@
           "variants": [
             {
               "size": "L-Shaped",
-              "price": 48000,
-              "discountedPrice": 38400,
+              "price": 236000,
+              "discountedPrice": 165200,
               "dimensions": {
                 "length": 9.5,
                 "width": 6.5,
