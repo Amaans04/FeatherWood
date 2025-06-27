@@ -108,8 +108,16 @@
   "optionalDependencies": {
     "bufferutil": "^4.0.8"
   },
-  "description": "",
+  "description": "steps to deploy on vercel :\r  cd to client and 'npm run build'\r  cd back to root directory\r  remeber to add this code to dist folder in file : \"vercel.json\": \"{\r   \"rewrites\": [\r     { \"source\": \"/(.*)\", \"destination\": \"/\" }\r   ]\r }\"\r  cd to dist folder then vercel -dist",
   "main": "postcss.config.js",
   "keywords": [],
-  "author": ""
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amaans04/FeatherWood.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Amaans04/FeatherWood/issues"
+  },
+  "homepage": "https://github.com/Amaans04/FeatherWood#readme"
 }
