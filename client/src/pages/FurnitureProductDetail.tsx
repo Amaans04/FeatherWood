@@ -241,18 +241,24 @@ export default function FurnitureProductDetail() {
     ...(selectedVariant?.gallery || product.gallery || []),
   ].filter(Boolean);
 
+  const toAbsoluteUrl = (src: string) =>
+    src.startsWith("http") ? src : `https://www.featherwood.in${src.startsWith("/") ? src : `/${src}`}`;
+
+  const productPath = `/furniture/${categoryId}/${encodeURIComponent(product.id)}`;
+
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.name,
     description: product.description,
-    image: productImages,
+    image: productImages.map(toAbsoluteUrl),
     brand: {
       "@type": "Brand",
       name: "FeatherWood",
     },
     offers: {
       "@type": "Offer",
+      url: `https://www.featherwood.in${productPath}`,
       priceCurrency: "INR",
       price: selectedVariant?.discountedPrice || product.discountedPrice,
       availability: "https://schema.org/InStock",
@@ -267,7 +273,7 @@ export default function FurnitureProductDetail() {
       { "@type": "ListItem", position: 1, name: "Home", item: "https://www.featherwood.in/" },
       { "@type": "ListItem", position: 2, name: "Furniture", item: "https://www.featherwood.in/furniture" },
       { "@type": "ListItem", position: 3, name: category.name, item: `https://www.featherwood.in/furniture/${categoryId}` },
-      { "@type": "ListItem", position: 4, name: product.name, item: `https://www.featherwood.in/furniture/${categoryId}/${productId}` },
+      { "@type": "ListItem", position: 4, name: product.name, item: `https://www.featherwood.in${productPath}` },
     ],
   };
 
@@ -276,7 +282,7 @@ export default function FurnitureProductDetail() {
       seo={{
         title: `${product.name} — ${category.name}`,
         description: `${product.description} Buy the ${product.name} from FeatherWood — luxury furniture for modern Indian homes.`,
-        canonical: `/furniture/${categoryId}/${productId}`,
+        canonical: productPath,
         ogImage: product.mainImage || '/cmp_logo.jpg',
         ogType: 'product',
         structuredData: [productSchema, breadcrumbSchema],

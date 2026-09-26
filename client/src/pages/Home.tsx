@@ -13,9 +13,9 @@ export default function Home() {
   return (
     <PageLayout
       seo={{
-        title: "Luxury Interior Design & Furniture",
+        title: "Luxury Furniture & Interior Design in Bengaluru",
         description:
-          "Luxury interior design and premium furniture crafted for modern Indian homes. Visit our Bengaluru showrooms or book a free consultation.",
+          "FeatherWood designs interiors and makes furniture in Bengaluru — sofas, beds, dining tables, wardrobes, modular kitchens and home renovation. Visit our Whitefield showrooms or book a free consultation.",
         canonical: "/",
       }}
     >

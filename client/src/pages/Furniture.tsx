@@ -87,11 +87,34 @@ export default function Furniture() {
   return (
     <PageLayout
       seo={{
-        title: isCategoryPage ? `${selectedCategory!.name} — Furniture` : "Luxury Furniture Collection",
+        title: isCategoryPage ? `${selectedCategory!.name} in Bengaluru` : "Luxury Furniture in Bengaluru",
         description: isCategoryPage
-          ? selectedCategory!.description
-          : "Explore FeatherWood's premium furniture collection — beds, sofas, wardrobes, dining tables & more.",
+          ? `${selectedCategory!.description} Shop ${selectedCategory!.name.toLowerCase()} at FeatherWood showrooms in Whitefield, Bengaluru.`
+          : "Shop FeatherWood furniture in Bengaluru — sofas, beds, dining tables, wardrobes, tables and chairs, made for modern Indian homes.",
         canonical: isCategoryPage ? `/furniture/${categoryId}` : "/furniture",
+        structuredData: isCategoryPage
+          ? {
+              "@context": "https://schema.org",
+              "@type": "ItemList",
+              name: `${selectedCategory!.name} by FeatherWood`,
+              itemListElement: selectedCategory!.products.map((product, index) => ({
+                "@type": "ListItem",
+                position: index + 1,
+                name: product.name,
+                url: `https://www.featherwood.in/furniture/${selectedCategory!.id}/${encodeURIComponent(product.id)}`,
+              })),
+            }
+          : {
+              "@context": "https://schema.org",
+              "@type": "ItemList",
+              name: "FeatherWood furniture collections",
+              itemListElement: furnitureData.categories.map((category, index) => ({
+                "@type": "ListItem",
+                position: index + 1,
+                name: category.name,
+                url: `https://www.featherwood.in/furniture/${category.id}`,
+              })),
+            },
       }}
     >
       <Breadcrumbs

@@ -44,12 +44,30 @@ export default function ServiceDetail() {
 
   const isInteriorDesign = serviceId === "interior-design";
 
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: serviceData.title,
+    description: `${serviceData.description} Available from FeatherWood in Bengaluru.`,
+    url: `https://www.featherwood.in/services/${serviceId}`,
+    provider: {
+      "@type": "FurnitureStore",
+      name: "FeatherWood",
+      url: "https://www.featherwood.in/",
+    },
+    areaServed: {
+      "@type": "City",
+      name: "Bengaluru",
+    },
+  };
+
   return (
     <PageLayout
       seo={{
-        title: serviceData.title,
-        description: serviceData.description,
+        title: `${serviceData.title} in Bengaluru`,
+        description: `${serviceData.description} FeatherWood offers ${serviceData.title.toLowerCase()} for homes in Bengaluru.`,
         canonical: `/services/${serviceId}`,
+        structuredData: serviceSchema,
       }}
     >
       <Breadcrumbs

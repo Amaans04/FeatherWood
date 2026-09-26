@@ -243,7 +243,7 @@ export default function WardrobeCalculator() {
   };
   
   return (
-    <PageLayout seo={{ title: "Wardrobe Price Calculator", description: "Estimate the cost of your custom wardrobe with FeatherWood's calculator.", canonical: "/calculator/wardrobe" }}>
+    <PageLayout seo={{ title: "Wardrobe Price Calculator Bengaluru", description: "Estimate a custom wardrobe in Bengaluru by size and finish. FeatherWood designs sliding and walk-in wardrobes for modern homes.", canonical: "/wardrobe-price-calculator", structuredData: wardrobeFaqSchema }}>
 
         {/* Breadcrumbs */}
         <div className="bg-[#FAFAF8] border-b border-[#E8E4DF] py-4">

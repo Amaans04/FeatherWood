@@ -222,7 +222,7 @@ export default function HomeCalculator() {
   };
   
   return (
-    <PageLayout seo={{ title: "Home Interior Price Calculator", description: "Estimate the cost of your home interior project with FeatherWood's calculator.", canonical: "/calculator/home" }}>
+    <PageLayout seo={{ title: "Home Interior Price Calculator Bengaluru", description: "Estimate the cost of a full home interior in Bengaluru — living room, kitchen, bedroom and wardrobe — with FeatherWood's calculator.", canonical: "/home-interior-price-calculator", structuredData: homeFaqSchema }}>
 
         {/* Breadcrumbs */}
         <div className="bg-[#FAFAF8] border-b border-[#E8E4DF] py-4">

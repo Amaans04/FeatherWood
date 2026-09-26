@@ -69,7 +69,7 @@ export default function HeroSlider() {
   return (
     <div
       ref={heroRef}
-      className="relative h-[100svh] max-h-[860px] min-h-[520px] overflow-hidden bg-[#1A1A1A] w-full md:min-h-[600px]"
+      className="relative h-[calc(100svh-4rem-3.75rem)] min-h-[440px] max-h-[860px] overflow-hidden bg-[#1A1A1A] w-full lg:h-[calc(100svh-4rem)] lg:min-h-[560px]"
       onTouchStart={handleTouchStart}
       onTouchMove={handleTouchMove}
       onTouchEnd={handleTouchEnd}
@@ -94,16 +94,17 @@ export default function HeroSlider() {
               className="absolute inset-0 w-full h-full object-cover scale-[1.12] will-change-transform"
             />
           </motion.div>
-          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/35 to-black/20 md:bg-gradient-to-r md:from-black/70 md:via-black/30 md:to-transparent" />
+          <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-black/40" />
+          <div aria-hidden="true" className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/55 via-transparent to-black/25" />
         </motion.div>
       </AnimatePresence>
 
       {/* Content */}
       <motion.div
-        className="absolute inset-0 flex items-end md:items-center z-10"
+        className="absolute inset-0 flex items-end lg:items-center z-10"
         style={{ opacity: contentOpacity }}
       >
-        <div className="w-full px-5 sm:px-6 md:px-8 pb-[5.5rem] md:pb-0">
+        <div className="w-full px-5 sm:px-6 lg:px-8 pb-12 pr-16 lg:pb-0 lg:pr-8">
           <div className="max-w-xl">
             <AnimatePresence mode="wait">
               <motion.div
@@ -113,11 +114,11 @@ export default function HeroSlider() {
                 exit={{ opacity: 0, y: -16 }}
                 transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
               >
-                <p className="luxury-label text-white/60 mb-3 md:mb-4">{slide.subtitle}</p>
+                <p className="luxury-label text-white/80 mb-3 md:mb-4">{slide.subtitle}</p>
                 <h1 className="font-cormorant text-[2.25rem] leading-[1.05] sm:text-5xl md:text-6xl lg:text-7xl font-light text-white tracking-tight mb-4 md:mb-6">
                   {slide.title}
                 </h1>
-                <p className="text-white/70 text-sm md:text-base font-light leading-relaxed mb-8 md:mb-10 max-w-[90%] md:max-w-md">
+                <p className="text-white/80 text-sm md:text-base font-light leading-relaxed mb-5 md:mb-10 max-w-[90%] md:max-w-md">
                   {slide.description}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
@@ -155,7 +156,7 @@ export default function HeroSlider() {
       </button>
 
       {/* Indicators */}
-      <div className="absolute bottom-[4.5rem] md:bottom-8 left-5 md:left-8 z-20 flex gap-2.5">
+      <div className="absolute bottom-3 left-5 lg:bottom-8 lg:left-8 z-20 flex gap-2.5">
         {slides.map((_, index) => (
           <button
             key={index}
@@ -174,7 +175,7 @@ export default function HeroSlider() {
 
       {/* Mobile swipe hint */}
       <motion.div
-        className="md:hidden absolute bottom-[3.5rem] right-5 z-20"
+        className="lg:hidden absolute bottom-4 right-16 z-20"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 0.8 }}

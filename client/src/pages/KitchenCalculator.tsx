@@ -255,7 +255,7 @@ export default function KitchenCalculator() {
   };
   
   return (
-    <PageLayout seo={{ title: "Kitchen Price Calculator", description: "Estimate the cost of your modular kitchen with FeatherWood's calculator.", canonical: "/calculator/kitchen" }}>
+    <PageLayout seo={{ title: "Modular Kitchen Price Calculator Bengaluru", description: "Estimate a modular kitchen in Bengaluru by layout, size and materials. FeatherWood designs and installs kitchens across Whitefield.", canonical: "/kitchen-price-calculator", structuredData: kitchenFaqSchema }}>
 
         {/* Breadcrumbs */}
         <div className="bg-[#FAFAF8] border-b border-[#E8E4DF] py-4">
