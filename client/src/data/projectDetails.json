@@ -1,0 +1,368 @@
+{
+  "manhattan-penthouse": {
+    "id": "manhattan-penthouse",
+    "title": "Manhattan Penthouse",
+    "location": "New York, NY",
+    "area": "4,500 sq ft",
+    "completionDate": "June 2022",
+    "client": "Private Residence",
+    "heroImage": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2300&q=80",
+    "description": "A stunning penthouse renovation in the heart of Manhattan. This project transformed a dated space into a contemporary luxury residence with panoramic views of Central Park and the New York skyline.",
+    "challenge": "The client wanted to maximize views while creating distinct living spaces in an open concept floor plan. Additionally, integrating smart home technology without compromising the luxurious aesthetic was a priority.",
+    "solution": "We designed a flexible living space with movable glass partitions, allowing the client to adjust between open entertainment areas and private retreats. Custom furniture was designed to complement the skyline views, and state-of-the-art smart home systems were seamlessly integrated into the architectural details.",
+    "features": [
+      {
+        "title": "Custom Glass Partitions",
+        "description": "Motorized glass partitions that can transform the space from open concept to private rooms"
+      },
+      {
+        "title": "Integrated Smart Home System",
+        "description": "Complete automation of lighting, climate, audio, and security systems, controlled via touchscreens or voice"
+      },
+      {
+        "title": "Bespoke Furniture Collection",
+        "description": "Custom-designed furniture pieces that complement the architecture and views"
+      },
+      {
+        "title": "Chef's Kitchen",
+        "description": "Professional-grade kitchen with custom cabinetry and top-tier appliances"
+      }
+    ],
+    "testimonial": {
+      "text": "FeatherWood transformed our penthouse beyond our expectations. They understood our vision and created a space that feels both luxurious and livable. The attention to detail is remarkable.",
+      "author": "James & Emily R.",
+      "role": "Homeowners"
+    },
+    "galleryImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+        "caption": "Living area with panoramic city views"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1588854337236-6889d631faa8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "caption": "Custom kitchen with marble island"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1623050804066-42bcedb4e81d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "caption": "Master bathroom with freestanding tub"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+        "caption": "Home office with built-in shelving"
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "title": "Manhattan Penthouse Tour",
+        "thumbnail": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      }
+    ],
+    "relatedProjects": ["coastal-villa", "urban-loft"]
+  },
+  "coastal-villa": {
+    "id": "coastal-villa",
+    "title": "Coastal Villa",
+    "location": "Malibu, CA",
+    "area": "6,200 sq ft",
+    "completionDate": "September 2021",
+    "client": "Private Residence",
+    "heroImage": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+    "description": "A breathtaking coastal villa that harmoniously blends indoor and outdoor living. This oceanfront property features expansive glass walls that frame the Pacific Ocean views and a design that celebrates the natural beauty of the California coastline.",
+    "challenge": "Creating a space that could withstand coastal elements while maintaining a light, open feel and providing privacy from neighboring properties.",
+    "solution": "We utilized durable, marine-grade materials throughout the exterior and selected salt-air resistant finishes for the interior. Strategic landscaping and architectural elements provide privacy without compromising views, and retractable glass walls allow for seamless indoor-outdoor flow.",
+    "features": [
+      {
+        "title": "Disappearing Glass Walls",
+        "description": "Floor-to-ceiling glass walls that completely retract, connecting indoor living spaces to outdoor terraces"
+      },
+      {
+        "title": "Infinity Edge Pool",
+        "description": "Custom-designed pool that visually merges with the ocean horizon"
+      },
+      {
+        "title": "Natural Material Palette",
+        "description": "Locally sourced stone, sustainable teak, and other natural materials that complement the coastal environment"
+      },
+      {
+        "title": "Outdoor Kitchen & Living Area",
+        "description": "Fully equipped outdoor entertainment space with built-in kitchen, fireplace, and lounge seating"
+      }
+    ],
+    "testimonial": {
+      "text": "Our Malibu home is absolutely everything we dreamed of and more. FeatherWood captured the essence of coastal living while creating a sophisticated retreat that's perfect for both relaxation and entertaining.",
+      "author": "Sarah & Michael T.",
+      "role": "Homeowners"
+    },
+    "galleryImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1600607687166-41d6f1c4ca86?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "caption": "Main living area with ocean views"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1547754070-c73f90c116b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "caption": "Infinity pool overlooking the ocean"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1550026593-cb89847b168d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "caption": "Master bedroom with private terrace"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1565183928294-7063f23ce0f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "caption": "Outdoor dining area with fireplace"
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "title": "Coastal Villa Walkthrough",
+        "thumbnail": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      }
+    ],
+    "relatedProjects": ["manhattan-penthouse", "mountain-retreat"]
+  },
+  "tech-headquarters": {
+    "id": "tech-headquarters",
+    "title": "Tech Headquarters",
+    "location": "San Francisco, CA",
+    "area": "45,000 sq ft",
+    "completionDate": "March 2022",
+    "client": "InnovateTech Inc.",
+    "heroImage": "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+    "description": "A forward-thinking headquarters for a leading technology company that balances innovation with employee wellbeing. The space features collaboration zones, focus areas, and amenities designed to foster creativity and productivity.",
+    "challenge": "Creating a workplace that reflects the company's innovative culture while accommodating multiple work styles and promoting employee wellness and collaboration.",
+    "solution": "We designed a flexible workspace with diverse environments tailored to different activities and work preferences. Biophilic design elements, including living walls and natural light, promote wellbeing, while cutting-edge technology is integrated throughout to support hybrid collaboration.",
+    "features": [
+      {
+        "title": "Dynamic Workspace Zones",
+        "description": "Variety of work environments including team collaboration spaces, quiet focus pods, and casual meeting areas"
+      },
+      {
+        "title": "Biophilic Design Elements",
+        "description": "Living walls, interior planters, and natural materials that improve air quality and employee wellbeing"
+      },
+      {
+        "title": "State-of-the-Art Conference Center",
+        "description": "Versatile presentation space with advanced AV systems for hybrid meetings and events"
+      },
+      {
+        "title": "Wellness Amenities",
+        "description": "On-site fitness center, meditation rooms, and healthy food options to support employee wellbeing"
+      }
+    ],
+    "testimonial": {
+      "text": "FeatherWood understood our vision for a workspace that would inspire innovation while prioritizing our team's needs. The headquarters has transformed our company culture and has become a key factor in attracting top talent.",
+      "author": "David L.",
+      "role": "CEO, InnovateTech Inc."
+    },
+    "galleryImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+        "caption": "Main collaboration hub"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
+        "caption": "Open workspace with living wall"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "caption": "Conference room with city views"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+        "caption": "Employee lounge and kitchen area"
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "title": "InnovateTech HQ Tour",
+        "thumbnail": "https://images.unsplash.com/photo-1605185189315-fc269c207dd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      }
+    ],
+    "relatedProjects": ["boutique-hotel", "urban-loft"]
+  },
+  "mountain-retreat": {
+    "id": "mountain-retreat",
+    "title": "Mountain Retreat",
+    "location": "Aspen, CO",
+    "area": "3,800 sq ft",
+    "completionDate": "December 2021",
+    "client": "Private Residence",
+    "heroImage": "https://images.unsplash.com/photo-1631679706909-1844bbd07221?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1992&q=80",
+    "description": "A luxurious mountain home that embraces its natural surroundings while providing modern comfort. This retreat combines rustic architectural elements with contemporary design to create a warm, inviting space for both intimate family gatherings and entertaining.",
+    "challenge": "Creating a design that would withstand the harsh mountain climate while maximizing mountain views and incorporating natural elements in a contemporary way.",
+    "solution": "We selected materials known for their durability in extreme temperatures, including insulated glass and thermally broken window frames. The home's orientation takes advantage of the spectacular mountain vistas, while a thoughtful material palette of locally-sourced stone and reclaimed timber creates a sense of place.",
+    "features": [
+      {
+        "title": "Great Room with Vaulted Ceilings",
+        "description": "Expansive space with floor-to-ceiling windows framing mountain views and a dramatic stone fireplace"
+      },
+      {
+        "title": "Integrated Indoor-Outdoor Living",
+        "description": "Heated terraces and a covered outdoor kitchen allow for year-round enjoyment of the mountain setting"
+      },
+      {
+        "title": "Custom Wine Cellar",
+        "description": "Temperature-controlled wine storage with custom racking system and tasting area"
+      },
+      {
+        "title": "Home Theater",
+        "description": "Professional-grade audio-visual system with soundproofing and comfortable seating"
+      }
+    ],
+    "testimonial": {
+      "text": "Our mountain home exceeds all expectations. FeatherWood brilliantly balanced rustic elements with clean, modern design. It's both a showpiece and a comfortable family retreat that we'll enjoy for generations.",
+      "author": "Robert & Ann K.",
+      "role": "Homeowners"
+    },
+    "galleryImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "caption": "Great room with mountain views"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566752967-aa7b383a2476?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+        "caption": "Gourmet kitchen with stone accents"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1562634367-255e03640894?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "caption": "Master suite with private deck"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "caption": "Outdoor hot tub with mountain backdrop"
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "title": "Mountain Retreat Tour",
+        "thumbnail": "https://images.unsplash.com/photo-1623718649591-311775a30c43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      }
+    ],
+    "relatedProjects": ["coastal-villa", "urban-loft"]
+  },
+  "boutique-hotel": {
+    "id": "boutique-hotel",
+    "title": "Boutique Hotel",
+    "location": "Miami, FL",
+    "area": "22,000 sq ft",
+    "completionDate": "April 2022",
+    "client": "Luxe Hospitality Group",
+    "heroImage": "https://images.unsplash.com/photo-1616137760207-9d335866fcbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2532&q=80",
+    "description": "A distinctive boutique hotel that captures Miami's vibrant energy and artistic spirit. The design creates a sophisticated urban oasis with bold colors, luxurious textures, and custom installations from local artists.",
+    "challenge": "Transforming a historic building into a luxury boutique hotel while preserving its architectural integrity and creating spaces that would appeal to design-conscious travelers.",
+    "solution": "We carefully restored the building's historic facade while completely reimagining the interior. Each of the 42 guest rooms features a unique design theme inspired by Miami's diverse cultural influences, and public spaces serve as both social hubs and showcases for local art.",
+    "features": [
+      {
+        "title": "Signature Rooftop Pool & Lounge",
+        "description": "Infinity-edge pool with panoramic city views, cabanas, and craft cocktail bar"
+      },
+      {
+        "title": "Curated Art Collection",
+        "description": "Rotating exhibitions and permanent installations featuring work from emerging and established Miami artists"
+      },
+      {
+        "title": "Chef-Driven Restaurant",
+        "description": "Award-winning cuisine in a dramatically designed space with indoor and outdoor dining"
+      },
+      {
+        "title": "Bespoke Guest Rooms",
+        "description": "Uniquely designed rooms with custom furnishings and luxury amenities"
+      }
+    ],
+    "testimonial": {
+      "text": "FeatherWood delivered a design that perfectly captures our brand vision. The hotel has quickly become a destination for travelers seeking a unique, design-forward experience, and has received exceptional press coverage and guest reviews.",
+      "author": "Maria G.",
+      "role": "Director of Development, Luxe Hospitality Group"
+    },
+    "galleryImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1576354302919-96748cb8299e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+        "caption": "Hotel lobby with custom light installation"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1121&q=80",
+        "caption": "Rooftop pool with city views"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1596701062351-8c2c14d1fdd0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+        "caption": "Signature suite with custom furniture"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1574691250077-03a929faece5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+        "caption": "Restaurant with lush tropical accents"
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "title": "Boutique Hotel Experience",
+        "thumbnail": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      }
+    ],
+    "relatedProjects": ["tech-headquarters", "urban-loft"]
+  },
+  "urban-loft": {
+    "id": "urban-loft",
+    "title": "Urban Loft",
+    "location": "Chicago, IL",
+    "area": "2,800 sq ft",
+    "completionDate": "October 2021",
+    "client": "Private Residence",
+    "heroImage": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+    "description": "A sophisticated urban loft that celebrates the industrial heritage of its building while providing sleek, contemporary living spaces. Raw architectural elements are juxtaposed with refined furnishings and carefully curated art pieces.",
+    "challenge": "Transforming a raw industrial space into a refined yet characterful home while respecting the building's historic architecture and accommodating the client's extensive art collection.",
+    "solution": "We preserved key architectural elements including exposed brick walls, timber beams, and concrete floors, while introducing new elements that create visual continuity and a gallery-like backdrop for the client's art collection. Custom storage solutions and thoughtful space planning maximize functionality.",
+    "features": [
+      {
+        "title": "Floating Architectural Staircase",
+        "description": "Custom steel and glass staircase connecting the main level to a new mezzanine office"
+      },
+      {
+        "title": "Gallery Wall System",
+        "description": "Integrated art hanging system with museum-quality lighting to accommodate rotating displays"
+      },
+      {
+        "title": "Multi-functional Kitchen Island",
+        "description": "12-foot island that transitions from cooking area to casual dining to work surface"
+      },
+      {
+        "title": "Custom Built-ins",
+        "description": "Architectural millwork throughout that provides storage while maintaining open sightlines"
+      }
+    ],
+    "testimonial": {
+      "text": "FeatherWood created a home that perfectly balances industrial character with refined detailing. They understood exactly how I wanted to live in the space and designed solutions that accommodate both my daily lifestyle and entertainment needs.",
+      "author": "Thomas W.",
+      "role": "Homeowner"
+    },
+    "galleryImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+        "caption": "Open concept living space"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1158&q=80",
+        "caption": "Kitchen with industrial accents"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1566195992011-5f6b21e539aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80",
+        "caption": "Master bedroom with city views"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1603825491663-818618a6d1b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "caption": "Custom floating staircase"
+      }
+    ],
+    "videos": [
+      {
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "title": "Urban Loft Walkthrough",
+        "thumbnail": "https://images.unsplash.com/photo-1556020685-ae41abfc9365?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80"
+      }
+    ],
+    "relatedProjects": ["manhattan-penthouse", "tech-headquarters"]
+  }
+} 

@@ -1,0 +1,41 @@
+/* Fix for marker icons */
+.leaflet-default-icon-path {
+  background-image: url(https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png);
+}
+
+/* Fix for popup styling */
+.leaflet-popup-content-wrapper {
+  background-color: #1A1A1A;
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.leaflet-popup-tip {
+  background-color: #1A1A1A;
+}
+
+/* Custom styling for golden marker */
+.golden-marker-icon {
+  filter: hue-rotate(45deg) saturate(1.8) brightness(1.2);
+}
+
+/* Styling for controls */
+.leaflet-control-zoom a {
+  background-color: #222;
+  color: #FFD700;
+  border-color: #333;
+}
+
+.leaflet-control-zoom a:hover {
+  background-color: #333;
+}
+
+.leaflet-control-attribution {
+  background-color: rgba(34, 34, 34, 0.8) !important;
+  color: #999 !important;
+  font-size: 10px !important;
+}
+
+.leaflet-control-attribution a {
+  color: #FFD700 !important;
+} 

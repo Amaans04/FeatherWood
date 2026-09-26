@@ -1,0 +1,57 @@
+
+{
+  "slides": [
+    {
+      "id": "slide1",
+      "title": "Transform Your Space",
+      "subtitle": "With Featherwood's premium interior design services",
+      "description": "From concept to completion, we bring your dream home to life with customized design solutions.",
+      "cta": {
+        "text": "Book Free Consultation",
+        "link": "/contact"
+      },
+      "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      "backgroundColor": "#0A0A0A",
+      "overlayColor": "rgba(0,0,0,0.5)"
+    },
+    {
+      "id": "slide2",
+      "title": "Luxury Furniture Collection",
+      "subtitle": "Crafted with precision, designed for comfort",
+      "description": "Explore our exclusive furniture collection featuring handcrafted pieces designed for modern living.",
+      "cta": {
+        "text": "Browse Collection",
+        "link": "/furniture"
+      },
+      "image": "https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&auto=format&fit=crop&w=1227&q=80",
+      "backgroundColor": "#151515",
+      "overlayColor": "rgba(0,0,0,0.6)"
+    },
+    {
+      "id": "slide3",
+      "title": "Complete Home Solutions",
+      "subtitle": "From flooring to ceiling, we handle it all",
+      "description": "Get comprehensive home renovation services with our end-to-end interior design solutions.",
+      "cta": {
+        "text": "Get Free Quote",
+        "link": "/home-interior-price-calculator"
+      },
+      "image": "https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77?ixlib=rb-4.0.3&auto=format&fit=crop&w=1032&q=80",
+      "backgroundColor": "#141414",
+      "overlayColor": "rgba(0,0,0,0.4)"
+    },
+    {
+      "id": "slide4",
+      "title": "Design Inspirations",
+      "subtitle": "Get inspired by our showcased projects",
+      "description": "Browse through our curated collection of design ideas for every room in your home.",
+      "cta": {
+        "text": "View Design Ideas",
+        "link": "/design-ideas"
+      },
+      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1228&q=80",
+      "backgroundColor": "#0A0A0A",
+      "overlayColor": "rgba(0,0,0,0.5)"
+    }
+  ]
+}

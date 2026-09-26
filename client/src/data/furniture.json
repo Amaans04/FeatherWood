@@ -1,0 +1,1156 @@
+{
+  "categories": [
+    {
+      "id": "sofas",
+      "name": "Sofas",
+      "description": "Luxurious sofas and sectionals for ultimate comfort",
+      "image": "/furniture/sofas/TuxedoSofa/TuxedoSofa-1.webp",
+      "products": [
+        {
+          "id": "Classic Grey Sofa",
+          "name": "Classic Grey Sofa",
+          "price": 75000,
+          "discountedPrice": 29000,
+          "mainImage": "/furniture/sofas/ClassicGreySofa/ClassicSofa-1.webp",
+          "description": "Timeless sofa featuring classic design with modern comfort technology.",
+          "details": "This elegant sofa marries classic design elements with modern comfort technology for a piece that feels both timeless and contemporary. Traditional details like rolled arms and tailored upholstery are complemented by modern comfort features including premium cushioning technologies and durable construction methods. This versatile piece works beautifully in both traditional and transitional interiors.",
+          "variants": [
+            {
+              "size": "1-Seater",
+              "price": 35000,
+              "discountedPrice": 29000,
+              "dimensions": {
+                "length": 160,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/ClassicGreySofa/ClassicSofa-3.webp",
+              "gallery": [
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-1.webp",
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-4.webp",
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-5.webp"
+              ]
+            },
+            {
+              "size": "2-Seater",
+              "price": 60000,
+              "discountedPrice": 54000,
+              "dimensions": {
+                "length": 160,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/ClassicGreySofa/ClassicSofa-4.webp",
+              "gallery": [
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-1.webp",
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-3.webp",
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-5.webp"
+              ]
+            },
+            {
+              "size": "3-Seater",
+              "price": 85000,
+              "discountedPrice": 78000,
+              "dimensions": {
+                "length": 210,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/ClassicGreySofa/ClassicSofa-1.webp",
+              "gallery": [
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-3.webp",
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-4.webp",
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-5.webp"
+              ]
+            },
+            {
+              "size": "L Shape",
+              "price": 125000,
+              "discountedPrice": 118000,
+              "dimensions": {
+                "length": 210,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/ClassicGreySofa/ClassicSofa-5.webp",
+              "gallery": [
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-1.webp",
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-3.webp",
+                "/furniture/sofas/ClassicGreySofa/ClassicSofa-4.webp"
+              ]
+            }
+          ],
+          "materials": [
+            "Kiln-dried hardwood frame",
+            "Premium fabric upholstery",
+            "Multi-density cushioning",
+            "Sinuous spring support"
+          ],
+          "colors": [
+            "Light Grey"
+          ],
+          "features": [
+            "Classic design",
+            "Premium comfort technology",
+            "Durable construction",
+            "Tailored upholstery",
+            "Versatile styling"
+          ],
+          "rating": 4.9,
+          "reviews": 55,
+          "isNew": false,
+          "isBestseller": true,
+          "tags": [
+            "Classic",
+            "royal",
+            "Modern",
+            "Comfort",
+            "Versatile",
+            "Timeless"
+          ]
+        },
+        {
+          "id": "Classic Blue Sofa",
+          "name": "Classic Blue Sofa",
+          "price": 75000,
+          "discountedPrice": 29000,
+          "description": "Timeless sofa featuring classic design with modern comfort technology.",
+          "details": "This elegant sofa marries classic design elements with modern comfort technology for a piece that feels both timeless and contemporary. Traditional details like rolled arms and tailored upholstery are complemented by modern comfort features including premium cushioning technologies and durable construction methods. This versatile piece works beautifully in both traditional and transitional interiors.",
+          "mainImage": "/furniture/sofas/ClassicBlueSofa/ClassicBlue-1.webp",
+          "variants": [
+            {
+              "size": "1-Seater",
+              "price": 25000,
+              "discountedPrice": 18000,
+              "dimensions": {
+                "length": 210,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/ClassicBlueSofa/ClassicBlue-2.webp",
+              "gallery": [
+                "/furniture/sofas/ClassicBlueSofa/ClassicBlue-3.webp"
+              ]
+            },
+            {
+              "size": "2-Seater",
+              "price": 45000,
+              "discountedPrice": 32000,
+              "dimensions": {
+                "length": 210,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/ClassicBlueSofa/ClassicBlue-2.webp",
+              "gallery": [
+                "/furniture/sofas/ClassicBlueSofa/ClassicBlue-1.webp",
+                "/furniture/sofas/ClassicBlueSofa/ClassicBlue-3.webp"
+              ]
+            },
+            {
+              "size": "3-Seater",
+              "price": 50000,
+              "discountedPrice": 48000,
+              "dimensions": {
+                "length": 210,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/ClassicBlueSofa/ClassicBlue-3.webp",
+              "gallery": [
+                "/furniture/sofas/ClassicBlueSofa/ClassicBlue-1.webp",
+                "/furniture/sofas/ClassicBlueSofa/ClassicBlue-2.webp"
+              ]
+            }
+          ],
+          "materials": [
+            "Kiln-dried hardwood frame",
+            "Premium fabric upholstery",
+            "Multi-density cushioning",
+            "Sinuous spring support"
+          ],
+          "colors": [
+            "Royal Blue"
+          ],
+          "features": [
+            "Classic design",
+            "Premium comfort technology",
+            "Durable construction",
+            "Tailored upholstery",
+            "Versatile styling"
+          ],
+          "rating": 4.8,
+          "reviews": 36,
+          "isNew": false,
+          "isBestseller": true,
+          "tags": [
+            "Classic",
+            "Versatile",
+            "Timeless"
+          ]
+        },
+        {
+          "id": "Classic Sofa",
+          "name": "Tuxedo Sofa",
+          "price": 13000,
+          "discountedPrice": 12000,
+          "description": "Timeless sofa featuring classic design with modern comfort technology.",
+          "details": "This elegant sofa marries classic design elements with modern comfort technology for a piece that feels both timeless and contemporary. Traditional details like rolled arms and tailored upholstery are complemented by modern comfort features including premium cushioning technologies and durable construction methods. This versatile piece works beautifully in both traditional and transitional interiors.",
+          "mainImage": "/furniture/sofas/TuxedoSofa/TuxedoSofa-1.webp",
+          "variants": [
+            {
+              "size": "1-Seater",
+              "price": 13000,
+              "discountedPrice": 12000,
+              "dimensions": {
+                "length": 210,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/TuxedoSofa/TuxedoSofa-4.webp",
+              "gallery": [
+                "/furniture/sofas/TuxedoSofa/TuxedoSofa-1.webp",
+                "/furniture/sofas/TuxedoSofa/TuxedoSofa-2.webp",
+                "/furniture/sofas/TuxedoSofa/TuxedoSofa-3.webp"
+              ]
+            },
+            {
+              "size": "2-Seater",
+              "price": 27500,
+              "discountedPrice": 26000,
+              "dimensions": {
+                "length": 210,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/TuxedoSofa/TuxedoSofa-2.webp",
+              "gallery": [
+                "/furniture/sofas/TuxedoSofa/TuxedoSofa-1.webp",
+                "/furniture/sofas/TuxedoSofa/TuxedoSofa-2.webp",
+                "/furniture/sofas/TuxedoSofa/TuxedoSofa-3.webp"
+              ]
+            },
+            {
+              "size": "3-Seater",
+              "price": 40000,
+              "discountedPrice": 39000,
+              "dimensions": {
+                "length": 210,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/TuxedoSofa/TuxedoSofa-1.webp",
+              "gallery": [
+                "/furniture/sofas/TuxedoSofa/TuxedoSofa-4.webp",
+                "/furniture/sofas/TuxedoSofa/TuxedoSofa-2.webp",
+                "/furniture/sofas/TuxedoSofa/TuxedoSofa-3.webp"
+              ]
+            }
+          ],
+          "materials": [
+            "Kiln-dried hardwood frame",
+            "Premium fabric upholstery",
+            "Multi-density cushioning",
+            "Sinuous spring support"
+          ],
+          "colors": [
+            "Golden Ash"
+          ],
+          "features": [
+            "Classic design",
+            "Premium comfort technology",
+            "Durable construction",
+            "Tailored upholstery",
+            "Versatile styling"
+          ],
+          "rating": 4.8,
+          "reviews": 36,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": [
+            "Classic",
+            "Versatile",
+            "Timeless"
+          ]
+        },
+        {
+          "id": "Bruno_L-Shaped_Sofa",
+          "name": "Bruno L-Shaped Sofa",
+          "price": 48000,
+          "discountedPrice": 38400,
+          "description": "Timeless sofa featuring classic design with modern comfort technology.",
+          "details": "This elegant sofa marries classic design elements with modern comfort technology for a piece that feels both timeless and contemporary. Traditional details like rolled arms and tailored upholstery are complemented by modern comfort features including premium cushioning technologies and durable construction methods. This versatile piece works beautifully in both traditional and transitional interiors.",
+          "mainImage": "/furniture/sofas/BrunoSofa/BrunoSofa-2.webp",
+          "variants": [
+            {
+              "size": "L-Shaped",
+              "price": 48000,
+              "discountedPrice": 38400,
+              "dimensions": {
+                "length": 210,
+                "width": 95,
+                "height": 90,
+                "seat_height": 45,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/sofas/BrunoSofa/BrunoSofa-4.webp",
+              "gallery": [
+                "/furniture/sofas/BrunoSofa/BrunoSofa-3.webp",
+                "/furniture/sofas/BrunoSofa/BrunoSofa-2.webp",
+                "/furniture/sofas/BrunoSofa/BrunoSofa-1.webp"
+              ]
+            }
+          ],
+          "materials": [
+            "Kiln-dried hardwood frame",
+            "Premium fabric upholstery",
+            "Multi-density cushioning",
+            "Sinuous spring support"
+          ],
+          "colors": [
+            "Obsidian Luxe"
+          ],
+          "features": [
+            "Classic design",
+            "Premium comfort technology",
+            "Durable construction",
+            "Tailored upholstery",
+            "Versatile styling"
+          ],
+          "rating": 4.8,
+          "reviews": 36,
+          "isNew": true,
+          "isBestseller": false,
+          "tags": [
+            "Classic",
+            "Versatile",
+            "Timeless"
+          ]
+        },
+        {
+          "id": "York_L-Shaped_Sofa",
+          "name": "York L-Shaped Sofa",
+          "price": 89000,
+          "discountedPrice": 66750,
+          "description": "Timeless sofa featuring classic design with modern comfort technology.",
+          "details": "This elegant sofa marries classic design elements with modern comfort technology for a piece that feels both timeless and contemporary. Traditional details like rolled arms and tailored upholstery are complemented by modern comfort features including premium cushioning technologies and durable construction methods. This versatile piece works beautifully in both traditional and transitional interiors.",
+          "mainImage": "/furniture/sofas/YorkSofa/York-2.webp",
+          "variants": [
+            {
+              "size": "L-Shaped",
+              "price": 89000,
+              "discountedPrice": 66750,
+              "dimensions": {
+                "length": 9,
+                "width": 6,
+                "unit": "Ft"
+              },
+              "mainImage": "/furniture/sofas/YorkSofa/York-2.webp",
+              "gallery": [
+                "/furniture/sofas/YorkSofa/York-3.webp",
+                "/furniture/sofas/YorkSofa/York-4.webp",
+                "/furniture/sofas/YorkSofa/York-1.webp"
+              ]
+            }
+          ],
+          "materials": [
+            "Kiln-dried hardwood frame",
+            "Premium fabric upholstery",
+            "Multi-density cushioning",
+            "Sinuous spring support"
+          ],
+          "colors": [
+            "Earlstone Taupe"
+          ],
+          "features": [
+            "Classic design",
+            "Premium comfort technology",
+            "Durable construction",
+            "Tailored upholstery",
+            "Versatile styling"
+          ],
+          "rating": 4.8,
+          "reviews": 36,
+          "isNew": true,
+          "isBestseller": false,
+          "tags": [
+            "Classic",
+            "Versatile",
+            "Timeless"
+          ]
+        },
+        {
+          "id": "Bentley_Sectional_Sofa",
+          "name": "Bentley Sectional Sofa",
+          "price": 236000,
+          "discountedPrice": 165200,
+          "description": "Elegant corner sectional sofa with wood accents for a warm, space-optimizing seating solution.",
+          "details": "The Bentley Sectional Sofa is a stunning addition to any living space. Crafted with precision and attention to detail, this sectional sofa offers both style and functionality.Featuring a corner design, the Bentley Sectional optimizes your space by providing ample seating while fitting snugly into any corner of the room. The wood accents add a touch of natural elegance, showcasing the beauty of the wood grain and bringing a warm and inviting atmosphere to your home.",
+          "mainImage": "/furniture/sofas/BentleySofa/Bentley-6.webp",
+          "variants": [
+            {
+              "size": "L-Shaped",
+              "price": 236000,
+              "discountedPrice": 165200,
+              "dimensions": {
+                "length": 9.5,
+                "width": 6.5,
+                "unit": "Ft"
+              },
+              "mainImage": "/furniture/sofas/BentleySofa/Bentley-4.webp",
+              "gallery": [
+                "/furniture/sofas/BentleySofa/Bentley-3.webp",
+                "/furniture/sofas/BentleySofa/Bentley-5.webp",
+                "/furniture/sofas/BentleySofa/Bentley-6.webp",
+                "/furniture/sofas/BentleySofa/Bentley-4.webp",
+                "/furniture/sofas/BentleySofa/Bentley-1.webp",
+                "/furniture/sofas/BentleySofa/Bentley-2.webp"
+              ]
+            }
+          ],
+          "materials": [
+            "Base-Teakwood",
+            "Polish-Golden Teak",
+            "Fabric-Brookley"
+          ],
+          "colors": [
+            "Ivory Cream",
+            "Champagne Gold"
+          ],
+          "features": [
+            "Classic design",
+            "Premium comfort technology",
+            "Durable construction",
+            "Tailored upholstery",
+            "Versatile styling"
+          ],
+          "rating": 4.8,
+          "reviews": 36,
+          "isNew": true,
+          "isBestseller": false,
+          "tags": [
+            "Classic",
+            "Versatile",
+            "Timeless"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dining-tables",
+      "name": "Dining Tables",
+      "description": "Elegant dining tables that bring families together",
+      "image": "/furniture/dining-tables/Verity/Verity-2.webp",
+      "products": [
+        {
+          "id": "Verity_6-Seater_Dining_Set",
+          "name": "Verity 6-Seater Dining Set",
+          "price": 225000,
+          "discountedPrice": 157500,
+          "description": "Contemporary dining table featuring premium marble top and sleek metal base.",
+          "details": "This stunning dining table combines the timeless elegance of marble with modern design elements. The premium marble top features unique natural veining patterns that make each table one-of-a-kind, while the sleek metal base provides both stability and contemporary style. Perfect for both intimate family dinners and larger gatherings.",
+          "mainImage": "/furniture/dining-tables/Verity/Verity-4.webp",
+          "dimensions": {
+            "length": 6,
+            "width": 3,
+            "height": 3,
+            "unit": "Feet"
+          },
+          "materials": [
+            "Base-SS PVD coating",
+            "Top- Italian Marble"
+          ],
+          "colors": [
+            "Tuscan White",
+            "Sterling Grey"
+          ],
+          "gallery": [
+            "/furniture/dining-tables/Verity/Verity-1.webp",
+            "/furniture/dining-tables/Verity/Verity-2.webp",
+            "/furniture/dining-tables/Verity/Verity-3.webp"
+          ],
+          "features": [
+            "Seats 6 people",
+            "Natural marble with unique veining",
+            "Sturdy metal construction",
+            "Easy to clean surface",
+            "Modern minimalist design"
+          ],
+          "rating": 4.9,
+          "reviews": 42,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": [
+            "Modern",
+            "Luxury",
+            "Marble",
+            "Dining Room"
+          ]
+        },
+        {
+          "id": "Elantra_6-Seater_Dining_Set",
+          "name": "Elantra 6-Seater Dining Set",
+          "price": 189000,
+          "discountedPrice": 139000,
+          "description": "Contemporary dining table featuring premium marble top and sleek wooden base.",
+          "details": "This stunning dining table combines the timeless elegance of marble with modern design elements. The premium marble top features unique natural veining patterns that make each table one-of-a-kind, while the sleek metal base provides both stability and contemporary style. Perfect for both intimate family dinners and larger gatherings.",
+          "mainImage": "/furniture/dining-tables/Elantra/Elantra-4.webp",
+          "dimensions": {
+            "length": 6,
+            "width": 3,
+            "height": 3,
+            "unit": "Feet"
+          },
+          "materials": [
+            "Base-SS PVD coating",
+            "Top- Italian Marble"
+          ],
+          "colors": [
+            "Imperial Ivory"
+          ],
+          "gallery": [
+           "/furniture/dining-tables/Elantra/Elantra-1.webp",
+            "/furniture/dining-tables/Elantra/Elantra-2.webp",
+            "/furniture/dining-tables/Elantra/Elantra-3.webp"
+          ],
+          "features": [
+            "Seats 6 people",
+            "Natural marble with unique veining",
+            "Sturdy metal construction",
+            "Easy to clean surface",
+            "Modern minimalist design"
+          ],
+          "rating": 4.9,
+          "reviews": 42,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": [
+            "Modern",
+            "Luxury",
+            "Marble",
+            "Dining Room"
+          ]
+        },
+        {
+          "id": "Saturn_6_Seater_Dining",
+          "name": "Saturn 6 Seater Dining Set",
+          "price": 195000,
+          "discountedPrice": 156000,
+          "description": "Contemporary dining table featuring premium marble top and sleek wooden base.",
+          "details": "This stunning dining table combines the timeless elegance of marble with modern design elements. The premium marble top features unique natural veining patterns that make each table one-of-a-kind, while the sleek metal base provides both stability and contemporary style. Perfect for both intimate family dinners and larger gatherings.",
+          "mainImage": "/furniture/dining-tables/Saturn/Saturn-1.webp",
+          "dimensions": {
+            "length": 6,
+            "width": 3,
+            "height": 3,
+            "unit": "Ft"
+          },
+          "materials": [
+            "Base-Klin dried Wood",
+            "Top-Italian Marble"
+          ],
+          "colors": [
+            "Imperial Ivory"
+          ],
+          "gallery": [
+           "/furniture/dining-tables/Saturn/Saturn-2.webp",
+           "/furniture/dining-tables/Saturn/Saturn-3.webp"
+          ],
+          "features": [
+            "Seats 6 people",
+            "Natural marble with unique veining",
+            "Sturdy metal construction",
+            "Easy to clean surface",
+            "Modern minimalist design"
+          ],
+          "rating": 4.9,
+          "reviews": 42,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": [
+            "Modern",
+            "Luxury",
+            "Marble",
+            "Dining Room"
+          ]
+        },
+        {
+          "id": "Magnum_6_Seater_Dining_Set",
+          "name": "Magnum 6 Seater Dining Set",
+          "price": 196000,
+          "discountedPrice": 156800,
+          "description": "Contemporary dining table featuring premium marble top and sleek Wooden base.",
+          "details": "This stunning dining table combines the timeless elegance of marble with modern design elements. The premium marble top features unique natural veining patterns that make each table one-of-a-kind, while the sleek metal base provides both stability and contemporary style. Perfect for both intimate family dinners and larger gatherings.",
+          "mainImage": "/furniture/dining-tables/Magnum/Magnum-5.webp",
+          "dimensions": {
+            "length": 6,
+            "width": 3,
+            "height": 3,
+            "unit": "Ft"
+          },
+          "materials": [
+            "Table base  solid teakwood",
+            "Top  Italian marble"
+          ],
+          "colors": [
+            "Imperial Ivory"
+          ],
+          "gallery": [
+           "/furniture/dining-tables/Magnum/Magnum-2.webp",
+           "/furniture/dining-tables/Magnum/Magnum-3.webp",
+           "/furniture/dining-tables/Magnum/Magnum-4.webp",
+           "/furniture/dining-tables/Magnum/Magnum-1.webp"
+          ],
+          "features": [
+            "Seats 6 people",
+            "Natural marble with unique veining",
+            "Sturdy metal construction",
+            "Easy to clean surface",
+            "Modern minimalist design"
+          ],
+          "rating": 4.9,
+          "reviews": 42,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": [
+            "Modern",
+            "Luxury",
+            "Marble",
+            "Dining Room"
+          ]
+        },
+        {
+          "id": "Nova_4_Seater_Dining_Set",
+          "name": "Nova 4 Seater Dining Set",
+          "price": 165000,
+          "discountedPrice": 123750,
+          "description": "Contemporary dining table featuring premium marble top and sleek wooden base.",
+          "details": "This stunning dining table combines the timeless elegance of marble with modern design elements. The premium marble top features unique natural veining patterns that make each table one-of-a-kind, while the sleek metal base provides both stability and contemporary style. Perfect for both intimate family dinners and larger gatherings.",
+          "mainImage": "/furniture/dining-tables/Nova/Nova-1.webp",
+          "dimensions": {
+            "length": 5.5,
+            "width": 3,
+            "height": 3,
+            "unit": "Ft"
+          },
+          "materials": [
+            "Table base  solid teakwood",
+            "Top  Italian marble"
+          ],
+          "colors": [
+            "Imperial Ivory"
+          ],
+          "gallery": [
+           "/furniture/dining-tables/Nova/Nova-2.webp",
+           "/furniture/dining-tables/Nova/Nova-3.webp"
+          ],
+          "features": [
+            "Seats 6 people",
+            "Natural marble with unique veining",
+            "Sturdy metal construction",
+            "Easy to clean surface",
+            "Modern minimalist design"
+          ],
+          "rating": 4.9,
+          "reviews": 42,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": [
+            "Modern",
+            "Luxury",
+            "Marble",
+            "Dining Room"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beds",
+      "name": "Bed",
+      "description": "",
+      "image": "/furniture/beds/Ponds/Ponds-1.webp",
+      "products": [
+        {
+          "id": "Ponds-King-Size-Bed",
+          "name": "Ponds King Size Bed Without Storage",
+          "price": 35000,
+          "discountedPrice": 28000,
+          "description": "The PONDS King Size Bed features a tall, upholstered headboard and sleek modern design, perfect for contemporary bedrooms. Crafted without storage, it offers a clean, minimalist look with premium comfort.",
+          "mainImage": "/furniture/beds/Ponds/Ponds-2.webp",
+          "dimensions": {
+            "length": 212,
+            "width": 198,
+            "height": 120,
+            "unit": "cm"
+          },
+          "materials": [
+            "Premium hardwood frame",
+            "Velvet upholstery",
+            "Hand-carved details",
+            "Solid wood slats"
+          ],
+          "colors": [
+            "Midnight Blue",
+            "Royal Gold",
+            "Deep Burgundy",
+            "Pearl Grey"
+          ],
+          "gallery": [
+            "/furniture/beds/Ponds/Ponds-1.webp",
+            "/furniture/beds/Ponds/Ponds-3.webp",
+            "/furniture/beds/Ponds/Ponds-4.webp",
+            "/furniture/beds/Ponds/Ponds-5.webp",
+            "/furniture/beds/Ponds/Ponds-6.webp"
+          ],
+          "features": [
+            "Hand-carved headboard",
+            "Premium velvet upholstery",
+            "Solid wood frame construction",
+            "Traditional joinery techniques",
+            "Hidden storage compartments"
+          ],
+          "rating": 4.8,
+          "reviews": 32,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": [
+            "Premium",
+            "Handcrafted",
+            "Traditional",
+            "Storage"
+          ]
+        },
+        {
+          "id": "modern-queen-bed",
+          "name": "Modern Queen Platform Bed",
+          "price": 89000,
+          "discountedPrice": 82000,
+          "description": "Minimalist elegance with clean lines and premium materials for the contemporary bedroom.",
+          "details": "This modern queen platform bed combines sleek design with practical functionality. Featuring clean lines and a low profile, the bed creates a sense of space while the premium quality materials ensure durability. The upholstered headboard offers comfortable support for reading or watching TV in bed, while the platform design eliminates the need for a box spring.",
+          "mainImage": "/furniture/beds/modern-queen-bed.webp",
+          "dimensions": {
+            "length": 210,
+            "width": 165,
+            "height": 100,
+            "unit": "cm"
+          },
+          "materials": [
+            "Engineered wood frame",
+            "Premium leatherette upholstery",
+            "Metal supports",
+            "Solid wood legs"
+          ],
+          "colors": [
+            "Charcoal Grey",
+            "Ivory White",
+            "Taupe"
+          ],
+          "gallery": [
+            "/furniture/beds/modern-queen-bed-1.webp",
+            "/furniture/beds/modern-queen-bed-2.webp",
+            "/furniture/beds/modern-queen-bed-3.webp"
+          ],
+          "features": [
+            "Platform design (no box spring needed)",
+            "Padded headboard",
+            "Sturdy construction",
+            "Easy assembly",
+            "Non-slip support system"
+          ],
+          "rating": 4.6,
+          "reviews": 45,
+          "isNew": false,
+          "isBestseller": true,
+          "tags": [
+            "Modern",
+            "Space-saving",
+            "Contemporary",
+            "Minimalist"
+          ]
+        },
+        {
+          "id": "storage-bed",
+          "name": "Hydraulic Storage Bed",
+          "price": 110000,
+          "discountedPrice": 98000,
+          "description": "Maximize your bedroom space with our hydraulic storage bed featuring easy lift mechanism.",
+          "details": "This innovative hydraulic storage bed offers a practical solution for urban homes with limited space. The easy-lift mechanism provides effortless access to ample storage space beneath the sleeping surface. Crafted with attention to both form and function, this bed combines sleek aesthetics with robust construction that will stand the test of time.",
+          "mainImage": "/furniture/beds/storage-bed.webp",
+          "dimensions": {
+            "length": 210,
+            "width": 165,
+            "height": 90,
+            "unit": "cm"
+          },
+          "materials": [
+            "Engineered wood frame",
+            "Premium fabrics",
+            "Hydraulic pistons",
+            "Metal reinforcements"
+          ],
+          "colors": [
+            "Beige",
+            "Grey",
+            "Navy Blue",
+            "Dusty Rose"
+          ],
+          "gallery": [
+            "/furniture/beds/storage-bed-1.webp",
+            "/furniture/beds/storage-bed-2.webp",
+            "/furniture/beds/storage-bed-3.webp"
+          ],
+          "features": [
+            "Hydraulic lift mechanism",
+            "Ample storage space",
+            "Gas lift hydraulics",
+            "Premium fabric upholstery",
+            "Durable construction"
+          ],
+          "rating": 4.7,
+          "reviews": 52,
+          "isNew": false,
+          "isBestseller": true,
+          "tags": [
+            "Storage",
+            "Space-saving",
+            "Practical",
+            "Urban living"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wardrobes",
+      "name": "Wardrobes",
+      "description": "Elegant storage solutions for your clothes and accessories",
+      "image": "/furniture/categories/wardrobes.webp",
+      "products": [
+        {
+          "id": "sliding-wardrobe",
+          "name": "Premium Sliding Door Wardrobe",
+          "price": 180000,
+          "discountedPrice": 165000,
+          "description": "Space-efficient wardrobe with smooth sliding doors and customizable interior organization.",
+          "details": "This premium sliding door wardrobe combines elegant aesthetics with practical functionality. The smooth-gliding doors operate on high-quality tracks for silent, effortless operation while maximizing usable floor space. The interior features a thoughtfully designed organization system with adjustable shelves, hanging rails, and specialized compartments that can be customized to your specific storage needs.",
+          "mainImage": "/furniture/wardrobes/sliding-wardrobe.webp",
+          "dimensions": {
+            "length": 250,
+            "width": 65,
+            "height": 220,
+            "unit": "cm"
+          },
+          "materials": [
+            "Engineered wood with premium veneer",
+            "Toughened glass panels",
+            "High-quality aluminum tracks",
+            "Premium hardware fittings"
+          ],
+          "colors": [
+            "Dark Walnut",
+            "White Oak",
+            "Maple"
+          ],
+          "gallery": [
+            "/furniture/wardrobes/sliding-wardrobe-1.webp",
+            "/furniture/wardrobes/sliding-wardrobe-2.webp",
+            "/furniture/wardrobes/sliding-wardrobe-3.webp"
+          ],
+          "features": [
+            "Smooth sliding mechanism",
+            "Customizable interior",
+            "Soft-close doors",
+            "Premium mirror options",
+            "Adjustable shelving"
+          ],
+          "rating": 4.9,
+          "reviews": 38,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": [
+            "Space-saving",
+            "Customizable",
+            "Modern",
+            "Premium"
+          ]
+        },
+        {
+          "id": "walk-in-wardrobe",
+          "name": "Luxury Walk-in Wardrobe System",
+          "price": 350000,
+          "discountedPrice": 320000,
+          "description": "Turn your dressing area into a boutique experience with our custom walk-in wardrobe system.",
+          "details": "Transform your bedroom into a luxury boutique with our custom walk-in wardrobe system. Each system is designed to maximize storage while creating an elegant dressing experience. The modular design allows for complete customization, with specialized storage for clothing, shoes, accessories, and more. Premium lighting illuminates the space while quality materials ensure longevity and sophisticated aesthetics.",
+          "mainImage": "/furniture/wardrobes/walk-in-wardrobe.webp",
+          "dimensions": {
+            "length": "Custom",
+            "width": "Custom",
+            "height": "Custom",
+            "unit": "cm"
+          },
+          "materials": [
+            "Premium hardwood and veneer",
+            "Toughened glass shelving",
+            "LED lighting systems",
+            "Premium metal hardware"
+          ],
+          "colors": [
+            "Customizable"
+          ],
+          "gallery": [
+            "/furniture/wardrobes/walk-in-wardrobe-1.webp",
+            "/furniture/wardrobes/walk-in-wardrobe-2.webp",
+            "/furniture/wardrobes/walk-in-wardrobe-3.webp"
+          ],
+          "features": [
+            "Fully customizable layout",
+            "Integrated lighting",
+            "Specialized compartments",
+            "Island options",
+            "Premium hardware"
+          ],
+          "rating": 5.0,
+          "reviews": 22,
+          "isNew": true,
+          "isBestseller": false,
+          "tags": [
+            "Luxury",
+            "Custom",
+            "Walk-in",
+            "Premium"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tables",
+      "name": "Tables",
+      "description": "Functional and stylish tables for every room",
+      "image": "/furniture/categories/tables.webp",
+      "products": [
+        {
+          "id": "marble-coffee-table",
+          "name": "Marble Top Coffee Table",
+          "price": 65000,
+          "discountedPrice": 58000,
+          "description": "Elegant coffee table featuring premium Italian marble top and solid wood base.",
+          "details": "This statement coffee table combines luxurious Italian marble with expertly crafted woodwork for a piece that becomes the centerpiece of any living room. The marble top features unique natural veining patterns that make each table one-of-a-kind, while the solid wood base provides both stability and elegance with its sculptural design. The generous surface area offers ample space for display and entertaining.",
+          "mainImage": "/furniture/tables/marble-coffee-table.webp",
+          "dimensions": {
+            "length": 120,
+            "width": 70,
+            "height": 45,
+            "unit": "cm"
+          },
+          "materials": [
+            "Italian marble top",
+            "Solid teak wood base",
+            "Brass accents",
+            "Protective coating"
+          ],
+          "colors": [
+            "White Marble/Teak",
+            "Black Marble/Walnut",
+            "Green Marble/Ebony"
+          ],
+          "gallery": [
+            "/furniture/tables/marble-coffee-table-1.webp",
+            "/furniture/tables/marble-coffee-table-2.webp",
+            "/furniture/tables/marble-coffee-table-3.webp"
+          ],
+          "features": [
+            "Natural marble with unique veining",
+            "Solid wood construction",
+            "Protective coating on marble",
+            "Handcrafted details",
+            "Anti-slip floor protectors"
+          ],
+          "rating": 4.7,
+          "reviews": 28,
+          "isNew": false,
+          "isBestseller": true,
+          "tags": [
+            "Luxury",
+            "Natural Materials",
+            "Statement Piece",
+            "Living Room"
+          ]
+        },
+        {
+          "id": "extendable-dining-table",
+          "name": "Extendable Dining Table",
+          "price": 120000,
+          "discountedPrice": 105000,
+          "description": "Versatile dining table that extends to accommodate additional guests when needed.",
+          "details": "This intelligently designed dining table adapts to your entertaining needs with a smooth extension mechanism that allows you to host intimate family dinners or larger gatherings with equal ease. The table can be expanded in minutes without requiring additional storage space for table leaves. Crafted from premium materials with attention to detail, this table combines practicality with elegant aesthetics to enhance your dining space.",
+          "mainImage": "/furniture/tables/extendable-dining-table.webp",
+          "dimensions": {
+            "length": "180-240",
+            "width": 100,
+            "height": 75,
+            "unit": "cm"
+          },
+          "materials": [
+            "Solid hardwood construction",
+            "Premium wood veneer",
+            "High-quality extension mechanism",
+            "Protective finish"
+          ],
+          "colors": [
+            "Natural Oak",
+            "Walnut",
+            "Matte Black"
+          ],
+          "gallery": [
+            "/furniture/tables/extendable-dining-table-1.webp",
+            "/furniture/tables/extendable-dining-table-2.webp",
+            "/furniture/tables/extendable-dining-table-3.webp"
+          ],
+          "features": [
+            "Extends from 6 to 8 seating capacity",
+            "Smooth extension mechanism",
+            "Self-storing extension leaves",
+            "Sturdy construction",
+            "Protective finish"
+          ],
+          "rating": 4.8,
+          "reviews": 36,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": [
+            "Dining",
+            "Extendable",
+            "Versatile",
+            "Family"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "chairs",
+      "name": "Chairs",
+      "description": "Comfortable and stylish seating for all purposes",
+      "image": "/furniture/categories/chairs.webp",
+      "products": [
+        {
+          "id": "accent-chair",
+          "name": "Luxury Accent Chair",
+          "price": 48000,
+          "discountedPrice": 42000,
+          "description": "Make a statement with this elegantly designed accent chair featuring premium fabrics and exceptional craftsmanship.",
+          "details": "This striking accent chair combines artistic design with exceptional comfort to create a statement piece for your living space. The sculptural silhouette features graceful curves and premium upholstery with meticulous detailing. Each chair is individually crafted by skilled artisans using traditional techniques and premium materials to ensure quality and longevity. The chair provides both visual impact and practical comfort, making it perfect for creating a focal point in any room.",
+          "mainImage": "/furniture/chairs/accent-chair.webp",
+          "dimensions": {
+            "length": 75,
+            "width": 85,
+            "height": 90,
+            "seat height": 45,
+            "unit": "cm"
+          },
+          "materials": [
+            "Solid hardwood frame",
+            "Premium upholstery fabrics",
+            "High-density foam cushioning",
+            "Hand-finished wooden legs"
+          ],
+          "colors": [
+            "Emerald Green Velvet",
+            "Dusty Rose Linen",
+            "Navy Blue Velvet",
+            "Charcoal Grey Bouclé"
+          ],
+          "gallery": [
+            "/furniture/chairs/accent-chair-1.webp",
+            "/furniture/chairs/accent-chair-2.webp",
+            "/furniture/chairs/accent-chair-3.webp"
+          ],
+          "features": [
+            "Statement silhouette",
+            "Premium upholstery",
+            "Handcrafted construction",
+            "Comfortable seating",
+            "Versatile placement options"
+          ],
+          "rating": 4.7,
+          "reviews": 42,
+          "isNew": true,
+          "isBestseller": true,
+          "tags": [
+            "Statement",
+            "Living Room",
+            "Accent",
+            "Comfort"
+          ]
+        },
+        {
+          "id": "dining-chair-set",
+          "name": "Modern Dining Chair Set",
+          "price": 85000,
+          "discountedPrice": 72000,
+          "description": "Set of 6 contemporary dining chairs featuring comfortable ergonomic design and durable construction.",
+          "details": "Elevate your dining experience with this set of six modern dining chairs that combine style with practical comfort. The ergonomic design provides proper support for extended dinner conversations, while the quality construction ensures these chairs will stand the test of time. The sleek silhouette features clean lines and thoughtful details that complement contemporary dining settings, while premium materials ensure durability for everyday use.",
+          "mainImage": "/furniture/chairs/dining-chair-set.webp",
+          "dimensions": {
+            "length": 50,
+            "width": 55,
+            "height": 85,
+            "seat height": 48,
+            "unit": "cm"
+          },
+          "materials": [
+            "Solid wood frame",
+            "Premium upholstery",
+            "High-density foam padding",
+            "Reinforced joinery"
+          ],
+          "colors": [
+            "Warm Grey",
+            "Light Beige",
+            "Black"
+          ],
+          "gallery": [
+            "/furniture/chairs/dining-chair-set-1.webp",
+            "/furniture/chairs/dining-chair-set-2.webp",
+            "/furniture/chairs/dining-chair-set-3.webp"
+          ],
+          "features": [
+            "Set of 6 matching chairs",
+            "Ergonomic back support",
+            "Stain-resistant upholstery",
+            "Comfortable padding",
+            "Sturdy construction"
+          ],
+          "rating": 4.6,
+          "reviews": 28,
+          "isNew": false,
+          "isBestseller": true,
+          "tags": [
+            "Dining",
+            "Set",
+            "Modern",
+            "Comfort"
+          ]
+        }
+      ]
+    }
+  ]
+}

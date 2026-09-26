@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /cart
+Disallow: /checkout
+Disallow: /orders
+Disallow: /profile
+Disallow: /auth
+Disallow: /login
+Disallow: /signup
+
+Sitemap: https://www.featherwood.in/sitemap.xml

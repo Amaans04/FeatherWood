@@ -1,0 +1,77 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "city": "Bengaluru",
+      "area": "Whitefield",
+      "address": "FeatherWood - Interior Design Studio - Survey No. 40, Hope Farm Junction, Khatha no - 509, 475/40/2, Whitefield Main Rd, Bengaluru, Karnataka 560066",
+      "timings": "Tuesday to Sunday | 11 AM - 8 PM",
+      "appointmentTypes": [
+        {
+          "name": "Experience Centre Tour",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Design consultation",
+          "duration": "60 minutes"
+        }
+      ],
+      "phone": "+91 98765 43210",
+      "mapCoordinates": {
+        "lat": 12.9698,
+        "lng": 77.7500
+      }
+    },
+    {
+      "id": 2,
+      "city": "Bengaluru",
+      "area": "Hennur",
+      "address": "FeatherWood - Interior Design Studio - SAC - 959, Road, 1st Block, Bank Avenue Colony, Hennur Gardens, Bengaluru, Karnataka 560043",
+      "timings": "Tuesday to Sunday | 11 AM - 8 PM",
+      "appointmentTypes": [
+        {
+          "name": "Experience Centre Tour",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Design consultation",
+          "duration": "60 minutes"
+        }
+      ],
+      "phone": "+91 98765 43211",
+      "mapCoordinates": {
+        "lat": 13.0302,
+        "lng": 77.6380
+      }
+    },
+    {
+      "id": 3,
+      "city": "Mumbai",
+      "area": "Andheri West",
+      "address": "FeatherWood - Interior Design Studio - 204, 2nd Floor, Link Plaza, Andheri West, Mumbai, Maharashtra 400053",
+      "timings": "Tuesday to Sunday | 11 AM - 8 PM",
+      "appointmentTypes": [
+        {
+          "name": "Experience Centre Tour",
+          "duration": "30 minutes"
+        },
+        {
+          "name": "Design consultation",
+          "duration": "60 minutes"
+        }
+      ],
+      "phone": "+91 98765 43212",
+      "mapCoordinates": {
+        "lat": 19.1364,
+        "lng": 72.8296
+      }
+    }
+  ],
+  "cities": [
+    "Bengaluru",
+    "Mumbai",
+    "Delhi",
+    "Hyderabad",
+    "Chennai"
+  ]
+}

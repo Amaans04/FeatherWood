@@ -1,0 +1,191 @@
+{
+  "modular-kitchen": {
+    "title": "Modular Kitchen Designs",
+    "subtitle": "Discover stylish and functional kitchen designs",
+    "description": "The kitchen is the heart of every home. Our modular kitchen designs combine form and function to create spaces that are both beautiful and practical. From sleek contemporary designs to classic elegance, we offer a range of styles to suit your taste and lifestyle.",
+    "heroImage": "https://images.unsplash.com/photo-1556911220-bda9f7f13fe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+    "galleryImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80",
+        "caption": "Modern kitchen with elegant countertops"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600566752229-250ed79470f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80",
+        "caption": "Open concept kitchen with island"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80",
+        "caption": "Minimalist kitchen with smart storage"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "caption": "Luxurious kitchen with high-end appliances"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1613575831956-0a464f1f0860?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "caption": "Contemporary kitchen with sleek finishes"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1565538810643-b5bdb714032a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80",
+        "caption": "Traditional kitchen with modern touches"
+      }
+    ],
+    "features": [
+      {
+        "title": "Efficient Storage Solutions",
+        "description": "Our modular kitchens maximize storage with innovative cabinets, drawers, and organizers to keep everything in its place."
+      },
+      {
+        "title": "Premium Materials",
+        "description": "We use only the highest quality materials for durability, aesthetics, and longevity in your kitchen space."
+      },
+      {
+        "title": "Ergonomic Design",
+        "description": "Every kitchen is designed with workflow in mind, ensuring easy movement and accessibility."
+      },
+      {
+        "title": "Customizable Options",
+        "description": "Choose from an array of finishes, hardware, and layouts to create your perfect kitchen."
+      }
+    ],
+    "testimonials": [
+      {
+        "text": "The Featherwood team transformed our kitchen into a space that's not just beautiful but incredibly functional. Every detail was considered.",
+        "author": "Sarah & Michael",
+        "location": "Bangalore"
+      },
+      {
+        "text": "We couldn't be happier with our modular kitchen. The quality of work and attention to detail exceeded our expectations.",
+        "author": "Priya & Rahul",
+        "location": "Mumbai"
+      }
+    ],
+    "relatedCategories": ["kitchen-sinks", "dining-room", "false-ceiling", "flooring-designs"]
+  },
+  "living-room": {
+    "title": "Living Room Designs",
+    "subtitle": "Create your dream living space with our expert designs",
+    "description": "Your living room is where life happens – from family gatherings to quiet evenings. Our design experts create living spaces that balance beauty and comfort, with attention to every detail from layout to lighting, furniture selection to accent pieces.",
+    "heroImage": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+    "galleryImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+        "caption": "Contemporary living room with clean lines"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1615529162924-f8605388461d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80",
+        "caption": "Cozy living room with natural light"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80",
+        "caption": "Elegant living room with luxury furnishings"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618220179428-22790b461013?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1227&q=80",
+        "caption": "Vibrant living room with accent pieces"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1228&q=80",
+        "caption": "Minimalist living room design"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "caption": "Classic living room with modern touches"
+      }
+    ],
+    "features": [
+      {
+        "title": "Harmonious Layouts",
+        "description": "We design living spaces with perfect flow and balance, ensuring comfort and functionality."
+      },
+      {
+        "title": "Mood-enhancing Lighting",
+        "description": "Strategic lighting design creates ambiance and highlights architectural features."
+      },
+      {
+        "title": "Personalized Style",
+        "description": "Your living room will reflect your unique taste and lifestyle preferences."
+      },
+      {
+        "title": "Quality Craftsmanship",
+        "description": "Every element is crafted with precision and attention to detail."
+      }
+    ],
+    "testimonials": [
+      {
+        "text": "Our living room has become everyone's favorite space. Featherwood's designers understood exactly what we wanted and delivered beyond our expectations.",
+        "author": "Anjali & Vikram",
+        "location": "Delhi"
+      },
+      {
+        "text": "The transformation of our living room is amazing. It's not just beautiful but perfectly functional for our family's needs.",
+        "author": "Aarav & Ishita",
+        "location": "Hyderabad"
+      }
+    ],
+    "relatedCategories": ["tv-unit", "wall-decor", "false-ceiling", "wall-paint"]
+  },
+  "master-bedroom": {
+    "title": "Master Bedroom Designs",
+    "subtitle": "Create your personal sanctuary with elegant bedroom designs",
+    "description": "Your bedroom should be your personal retreat – a place of calm and comfort. Our master bedroom designs focus on creating serene, luxurious spaces tailored to your preferences. From sumptuous bedding to thoughtful storage solutions, we consider every element to ensure your perfect night's sleep.",
+    "heroImage": "https://images.unsplash.com/photo-1617325247661-675ab4b64ae2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80",
+    "galleryImages": [
+      {
+        "url": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+        "caption": "Luxurious bedroom with sumptuous textures"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1599619351208-3e6c839d6828?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80",
+        "caption": "Serene bedroom with calming color palette"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "caption": "Contemporary bedroom with clean lines"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1568495248636-6432b97bd949?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+        "caption": "Minimalist bedroom design"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "caption": "Sophisticated bedroom with elegant details"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "caption": "Tranquil bedroom retreat"
+      }
+    ],
+    "features": [
+      {
+        "title": "Comfortable Layouts",
+        "description": "We design bedrooms with optimal flow and placement for ultimate relaxation."
+      },
+      {
+        "title": "Smart Storage Solutions",
+        "description": "Elegant yet practical storage keeps your bedroom clutter-free and serene."
+      },
+      {
+        "title": "Ambient Lighting",
+        "description": "Layered lighting creates the perfect atmosphere for any time of day."
+      },
+      {
+        "title": "Quality Materials",
+        "description": "Premium fabrics and finishes ensure comfort and longevity."
+      }
+    ],
+    "testimonials": [
+      {
+        "text": "Our master bedroom is now truly a sanctuary. The attention to detail and quality of execution by Featherwood is exceptional.",
+        "author": "Rohan & Neha",
+        "location": "Pune"
+      },
+      {
+        "text": "We love our new bedroom design! It's sophisticated yet comfortable – exactly what we wanted.",
+        "author": "Arjun & Meera",
+        "location": "Chennai"
+      }
+    ],
+    "relatedCategories": ["wardrobe-designs", "home-wallpaper", "wall-paint", "window-designs"]
+  }
+}
