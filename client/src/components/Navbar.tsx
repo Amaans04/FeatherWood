@@ -32,6 +32,7 @@ const mainNavLinks: NavLink[] = [
       { text: "Wardrobes", href: "/furniture/wardrobes" },
       { text: "Tables", href: "/furniture/tables" },
       { text: "Chairs", href: "/furniture/chairs" },
+      { text: "Accent Chairs", href: "/furniture/accent-chairs" },
       { text: "All Furniture", href: "/furniture" },
     ],
   },

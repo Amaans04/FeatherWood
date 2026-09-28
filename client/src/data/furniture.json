@@ -7,6 +7,51 @@
       "image": "/furniture/sofas/TuxedoSofa/TuxedoSofa-1.webp",
       "products": [
         {
+          "id": "TURKISH-SOFA-SET",
+          "name": "TURKISH SOFA SET",
+          "price": 225000,
+          "discountedPrice": 168750,
+          "description": "Complete Turkish living room sofa set with premium upholstery and elegant detailing.",
+          "details": "TURKISH SOFA SET is a complete living room collection crafted in the Turkish furniture tradition. Designed as a full matching set for a cohesive lounge look, it combines plush upholstery, refined silhouettes, and durable construction for everyday comfort. Price shown is for the complete sofa set.",
+          "mainImage": "/furniture/sofas/TurkishSofaSet/TurkishSofaSet-1.webp",
+          "gallery": [
+            "/furniture/sofas/TurkishSofaSet/TurkishSofaSet-2.webp",
+            "/furniture/sofas/TurkishSofaSet/TurkishSofaSet-3.webp",
+            "/furniture/sofas/TurkishSofaSet/TurkishSofaSet-4.webp",
+            "/furniture/sofas/TurkishSofaSet/TurkishSofaSet-5.webp",
+            "/furniture/sofas/TurkishSofaSet/TurkishSofaSet-6.webp",
+            "/furniture/sofas/TurkishSofaSet/TurkishSofaSet-7.webp",
+            "/furniture/sofas/TurkishSofaSet/TurkishSofaSet-8.webp",
+            "/furniture/sofas/TurkishSofaSet/TurkishSofaSet-9.webp",
+            "/furniture/sofas/TurkishSofaSet/TurkishSofaSet-10.webp"
+          ],
+          "materials": [
+            "Hardwood frame",
+            "Premium fabric upholstery",
+            "High-density foam cushioning"
+          ],
+          "colors": [
+            "As shown"
+          ],
+          "features": [
+            "Complete Turkish living room sofa set",
+            "Matching pieces for a cohesive look",
+            "Premium upholstery finish",
+            "Designed for comfort and everyday use",
+            "25% discount on MRP"
+          ],
+          "rating": 4.9,
+          "reviews": 0,
+          "isNew": true,
+          "isBestseller": false,
+          "tags": [
+            "Turkish",
+            "Sofa Set",
+            "Living Room",
+            "Luxury"
+          ]
+        },
+        {
           "id": "Classic Grey Sofa",
           "name": "Classic Grey Sofa",
           "price": 75000,
@@ -688,8 +733,148 @@
       "id": "beds",
       "name": "Bed",
       "description": "",
-      "image": "/furniture/beds/Ponds/Ponds-1.webp",
+      "image": "/furniture/beds/Lexus/Lexus-1.webp",
       "products": [
+        {
+          "id": "LEXUS",
+          "name": "LEXUS",
+          "price": 56000,
+          "discountedPrice": 56000,
+          "description": "Full upholstery bed without storage.",
+          "details": "LEXUS is a full upholstery bed without storage, built with a plywood frame and a tall vertically channel-tufted headboard. Clean modern lines and short tapered wooden legs give it a light, contemporary look. Price is for the bed frame only — mattress not included. Available in Queen and King sizes.",
+          "mainImage": "/furniture/beds/Lexus/Lexus-1.webp",
+          "variants": [
+            {
+              "size": "Queen",
+              "price": 56000,
+              "discountedPrice": 56000,
+              "dimensions": {
+                "length": 215,
+                "width": 160,
+                "height": 120,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/beds/Lexus/Lexus-1.webp",
+              "gallery": [
+                "/furniture/beds/Lexus/Lexus-2.webp",
+                "/furniture/beds/Lexus/Lexus-3.webp",
+                "/furniture/beds/Lexus/Lexus-4.webp"
+              ]
+            },
+            {
+              "size": "King",
+              "price": 65000,
+              "discountedPrice": 65000,
+              "dimensions": {
+                "length": 215,
+                "width": 190,
+                "height": 120,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/beds/Lexus/Lexus-1.webp",
+              "gallery": [
+                "/furniture/beds/Lexus/Lexus-2.webp",
+                "/furniture/beds/Lexus/Lexus-3.webp",
+                "/furniture/beds/Lexus/Lexus-4.webp"
+              ]
+            }
+          ],
+          "materials": [
+            "Plywood"
+          ],
+          "colors": [
+            "Light Grey"
+          ],
+          "features": [
+            "Full upholstery bed without storage",
+            "Vertically channel-tufted headboard",
+            "Queen frame suits 150×200 cm mattress",
+            "King frame suits 180×200 cm mattress",
+            "Price for bed frame only — mattress not included"
+          ],
+          "rating": 4.8,
+          "reviews": 0,
+          "isNew": true,
+          "isBestseller": false,
+          "tags": [
+            "Modern",
+            "Upholstered",
+            "No Storage",
+            "Minimalist"
+          ]
+        },
+        {
+          "id": "VELVETO",
+          "name": "VELVETO",
+          "price": 56000,
+          "discountedPrice": 56000,
+          "description": "Full upholstery bed without storage.",
+          "details": "VELVETO is a full upholstery bed without storage, built with a plywood frame and a tall vertically paneled headboard. Clean modern lines and slim tapered metal legs give it a light, contemporary look. Price is for the bed frame only — mattress not included. Available in Queen and King sizes.",
+          "mainImage": "/furniture/beds/Velveto/Velveto-1.webp",
+          "variants": [
+            {
+              "size": "Queen",
+              "price": 56000,
+              "discountedPrice": 56000,
+              "dimensions": {
+                "length": 210,
+                "width": 158,
+                "height": 102,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/beds/Velveto/Velveto-1.webp",
+              "gallery": [
+                "/furniture/beds/Velveto/Velveto-2.webp",
+                "/furniture/beds/Velveto/Velveto-3.webp",
+                "/furniture/beds/Velveto/Velveto-4.webp",
+                "/furniture/beds/Velveto/Velveto-5.webp",
+                "/furniture/beds/Velveto/Velveto-6.webp"
+              ]
+            },
+            {
+              "size": "King",
+              "price": 65000,
+              "discountedPrice": 65000,
+              "dimensions": {
+                "length": 210,
+                "width": 188,
+                "height": 102,
+                "unit": "cm"
+              },
+              "mainImage": "/furniture/beds/Velveto/Velveto-1.webp",
+              "gallery": [
+                "/furniture/beds/Velveto/Velveto-2.webp",
+                "/furniture/beds/Velveto/Velveto-3.webp",
+                "/furniture/beds/Velveto/Velveto-4.webp",
+                "/furniture/beds/Velveto/Velveto-5.webp",
+                "/furniture/beds/Velveto/Velveto-6.webp"
+              ]
+            }
+          ],
+          "materials": [
+            "Plywood"
+          ],
+          "colors": [
+            "Cream"
+          ],
+          "features": [
+            "Full upholstery bed without storage",
+            "Vertically paneled headboard",
+            "Queen frame suits 150×200 cm mattress",
+            "King frame suits 180×200 cm mattress",
+            "Price for bed frame only — mattress not included"
+          ],
+          "rating": 4.8,
+          "reviews": 0,
+          "isNew": true,
+          "isBestseller": false,
+          "tags": [
+            "Modern",
+            "Upholstered",
+            "No Storage",
+            "Minimalist"
+          ]
+        },
         {
           "id": "Ponds-King-Size-Bed",
           "name": "Ponds King Size Bed Without Storage",
@@ -738,103 +923,6 @@
             "Handcrafted",
             "Traditional",
             "Storage"
-          ]
-        },
-        {
-          "id": "modern-queen-bed",
-          "name": "Modern Queen Platform Bed",
-          "price": 89000,
-          "discountedPrice": 82000,
-          "description": "Minimalist elegance with clean lines and premium materials for the contemporary bedroom.",
-          "details": "This modern queen platform bed combines sleek design with practical functionality. Featuring clean lines and a low profile, the bed creates a sense of space while the premium quality materials ensure durability. The upholstered headboard offers comfortable support for reading or watching TV in bed, while the platform design eliminates the need for a box spring.",
-          "mainImage": "/furniture/beds/modern-queen-bed.webp",
-          "dimensions": {
-            "length": 210,
-            "width": 165,
-            "height": 100,
-            "unit": "cm"
-          },
-          "materials": [
-            "Engineered wood frame",
-            "Premium leatherette upholstery",
-            "Metal supports",
-            "Solid wood legs"
-          ],
-          "colors": [
-            "Charcoal Grey",
-            "Ivory White",
-            "Taupe"
-          ],
-          "gallery": [
-            "/furniture/beds/modern-queen-bed-1.webp",
-            "/furniture/beds/modern-queen-bed-2.webp",
-            "/furniture/beds/modern-queen-bed-3.webp"
-          ],
-          "features": [
-            "Platform design (no box spring needed)",
-            "Padded headboard",
-            "Sturdy construction",
-            "Easy assembly",
-            "Non-slip support system"
-          ],
-          "rating": 4.6,
-          "reviews": 45,
-          "isNew": false,
-          "isBestseller": true,
-          "tags": [
-            "Modern",
-            "Space-saving",
-            "Contemporary",
-            "Minimalist"
-          ]
-        },
-        {
-          "id": "storage-bed",
-          "name": "Hydraulic Storage Bed",
-          "price": 110000,
-          "discountedPrice": 98000,
-          "description": "Maximize your bedroom space with our hydraulic storage bed featuring easy lift mechanism.",
-          "details": "This innovative hydraulic storage bed offers a practical solution for urban homes with limited space. The easy-lift mechanism provides effortless access to ample storage space beneath the sleeping surface. Crafted with attention to both form and function, this bed combines sleek aesthetics with robust construction that will stand the test of time.",
-          "mainImage": "/furniture/beds/storage-bed.webp",
-          "dimensions": {
-            "length": 210,
-            "width": 165,
-            "height": 90,
-            "unit": "cm"
-          },
-          "materials": [
-            "Engineered wood frame",
-            "Premium fabrics",
-            "Hydraulic pistons",
-            "Metal reinforcements"
-          ],
-          "colors": [
-            "Beige",
-            "Grey",
-            "Navy Blue",
-            "Dusty Rose"
-          ],
-          "gallery": [
-            "/furniture/beds/storage-bed-1.webp",
-            "/furniture/beds/storage-bed-2.webp",
-            "/furniture/beds/storage-bed-3.webp"
-          ],
-          "features": [
-            "Hydraulic lift mechanism",
-            "Ample storage space",
-            "Gas lift hydraulics",
-            "Premium fabric upholstery",
-            "Durable construction"
-          ],
-          "rating": 4.7,
-          "reviews": 52,
-          "isNew": false,
-          "isBestseller": true,
-          "tags": [
-            "Storage",
-            "Space-saving",
-            "Practical",
-            "Urban living"
           ]
         }
       ]
@@ -1148,6 +1236,60 @@
             "Set",
             "Modern",
             "Comfort"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "accent-chairs",
+      "name": "Accent Chairs",
+      "description": "Statement seating pieces to elevate living rooms and reading corners",
+      "image": "/furniture/accent-chairs/Urla/Urla-2.webp",
+      "products": [
+        {
+          "id": "URLA-ACCENT-CHAIR",
+          "name": "URLA ACCENT CHAIR",
+          "price": 0,
+          "discountedPrice": 0,
+          "description": "Modern barrel-style accent chair with textured upholstery and gold metal legs.",
+          "details": "URLA ACCENT CHAIR is a low-profile barrel accent chair with a rounded wraparound back, integrated arms, and slim gold metal legs. Upholstered in a light oatmeal textured fabric with a smooth contrast back panel, and finished with a geometric accent pillow. Dimensions shown are for a single chair.",
+          "mainImage": "/furniture/accent-chairs/Urla/Urla-4.webp",
+          "dimensions": {
+            "length": 71,
+            "width": 81,
+            "height": 84,
+            "unit": "cm"
+          },
+          "materials": [
+            "Hardwood frame",
+            "Textured fabric upholstery",
+            "Gold-finish metal legs",
+            "High-density foam cushioning"
+          ],
+          "colors": [
+            "Oatmeal / Light Grey"
+          ],
+          "gallery": [
+            "/furniture/accent-chairs/Urla/Urla-1.webp",
+            "/furniture/accent-chairs/Urla/Urla-2.webp",
+            "/furniture/accent-chairs/Urla/Urla-3.webp"
+          ],
+          "features": [
+            "Barrel / tub-style wraparound silhouette",
+            "Textured oatmeal upholstery with contrast back panel",
+            "Slim gold metal legs",
+            "Includes geometric accent pillow",
+            "32\" W × 28\" D × 33\" H (approx.)"
+          ],
+          "rating": 4.8,
+          "reviews": 0,
+          "isNew": true,
+          "isBestseller": false,
+          "tags": [
+            "Accent",
+            "Modern",
+            "Living Room",
+            "Turkish"
           ]
         }
       ]
