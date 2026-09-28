@@ -1,0 +1,21 @@
+---
+description: Keep OPEN_ENDS.md in sync with Flaux HQ while working on this repo
+alwaysApply: true
+---
+
+# Open Ends tracker (Flaux HQ)
+
+This repo has an Open Ends tracker at `OPEN_ENDS.md` tracked by Flaux HQ.
+
+## When you fix something
+- If the fix resolves an item listed in `OPEN_ENDS.md`, tick it (`- [x]`) in the **same change** as the fix (same commit when committing).
+- Or include `closes OE: <item text>` in the commit message.
+
+## When you notice something new
+- If you notice a new bug, SEO gap, missing client input, unbuilt feature, content issue, performance/a11y gap, or launch/infra gap while working, add it under the right section as `- [ ] text #priority`.
+- Use `#high` for launch blockers, broken functionality, or indexing harm; otherwise `#medium` or `#low`.
+- Do not fix unrelated open ends without asking.
+
+## Never
+- Never rename or remove the section headings in `OPEN_ENDS.md` (`## Bugs`, `## SEO`, `## Client inputs needed`, `## Features to build`, `## Content`, `## Performance & accessibility`, `## Launch & infra`).
+- Never put secrets, passwords, or API keys in the tracker.
