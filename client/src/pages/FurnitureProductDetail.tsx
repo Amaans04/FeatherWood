@@ -307,7 +307,7 @@ export default function FurnitureProductDetail() {
                   <ImageMagnifier 
                     src={mainImage || product.mainImage} 
                     alt={product.name}
-                    className="w-full h-[300px] md:h-[500px] object-cover"
+                    className="w-full h-[300px] md:h-[500px] object-contain object-center bg-[#FAFAF8]"
                     zoomLevel={4}
                     magnifierSize={200}
                   />
@@ -325,7 +325,7 @@ export default function FurnitureProductDetail() {
                       width={120}
                       height={80}
                       loading="lazy"
-                      className="w-full h-20 object-cover"
+                      className="w-full h-20 object-contain object-center bg-[#FAFAF8]"
                     />
                   </div>
                   
@@ -341,7 +341,7 @@ export default function FurnitureProductDetail() {
                         width={120}
                         height={80}
                         loading="lazy"
-                        className="w-full h-20 object-cover"
+                        className="w-full h-20 object-contain object-center bg-[#FAFAF8]"
                       />
                     </div>
                   ))}

@@ -1,5 +1,6 @@
 import PageLayout from "@/components/PageLayout";
 import HeroSlider from "@/components/HeroSlider";
+import PerksRibbon from "@/components/PerksRibbon";
 import CategoryExplorer from "@/components/CategoryExplorer";
 import EditorialBlock from "@/components/EditorialBlock";
 import Services from "@/components/Services";
@@ -20,6 +21,7 @@ export default function Home() {
       }}
     >
       <HeroSlider />
+      <PerksRibbon />
 
       <EditorialBlock
         label="FeatherWood"

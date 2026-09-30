@@ -7,6 +7,249 @@
       "image": "/furniture/sofas/TuxedoSofa/TuxedoSofa-1.webp",
       "products": [
         {
+          "id": "DUBLIN-CREAM-LIVING-ROOM-SET",
+          "name": "DUBLIN CREAM LIVING ROOM SET",
+          "price": 60000,
+          "discountedPrice": 60000,
+          "description": "Two-tone cream and charcoal living room set — available as 1, 2 and 3 seater. Also in grey.",
+          "details": "DUBLIN CREAM LIVING ROOM SET features cream textured fabric seats with charcoal arm and base accents, grid tufting, geometric throw pillows, and short tapered dark wood legs. Available as 1-seater, 2-seater and 3-seater. Grey colourway photos included.",
+          "mainImage": "/furniture/sofas/DublinCream/DublinCream-4.webp",
+          "variants": [
+            {
+              "size": "1-Seater",
+              "price": 25000,
+              "discountedPrice": 25000,
+              "dimensions": {
+                "unit": "as shown"
+              },
+              "mainImage": "/furniture/sofas/DublinCream/DublinCream-3.webp",
+              "gallery": [
+                "/furniture/sofas/DublinCream/DublinCream-5.webp",
+                "/furniture/sofas/DublinCream/DublinCream-6.webp",
+                "/furniture/sofas/DublinCream/DublinCream-8.webp"
+              ]
+            },
+            {
+              "size": "2-Seater",
+              "price": 40000,
+              "discountedPrice": 40000,
+              "dimensions": {
+                "unit": "as shown"
+              },
+              "mainImage": "/furniture/sofas/DublinCream/DublinCream-2.webp",
+              "gallery": [
+                "/furniture/sofas/DublinCream/DublinCream-5.webp",
+                "/furniture/sofas/DublinCream/DublinCream-11.webp",
+                "/furniture/sofas/DublinCream/DublinCream-8.webp"
+              ]
+            },
+            {
+              "size": "3-Seater",
+              "price": 60000,
+              "discountedPrice": 60000,
+              "dimensions": {
+                "unit": "as shown"
+              },
+              "mainImage": "/furniture/sofas/DublinCream/DublinCream-7.webp",
+              "gallery": [
+                "/furniture/sofas/DublinCream/DublinCream-1.webp",
+                "/furniture/sofas/DublinCream/DublinCream-4.webp",
+                "/furniture/sofas/DublinCream/DublinCream-9.webp",
+                "/furniture/sofas/DublinCream/DublinCream-10.webp"
+              ]
+            }
+          ],
+          "materials": [
+            "Cream / grey textured fabric upholstery",
+            "Charcoal leatherette / fabric accents",
+            "Hardwood frame",
+            "Dark wood tapered legs"
+          ],
+          "colors": [
+            "Cream & Charcoal",
+            "Grey & Black"
+          ],
+          "features": [
+            "Available as 1, 2 and 3 seater",
+            "Two-tone cream/charcoal or grey/black",
+            "Grid-tufted backrest",
+            "Geometric accent pillows",
+            "Dark wood tapered legs"
+          ],
+          "rating": 4.8,
+          "reviews": 0,
+          "isNew": true,
+          "isBestseller": false,
+          "tags": [
+            "Living Room Set",
+            "Cream",
+            "Modern",
+            "Turkish"
+          ]
+        },
+        {
+          "id": "VERITO",
+          "name": "VERITO SOFA",
+          "price": 48000,
+          "discountedPrice": 48000,
+          "description": "Modern beige fabric sofa with walnut wood arm accents — available as 1, 2 and 3 seater.",
+          "details": "VERITO SOFA pairs soft oatmeal beige fabric with warm walnut wood arm trim and tapered wooden legs. Clean contemporary lines and matching geometric pillows make it a versatile living room piece. Available in 1-seater, 2-seater and 3-seater sizes.",
+          "mainImage": "/furniture/sofas/Verito/Verito-2.webp",
+          "variants": [
+            {
+              "size": "1-Seater",
+              "price": 16000,
+              "discountedPrice": 16000,
+              "dimensions": {
+                "unit": "as shown"
+              },
+              "mainImage": "/furniture/sofas/Verito/Verito-5.webp",
+              "gallery": [
+                "/furniture/sofas/Verito/Verito-4.webp",
+                "/furniture/sofas/Verito/Verito-1.webp"
+              ]
+            },
+            {
+              "size": "2-Seater",
+              "price": 32000,
+              "discountedPrice": 32000,
+              "dimensions": {
+                "unit": "as shown"
+              },
+              "mainImage": "/furniture/sofas/Verito/Verito-3.webp",
+              "gallery": [
+                "/furniture/sofas/Verito/Verito-4.webp",
+                "/furniture/sofas/Verito/Verito-1.webp"
+              ]
+            },
+            {
+              "size": "3-Seater",
+              "price": 48000,
+              "discountedPrice": 48000,
+              "dimensions": {
+                "unit": "as shown"
+              },
+              "mainImage": "/furniture/sofas/Verito/Verito-2.webp",
+              "gallery": [
+                "/furniture/sofas/Verito/Verito-1.webp",
+                "/furniture/sofas/Verito/Verito-4.webp"
+              ]
+            }
+          ],
+          "materials": [
+            "Textured fabric upholstery",
+            "Solid walnut wood accents and legs",
+            "Hardwood frame",
+            "High-density foam cushioning"
+          ],
+          "colors": [
+            "Oatmeal Beige"
+          ],
+          "features": [
+            "Available as 1, 2 and 3 seater",
+            "Walnut wood arm accents",
+            "Tapered wooden legs",
+            "Matching geometric pillows",
+            "Modern living room design"
+          ],
+          "rating": 4.8,
+          "reviews": 0,
+          "isNew": true,
+          "isBestseller": false,
+          "tags": [
+            "Sofa",
+            "Fabric",
+            "Walnut",
+            "Modern"
+          ]
+        },
+        {
+          "id": "ETON",
+          "name": "ETON",
+          "price": 93000,
+          "discountedPrice": 69750,
+          "description": "5-seater sofa set in soft oatmeal textured fabric with rounded contemporary silhouette.",
+          "details": "ETON is a 5-seater sofa set with a soft, rounded contemporary silhouette in light oatmeal textured fabric. Matching throw pillows and low black feet complete a calm, modern lounge look. Price shown is for the complete 5-seater set.",
+          "mainImage": "/furniture/sofas/Eton/Eton-1.webp",
+          "gallery": [
+            "/furniture/sofas/Eton/Eton-2.webp",
+            "/furniture/sofas/Eton/Eton-3.webp",
+            "/furniture/sofas/Eton/Eton-4.webp",
+            "/furniture/sofas/Eton/Eton-5.webp"
+          ],
+          "materials": [
+            "Textured fabric upholstery",
+            "Hardwood frame",
+            "High-density foam cushioning",
+            "Black metal / wood feet"
+          ],
+          "colors": [
+            "Oatmeal Beige"
+          ],
+          "features": [
+            "5-seater sofa set",
+            "Soft rounded contemporary design",
+            "Matching throw pillows included",
+            "Textured oatmeal fabric",
+            "25% discount on MRP"
+          ],
+          "rating": 4.8,
+          "reviews": 0,
+          "isNew": true,
+          "isBestseller": false,
+          "tags": [
+            "5 Seater",
+            "Modern",
+            "Fabric",
+            "Living Room"
+          ]
+        },
+        {
+          "id": "MILANO",
+          "name": "MILANO",
+          "price": 84000,
+          "discountedPrice": 63000,
+          "description": "L-shape two-seater lounger with cream cushions and caramel leather frame.",
+          "details": "MILANO is an L-shape two-seater lounger designed for relaxed living. Cream seat and back cushions sit on a contrasting caramel leather frame with rolled arms and slim black metal legs. Sized at 90×66 inches, it works as a statement lounge piece for modern living rooms. Price shown is for the sofa as displayed.",
+          "mainImage": "/furniture/sofas/Milano/Milano-1.webp",
+          "dimensions": {
+            "length": 90,
+            "width": 66,
+            "unit": "inch"
+          },
+          "gallery": [
+            "/furniture/sofas/Milano/Milano-2.webp",
+            "/furniture/sofas/Milano/Milano-3.webp",
+            "/furniture/sofas/Milano/Milano-4.webp"
+          ],
+          "materials": [
+            "Premium leather / faux leather upholstery",
+            "Hardwood frame",
+            "High-density foam cushioning",
+            "Black metal tapered legs"
+          ],
+          "colors": [
+            "Cream & Caramel"
+          ],
+          "features": [
+            "L-shape two-seater lounger",
+            "90×66 inch footprint",
+            "Two-tone cream and caramel finish",
+            "Includes accent pillow",
+            "25% discount on MRP"
+          ],
+          "rating": 4.8,
+          "reviews": 0,
+          "isNew": true,
+          "isBestseller": false,
+          "tags": [
+            "L-Shape",
+            "Lounger",
+            "Leather",
+            "Living Room"
+          ]
+        },
+        {
           "id": "TURKISH-SOFA-SET",
           "name": "TURKISH SOFA SET",
           "price": 225000,
@@ -393,110 +636,90 @@
           ]
         },
         {
-          "id": "York_L-Shaped_Sofa",
-          "name": "York L-Shaped Sofa",
-          "price": 89000,
-          "discountedPrice": 66750,
-          "description": "Timeless sofa featuring classic design with modern comfort technology.",
-          "details": "This elegant sofa marries classic design elements with modern comfort technology for a piece that feels both timeless and contemporary. Traditional details like rolled arms and tailored upholstery are complemented by modern comfort features including premium cushioning technologies and durable construction methods. This versatile piece works beautifully in both traditional and transitional interiors.",
-          "mainImage": "/furniture/sofas/YorkSofa/York-2.webp",
-          "variants": [
-            {
-              "size": "L-Shaped",
-              "price": 89000,
-              "discountedPrice": 66750,
-              "dimensions": {
-                "length": 9,
-                "width": 6,
-                "unit": "Ft"
-              },
-              "mainImage": "/furniture/sofas/YorkSofa/York-2.webp",
-              "gallery": [
-                "/furniture/sofas/YorkSofa/York-3.webp",
-                "/furniture/sofas/YorkSofa/York-4.webp",
-                "/furniture/sofas/YorkSofa/York-1.webp"
-              ]
-            }
+          "id": "YORK",
+          "name": "YORK",
+          "price": 58000,
+          "discountedPrice": 43500,
+          "description": "Mid-century olive green fabric sofa with wooden base and tapered legs.",
+          "details": "YORK is a mid-century style sofa in muted olive/sage green textured fabric. It features clean squared arms, tailored cushions, a warm wood base, and classic tapered wooden legs. Price shown includes 25% discount on MRP.",
+          "mainImage": "/furniture/sofas/York/York-1.webp",
+          "gallery": [
+            "/furniture/sofas/York/York-2.webp",
+            "/furniture/sofas/York/York-3.webp",
+            "/furniture/sofas/York/York-4.webp",
+            "/furniture/sofas/York/York-5.webp"
           ],
           "materials": [
-            "Kiln-dried hardwood frame",
-            "Premium fabric upholstery",
-            "Multi-density cushioning",
-            "Sinuous spring support"
+            "Textured fabric upholstery",
+            "Solid wood base and tapered legs",
+            "Hardwood frame",
+            "High-density foam cushioning"
           ],
           "colors": [
-            "Earlstone Taupe"
+            "Olive Green"
           ],
           "features": [
-            "Classic design",
-            "Premium comfort technology",
-            "Durable construction",
-            "Tailored upholstery",
-            "Versatile styling"
+            "Mid-century modern design",
+            "Olive green textured fabric",
+            "Solid wood base with tapered legs",
+            "Tailored seat and back cushions",
+            "25% discount on MRP"
           ],
           "rating": 4.8,
-          "reviews": 36,
+          "reviews": 0,
           "isNew": true,
           "isBestseller": false,
           "tags": [
-            "Classic",
-            "Versatile",
-            "Timeless"
+            "Mid-Century",
+            "Fabric",
+            "Olive",
+            "Living Room"
           ]
         },
         {
-          "id": "Bentley_Sectional_Sofa",
-          "name": "Bentley Sectional Sofa",
-          "price": 236000,
-          "discountedPrice": 165200,
-          "description": "Elegant corner sectional sofa with wood accents for a warm, space-optimizing seating solution.",
-          "details": "The Bentley Sectional Sofa is a stunning addition to any living space. Crafted with precision and attention to detail, this sectional sofa offers both style and functionality.Featuring a corner design, the Bentley Sectional optimizes your space by providing ample seating while fitting snugly into any corner of the room. The wood accents add a touch of natural elegance, showcasing the beauty of the wood grain and bringing a warm and inviting atmosphere to your home.",
-          "mainImage": "/furniture/sofas/BentleySofa/Bentley-6.webp",
-          "variants": [
-            {
-              "size": "L-Shaped",
-              "price": 236000,
-              "discountedPrice": 165200,
-              "dimensions": {
-                "length": 9.5,
-                "width": 6.5,
-                "unit": "Ft"
-              },
-              "mainImage": "/furniture/sofas/BentleySofa/Bentley-4.webp",
-              "gallery": [
-                "/furniture/sofas/BentleySofa/Bentley-3.webp",
-                "/furniture/sofas/BentleySofa/Bentley-5.webp",
-                "/furniture/sofas/BentleySofa/Bentley-6.webp",
-                "/furniture/sofas/BentleySofa/Bentley-4.webp",
-                "/furniture/sofas/BentleySofa/Bentley-1.webp",
-                "/furniture/sofas/BentleySofa/Bentley-2.webp"
-              ]
-            }
+          "id": "BENTLEY-CORNER-SOFA",
+          "name": "BENTLEY CORNER SOFA",
+          "price": 144000,
+          "discountedPrice": 108000,
+          "description": "Large camel leather corner sofa with adjustable headrests and integrated console.",
+          "details": "BENTLEY CORNER SOFA is a spacious L-shaped corner sectional in warm camel leather. It features channel-tufted seating, adjustable headrests, matching lumbar pillows, and an integrated dark wood console with cup holders. Sized at 144×108 inches, it is built for large living rooms and open lounge spaces. Price shown is for the complete corner sofa.",
+          "mainImage": "/furniture/sofas/BentleyCorner/BentleyCorner-1.webp",
+          "dimensions": {
+            "length": 144,
+            "width": 108,
+            "unit": "inch"
+          },
+          "gallery": [
+            "/furniture/sofas/BentleyCorner/BentleyCorner-2.webp",
+            "/furniture/sofas/BentleyCorner/BentleyCorner-3.webp",
+            "/furniture/sofas/BentleyCorner/BentleyCorner-4.webp"
           ],
           "materials": [
-            "Base-Teakwood",
-            "Polish-Golden Teak",
-            "Fabric-Brookley"
+            "Premium leather / faux leather upholstery",
+            "Hardwood frame",
+            "High-density foam cushioning",
+            "Dark wood legs",
+            "Integrated wood console"
           ],
           "colors": [
-            "Ivory Cream",
-            "Champagne Gold"
+            "Camel Brown"
           ],
           "features": [
-            "Classic design",
-            "Premium comfort technology",
-            "Durable construction",
-            "Tailored upholstery",
-            "Versatile styling"
+            "Corner / L-shaped sectional",
+            "144×108 inch footprint",
+            "Adjustable headrests",
+            "Integrated console with cup holders",
+            "25% discount on MRP"
           ],
           "rating": 4.8,
-          "reviews": 36,
+          "reviews": 0,
           "isNew": true,
           "isBestseller": false,
           "tags": [
-            "Classic",
-            "Versatile",
-            "Timeless"
+            "Corner",
+            "L-Shape",
+            "Leather",
+            "Living Room"
           ]
         }
       ]
@@ -505,51 +728,142 @@
       "id": "dining-tables",
       "name": "Dining Tables",
       "description": "Elegant dining tables that bring families together",
-      "image": "/furniture/dining-tables/Verity/Verity-2.webp",
+      "image": "/furniture/dining-tables/Verity/VerityStudio-1.webp",
       "products": [
         {
-          "id": "Verity_6-Seater_Dining_Set",
-          "name": "Verity 6-Seater Dining Set",
-          "price": 225000,
-          "discountedPrice": 157500,
-          "description": "Contemporary dining table featuring premium marble top and sleek metal base.",
-          "details": "This stunning dining table combines the timeless elegance of marble with modern design elements. The premium marble top features unique natural veining patterns that make each table one-of-a-kind, while the sleek metal base provides both stability and contemporary style. Perfect for both intimate family dinners and larger gatherings.",
-          "mainImage": "/furniture/dining-tables/Verity/Verity-4.webp",
+          "id": "JASPER",
+          "name": "JASPER",
+          "price": 165000,
+          "discountedPrice": 123750,
+          "description": "6×3 ft dining set with marble-look top and dual-tone modern chairs.",
+          "details": "JASPER is a dining set sized at 6×3 ft with a polished light beige marble-look top on a dark walnut cross-braced wood base. Matching dual-tone chairs feature cream interiors and dusty rose bouclé exteriors. Price shown is for the complete dining set.",
+          "mainImage": "/furniture/dining-tables/Jasper/Jasper-1.webp",
           "dimensions": {
             "length": 6,
             "width": 3,
-            "height": 3,
-            "unit": "Feet"
+            "unit": "ft"
           },
           "materials": [
-            "Base-SS PVD coating",
-            "Top- Italian Marble"
+            "Top — marble / marble-finish stone",
+            "Base — solid wood, walnut finish",
+            "Chairs — leatherette interior with bouclé exterior"
           ],
           "colors": [
-            "Tuscan White",
-            "Sterling Grey"
+            "Beige Marble & Dusty Rose"
           ],
           "gallery": [
-            "/furniture/dining-tables/Verity/Verity-1.webp",
-            "/furniture/dining-tables/Verity/Verity-2.webp",
-            "/furniture/dining-tables/Verity/Verity-3.webp"
+            "/furniture/dining-tables/Jasper/Jasper-2.webp",
+            "/furniture/dining-tables/Jasper/Jasper-3.webp",
+            "/furniture/dining-tables/Jasper/Jasper-4.webp",
+            "/furniture/dining-tables/Jasper/Jasper-5.webp"
           ],
           "features": [
-            "Seats 6 people",
-            "Natural marble with unique veining",
-            "Sturdy metal construction",
-            "Easy to clean surface",
-            "Modern minimalist design"
+            "6×3 ft dining table",
+            "Marble-look tabletop",
+            "Walnut cross-braced base",
+            "Dual-tone modern dining chairs",
+            "25% discount on MRP"
+          ],
+          "rating": 4.8,
+          "reviews": 0,
+          "isNew": true,
+          "isBestseller": false,
+          "tags": [
+            "Dining",
+            "Marble",
+            "Six Seater",
+            "Modern"
+          ]
+        },
+        {
+          "id": "ARIA",
+          "name": "ARIA",
+          "price": 144000,
+          "discountedPrice": 108000,
+          "description": "Marble-top dining set with walnut wood frame — 160×90 cm.",
+          "details": "ARIA is a dining set with a cream marble top on a solid walnut-finished wood frame and tapered legs. Sized at 160×90 cm (height approx. 77 cm), it pairs with matching cream upholstered chairs and a tufted bench for a warm, modern dining look. Price shown is for the set as displayed.",
+          "mainImage": "/furniture/dining-tables/Aria/Aria-1.webp",
+          "dimensions": {
+            "length": 160,
+            "width": 90,
+            "height": 77,
+            "unit": "cm"
+          },
+          "materials": [
+            "Top — marble",
+            "Frame — solid wood, walnut finish",
+            "Chair & bench upholstery — cream leatherette / fabric"
+          ],
+          "colors": [
+            "Cream Marble & Walnut"
+          ],
+          "gallery": [
+            "/furniture/dining-tables/Aria/Aria-2.webp",
+            "/furniture/dining-tables/Aria/Aria-3.webp",
+            "/furniture/dining-tables/Aria/Aria-4.webp",
+            "/furniture/dining-tables/Aria/Aria-5.webp"
+          ],
+          "features": [
+            "Marble dining top",
+            "160×90 cm table size",
+            "Walnut wood frame and legs",
+            "Includes chairs and bench as shown",
+            "25% discount on MRP"
+          ],
+          "rating": 4.8,
+          "reviews": 0,
+          "isNew": true,
+          "isBestseller": false,
+          "tags": [
+            "Dining",
+            "Marble",
+            "Walnut",
+            "New"
+          ]
+        },
+        {
+          "id": "Verity_6-Seater_Dining_Set",
+          "name": "VERITY",
+          "price": 165000,
+          "discountedPrice": 123750,
+          "description": "Six-seater dining set with Italian marble top and solid teakwood walnut polish.",
+          "details": "VERITY is a six-seater dining set crafted with a solid teakwood frame in walnut polish and topped with Italian marble. Mid-century style chairs with light fabric upholstery complete the set. Sized at 66×36 inches, it suits modern dining rooms that want marble elegance with warm wood. Price shown is for the complete six-seater set.",
+          "mainImage": "/furniture/dining-tables/Verity/VerityStudio-1.webp",
+          "dimensions": {
+            "length": 66,
+            "width": 36,
+            "unit": "inch"
+          },
+          "materials": [
+            "Top — Italian marble",
+            "Frame — solid teakwood",
+            "Polish — walnut",
+            "Chair upholstery — premium fabric"
+          ],
+          "colors": [
+            "White Marble & Walnut"
+          ],
+          "gallery": [
+            "/furniture/dining-tables/Verity/VerityStudio-2.webp",
+            "/furniture/dining-tables/Verity/VerityStudio-3.webp",
+            "/furniture/dining-tables/Verity/VerityStudio-4.webp"
+          ],
+          "features": [
+            "Six-seater dining set",
+            "66×36 inch table size",
+            "Italian marble top",
+            "Solid teakwood with walnut polish",
+            "25% discount on MRP"
           ],
           "rating": 4.9,
-          "reviews": 42,
+          "reviews": 0,
           "isNew": true,
           "isBestseller": true,
           "tags": [
-            "Modern",
-            "Luxury",
+            "Dining",
             "Marble",
-            "Dining Room"
+            "Teakwood",
+            "Six Seater"
           ]
         },
         {
@@ -1249,8 +1563,8 @@
         {
           "id": "URLA-ACCENT-CHAIR",
           "name": "URLA ACCENT CHAIR",
-          "price": 0,
-          "discountedPrice": 0,
+          "price": 36000,
+          "discountedPrice": 27000,
           "description": "Modern barrel-style accent chair with textured upholstery and gold metal legs.",
           "details": "URLA ACCENT CHAIR is a low-profile barrel accent chair with a rounded wraparound back, integrated arms, and slim gold metal legs. Upholstered in a light oatmeal textured fabric with a smooth contrast back panel, and finished with a geometric accent pillow. Dimensions shown are for a single chair.",
           "mainImage": "/furniture/accent-chairs/Urla/Urla-4.webp",

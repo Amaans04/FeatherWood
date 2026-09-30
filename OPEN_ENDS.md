@@ -14,7 +14,7 @@ Tracked by Flaux HQ. Rules:
 - [ ] Wire a catch-all 404 route in `client/src/App.tsx` — `not-found.tsx` exists but unknown URLs fall through with a blank Switch #high
 - [ ] Footer Privacy/Terms links point to `/contact` instead of real legal pages (`client/src/components/Footer.tsx`) #high
 - [ ] `/user-info` links to `/privacy-policy` and `/terms` which have no routes (`client/src/pages/UserInfo.tsx`) #high
-- [ ] URLA Accent Chair has price ₹0 / discountedPrice ₹0 in `client/src/data/furniture.json` — blocks checkout display #high
+- [x] URLA Accent Chair has price ₹0 / discountedPrice ₹0 in `client/src/data/furniture.json` — blocks checkout display #high
 - [ ] Contact form submit opens Google Apps Script URL in a new tab via GET (`client/src/utils/googleSheetsApi.ts`) instead of silent POST #medium
 - [ ] Firebase config and API keys are hardcoded in `client/src/lib/firebase.ts` (move to env; rotate if exposed) #high
 - [ ] Auth state `console.log` spam on every login change in `client/src/lib/firebase.ts` #low
@@ -23,7 +23,7 @@ Tracked by Flaux HQ. Rules:
 - [ ] `TestPage.tsx` exists unused; confirm it is never reachable in production builds #low
 
 ## SEO
-- [ ] Update `client/public/sitemap.xml` — add LEXUS, VELVETO, TURKISH-SOFA-SET, accent-chairs/URLA; remove deleted modern-queen-bed and storage-bed URLs #high
+- [x] Update `client/public/sitemap.xml` — add LEXUS, VELVETO, TURKISH-SOFA-SET, accent-chairs/URLA; remove deleted modern-queen-bed and storage-bed URLs #high
 - [ ] SPA + react-helmet meta may not be crawled for routes beyond `/` — verify prerender/SSR or static meta per route for Vite #high
 - [ ] `SEO.tsx` appends ` | FeatherWood` to every title, pushing many titles over 60 chars (e.g. Home becomes ~61) #medium
 - [ ] Audit unique title (50–60) and meta description (140–160) on Services, Contact, Projects, calculators, and each furniture product page #medium
@@ -43,7 +43,7 @@ Tracked by Flaux HQ. Rules:
 - [ ] Twitter handle `@featherwoodin` in meta — confirm account exists or remove #low
 
 ## Client inputs needed
-- [ ] Final selling price (and discount) for URLA Accent Chair — currently ₹0 in catalog #high
+- [x] Final selling price (and discount) for URLA Accent Chair — currently ₹0 in catalog #high
 - [ ] Real Instagram / Facebook / LinkedIn profile URLs for Footer (currently generic instagram.com, facebook.com, linkedin.com) #high
 - [ ] Confirm showroom hours and days for both addresses used in Store Locator + schema #high
 - [ ] Provide SVG logo (currently JPG `cmp_logo.jpg`) and a proper `apple-touch-icon` 180×180 PNG #medium
